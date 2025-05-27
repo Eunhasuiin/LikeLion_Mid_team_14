@@ -4,9 +4,9 @@
 개인별 분석 산출물과 시각화를 기록하고 최종적으로 **음주운전 처벌강화의 필요성**에 대해서
 발표하는 것을 목표로 합니다
 
-##참여자 분들은 잊지 마시고 root/docs/first_time_setup.md를 참고해서 셋팅해주세요
+## 참여자 분들은 잊지 마시고 root/docs/first_time_setup.md를 참고해서 셋팅해주세요
 
-
+```text
 ## 📁 1. 프로젝트 구조
 📦 프로젝트 루트
 ├── 📁 members/
@@ -33,19 +33,21 @@
 │   └── final_ppt.pdf 
 ├── 📁 docs/
 │   ├── references.txt
+│   ├── first_time_setup.md
 │   └── final_report.md
 └── 📄 README.md
+```
 
 ## 👥 2. 참여자 폴더 구조
 
 모든 산출물은 `/members/이름/` 폴더 내부에 정리됩니다.
-
+```text
 각 폴더에는 다음과 같은 구조를 유지합니다:
 members/name/
 ├── notebooks/ # 개인 분석 노트북 (.ipynb)
 ├── charts/ # 시각화 결과 이미지 (.png, .jpg 등)
 └── summary/ # 통계 요약, 인사이트 (.md, .csv 등)
-
+```
 
 ## 🔄 3. 작업 흐름
 
@@ -77,20 +79,3 @@ members/name/
 | `chore`    | 그 외 기타 작업     | `chore: .gitignore 추가`           |
 
 ## ✅ commit 할 때 email은 따로 제한하지 않고 name만 본인의 이름으로 commit해주시면 됩니다.
-
-
-
-## 참고자료
-### 🧾 Git 사용자 정보 세팅 방법
-
-처음 커밋하기 전에 아래 명령어로 이름과 이메일을 설정해주세요.
-
-```bash
-git config --global user.name "홍길동"
-git config --global user.email "your_email@example.com"
-
-
-### 레포지토리마다 설정하는 방법
-git config user.name "홍길동"
-git config user.email "your_email@example.com"
-
