@@ -4,7 +4,7 @@
 개인별 분석 산출물과 시각화를 기록하고 최종적으로 **음주운전 처벌강화의 필요성**에 대해서
 발표하는 것을 목표로 합니다
 
-## 참여자 분들은 잊지 마시고 root/docs/first_time_setup.md를 참고해서 셋팅해주세요
+### 참여자 분들은 잊지 마시고 root/docs/first_time_setup.md를 참고해서 셋팅해주세요
 
 ```text
 ## 📁 1. 프로젝트 구조
@@ -38,7 +38,7 @@
 └── 📄 README.md
 ```
 
-## 👥 2. 참여자 폴더 구조
+## 👥 1. 참여자 폴더 구조
 
 모든 산출물은 `/members/이름/` 폴더 내부에 정리됩니다.
 ```text
@@ -49,14 +49,14 @@ members/name/
 └── summary/ # 통계 요약, 인사이트 (.md, .csv 등)
 ```
 
-## 🔄 3. 작업 흐름
+## 🔄 2. 작업 흐름
 
 1. 자신의 폴더(`members/이름/`)에서 분석 진행
 2. 분석 노트북 저장은 `notebooks/` 폴더에
 3. 결과 시각화 및 요약은 각각 `charts/`, `summary/`에 정리
 4. 발표 전에는 발표 자료를 `/presentations/`에 업로드
 
-## ✅ 4. commit rule
+## ✅ 3. commit rule
 - <타입>: <간단한 요약> (선택적으로 상세 설명은 커밋 본문에서 작성)
 
 ### ex)
@@ -65,7 +65,7 @@ members/name/
 - refactor: name2 전처리 코드 함수화
 - docs: 프로젝트 구조 README에 추가
 
-## 🗂️ 5. 커밋 타입 종류
+## 🗂️ 4. 커밋 타입 종류
 
 | 타입         | 설명            | 예시                               |
 | ---------- | ------------- | -------------------------------- |
@@ -78,4 +78,4 @@ members/name/
 | `test`     | 실험/임시 파일 업로드  | `test: name2 draft notebook 업로드` |
 | `chore`    | 그 외 기타 작업     | `chore: .gitignore 추가`           |
 
-## ✅ commit 할 때 email은 따로 제한하지 않고 name만 본인의 이름으로 commit해주시면 됩니다.
+### ✅ commit 할 때 email은 따로 제한하지 않고 name만 본인의 이름으로 commit해주시면 됩니다.
