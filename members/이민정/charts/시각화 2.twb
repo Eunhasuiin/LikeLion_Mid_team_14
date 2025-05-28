@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0415.1018                               -->
+<workbook original-version='18.1' source-build='2025.1.1 (20251.25.0415.1018)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1(혈중알콜농도별음주사고 2014-2023)' inline='true' name='federated.0ckjc991bqyuho14rr9cs0pje05m' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='혈중알콜농도별음주사고 2014-2023' name='excel-direct.07is0vw0zs4l3l1bcmwu21qqqsgo'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/이민정/OneDrive/바탕 화면/mid project/데이터 전처리 완료 엑셀/혈중알콜농도별음주사고 2014-2023.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='integer' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[2014]' />
+            <value name='[2015]' />
+            <value name='[2016]' />
+            <value name='[2017]' />
+            <value name='[2018]' />
+            <value name='[2019]' />
+            <value name='[2020]' />
+            <value name='[2021]' />
+            <value name='[2022]' />
+            <value name='[2023]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[Sheet1].[2014]' />
+              <field name='[Sheet1].[2015]' />
+              <field name='[Sheet1].[2016]' />
+              <field name='[Sheet1].[2017]' />
+              <field name='[Sheet1].[2018]' />
+              <field name='[Sheet1].[2019]' />
+              <field name='[Sheet1].[2020]' />
+              <field name='[Sheet1].[2021]' />
+              <field name='[Sheet1].[2022]' />
+              <field name='[Sheet1].[2023]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.07is0vw0zs4l3l1bcmwu21qqqsgo' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:K12:no:A1:K12:0' header='yes' outcome='2'>
+              <column datatype='string' name='1당음주정도별(2)' ordinal='0' />
+              <column datatype='integer' name='2014' ordinal='1' />
+              <column datatype='integer' name='2015' ordinal='2' />
+              <column datatype='integer' name='2016' ordinal='3' />
+              <column datatype='integer' name='2017' ordinal='4' />
+              <column datatype='integer' name='2018' ordinal='5' />
+              <column datatype='integer' name='2019' ordinal='6' />
+              <column datatype='integer' name='2020' ordinal='7' />
+              <column datatype='integer' name='2021' ordinal='8' />
+              <column datatype='integer' name='2022' ordinal='9' />
+              <column datatype='integer' name='2023' ordinal='10' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K12:no:A1:K12:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1당음주정도별(2)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1당음주정도별(2)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>1당음주정도별(2)</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C1B3DD991545487991CF5DA765D968C5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드명</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[피벗 필드명]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드명</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_C1B3DD991545487991CF5DA765D968C5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드 값</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[피벗 필드 값]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드 값</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_C1B3DD991545487991CF5DA765D968C5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='1당음주정도별(2) 음주운전' datatype='string' name='[1당음주정도별(2) (그룹) 1]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[1당음주정도별(2)]' new-bin='true'>
+          <bin default-name='false' value='&quot;음주운전&quot;'>
+            <value>&quot;0.05\%~0.09\%&quot;</value>
+            <value>&quot;0.10\%~0.14\%&quot;</value>
+            <value>&quot;0.15\%~0.199\%&quot;</value>
+            <value>&quot;0.20\%~0.249\%&quot;</value>
+            <value>&quot;0.25\%~0.299\%&quot;</value>
+            <value>&quot;0.30\%~0.349\%&quot;</value>
+            <value>&quot;0.35\%이상&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[1당음주정도별(2)]' role='dimension' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_C1B3DD991545487991CF5DA765D968C5]' role='measure' type='quantitative' />
+      <column caption='합계' datatype='integer' name='[피벗 필드 값]' role='measure' type='quantitative' />
+      <column caption='연도' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+      <column-instance column='[1당음주정도별(2)]' derivation='None' name='[none:1당음주정도별(2):nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/이민정/AppData/Local/Temp/TableauTemp/#TableauTemp_1dd0d3l06xc5r81bokkg311vg740.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/28/2025 07:38:56 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>1당음주정도별(2)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[1당음주정도별(2)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1당음주정도별(2)</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <object-id>[Sheet1_C1B3DD991545487991CF5DA765D968C5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드명</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[피벗 필드명]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드명</remote-alias>
+              <ordinal>1</ordinal>
+              <family>피벗</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Sheet1_C1B3DD991545487991CF5DA765D968C5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드 값</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[피벗 필드 값]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드 값</remote-alias>
+              <ordinal>2</ordinal>
+              <family>피벗</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_C1B3DD991545487991CF5DA765D968C5]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[1당음주정도별(2) (그룹)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;0.05\%~0.09\%&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;0.05\%~0.09\%, 0.10\%~0.14\%, 0.15\%~0.199\% 및 6개 이상&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;측정불능 및 측정불응&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;0.25\%~0.299\%&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;0.20\%~0.249\%&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;측정불능&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>&quot;기타&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;0.35\%이상&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;측정불응&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;0.15\%~0.199\%&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;0.30\%~0.349\%&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1당음주정도별(2)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;0.10\%~0.14\%&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;정상운전&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:1당음주정도별(2):nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;0.05\%~0.09\%&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;0.25\%~0.299\%&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;0.20\%~0.249\%&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;측정불능&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;0.35\%이상&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;측정불응&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;0.15\%~0.199\%&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;0.30\%~0.349\%&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1당음주정도별(2)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;0.10\%~0.14\%&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;정상운전&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[1당음주정도별(2) (그룹) 1]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;0.05\%~0.09\%&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;음주운전&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;0.25\%~0.299\%&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;0.20\%~0.249\%&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;측정불능&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;0.35\%이상&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;측정불응&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;0.15\%~0.199\%&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;0.30\%~0.349\%&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1당음주정도별(2)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;0.10\%~0.14\%&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;정상운전&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_C1B3DD991545487991CF5DA765D968C5'>
+            <properties context=''>
+              <relation name='피벗' type='pivot'>
+                <columns>
+                  <column datatype='string' name='피벗 필드명' />
+                  <column datatype='integer' name='피벗 필드 값' />
+                </columns>
+                <tag name='피벗 필드명'>
+                  <value name='[2014]' />
+                  <value name='[2015]' />
+                  <value name='[2016]' />
+                  <value name='[2017]' />
+                  <value name='[2018]' />
+                  <value name='[2019]' />
+                  <value name='[2020]' />
+                  <value name='[2021]' />
+                  <value name='[2022]' />
+                  <value name='[2023]' />
+                </tag>
+                <groups>
+                  <group name='피벗 필드 값'>
+                    <field name='[Sheet1].[2014]' />
+                    <field name='[Sheet1].[2015]' />
+                    <field name='[Sheet1].[2016]' />
+                    <field name='[Sheet1].[2017]' />
+                    <field name='[Sheet1].[2018]' />
+                    <field name='[Sheet1].[2019]' />
+                    <field name='[Sheet1].[2020]' />
+                    <field name='[Sheet1].[2021]' />
+                    <field name='[Sheet1].[2022]' />
+                    <field name='[Sheet1].[2023]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.07is0vw0zs4l3l1bcmwu21qqqsgo' name='Sheet1' table='[Sheet1$]' type='table'>
+                  <columns gridOrigin='A1:K12:no:A1:K12:0' header='yes' outcome='2'>
+                    <column datatype='string' name='1당음주정도별(2)' ordinal='0' />
+                    <column datatype='integer' name='2014' ordinal='1' />
+                    <column datatype='integer' name='2015' ordinal='2' />
+                    <column datatype='integer' name='2016' ordinal='3' />
+                    <column datatype='integer' name='2017' ordinal='4' />
+                    <column datatype='integer' name='2018' ordinal='5' />
+                    <column datatype='integer' name='2019' ordinal='6' />
+                    <column datatype='integer' name='2020' ordinal='7' />
+                    <column datatype='integer' name='2021' ordinal='8' />
+                    <column datatype='integer' name='2022' ordinal='9' />
+                    <column datatype='integer' name='2023' ordinal='10' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='하이라이트 1(생성됨)' name='[Action1_2F73D29DCFD14975A206FF4F2AE0AC3F]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='정상운전 대비 음주운전 비율' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='1당음주정도별(2) 음주운전' />
+        <param name='target' value='정상운전 대비 음주운전 비율' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='정상운전 대비 음주운전 비율'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(혈중알콜농도별음주사고 2014-2023)' name='federated.0ckjc991bqyuho14rr9cs0pje05m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ckjc991bqyuho14rr9cs0pje05m'>
+            <column caption='1당음주정도별(2) 음주운전' datatype='string' name='[1당음주정도별(2) (그룹) 1]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[1당음주정도별(2)]' new-bin='true'>
+                <bin default-name='false' value='&quot;음주운전&quot;'>
+                  <value>&quot;0.05\%~0.09\%&quot;</value>
+                  <value>&quot;0.10\%~0.14\%&quot;</value>
+                  <value>&quot;0.15\%~0.199\%&quot;</value>
+                  <value>&quot;0.20\%~0.249\%&quot;</value>
+                  <value>&quot;0.25\%~0.299\%&quot;</value>
+                  <value>&quot;0.30\%~0.349\%&quot;</value>
+                  <value>&quot;0.35\%이상&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[1당음주정도별(2)]' role='dimension' type='nominal' />
+            <column-instance column='[피벗 필드 값]' derivation='Sum' name='[sum:피벗 필드 값:qk]' pivot='key' type='quantitative' />
+            <column caption='합계' datatype='integer' name='[피벗 필드 값]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ckjc991bqyuho14rr9cs0pje05m].[1당음주정도별(2) (그룹) 1]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[1당음주정도별(2) (그룹) 1]' />
+              <groupfilter function='member' level='[1당음주정도별(2) (그룹) 1]' member='&quot;1당음주정도별(2)&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ckjc991bqyuho14rr9cs0pje05m].[1당음주정도별(2) (그룹) 1]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0ckjc991bqyuho14rr9cs0pje05m].[1당음주정도별(2) (그룹) 1]' />
+              <wedge-size column='[federated.0ckjc991bqyuho14rr9cs0pje05m].[sum:피벗 필드 값:qk]' />
+              <text column='[federated.0ckjc991bqyuho14rr9cs0pje05m].[sum:피벗 필드 값:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4AFE8CC6-1F8C-4B7E-9354-D0126C2BDD30}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='정상운전 대비 음주운전 비율'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0ckjc991bqyuho14rr9cs0pje05m].[1당음주정도별(2) (그룹) 1]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ckjc991bqyuho14rr9cs0pje05m].[1당음주정도별(2) (그룹)]</field>
+            <field>[federated.0ckjc991bqyuho14rr9cs0pje05m].[io:1당음주정도별(2) 집합:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0547EF43-D36B-4344-93B7-11A6FAF9D682}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='정상운전 대비 음주운전 비율' width='192'>
+      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
+      TFMAYtr/ATRQ15oZ93XlAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
