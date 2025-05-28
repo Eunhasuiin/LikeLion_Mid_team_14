@@ -1,0 +1,2051 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0415.1018                               -->
+<workbook original-version='18.1' source-build='2025.1.1 (20251.25.0415.1018)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1(주야간음주운전사고)' inline='true' name='federated.0ok63ct1ncxmwn16mfy851a21pst' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='주야간음주운전사고' name='excel-direct.1py0fxs01bhvdo1ahsv2r1gz14ey'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/이민정/OneDrive/바탕 화면/mid project/데이터 전처리 완료 엑셀/주야간음주운전사고.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1py0fxs01bhvdo1ahsv2r1gz14ey' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K3:no:A1:K3:0' header='yes' outcome='2'>
+            <column datatype='string' name='주야별(1)' ordinal='0' />
+            <column datatype='integer' name='2014' ordinal='1' />
+            <column datatype='integer' name='2015' ordinal='2' />
+            <column datatype='integer' name='2016' ordinal='3' />
+            <column datatype='integer' name='2017' ordinal='4' />
+            <column datatype='integer' name='2018' ordinal='5' />
+            <column datatype='integer' name='2019' ordinal='6' />
+            <column datatype='integer' name='2020' ordinal='7' />
+            <column datatype='integer' name='2021' ordinal='8' />
+            <column datatype='integer' name='2022' ordinal='9' />
+            <column datatype='integer' name='2023' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K3:no:A1:K3:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>주야별(1)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[주야별(1)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>주야별(1)</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2014</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2014]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2014</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2015]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2015</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2016</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2016</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2017]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2017</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2018]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2018</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2019]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2019</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2020]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2020</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2021]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2021</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2022</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2022]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2022</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2023</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2023]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>2023</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7A92B8617446451EA2C8538A1376F97E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_7A92B8617446451EA2C8538A1376F97E]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/이민정/AppData/Local/Temp/TableauTemp/#TableauTemp_127xzww1ppwzj010w4m4w1snjnne.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/28/2025 07:04:14 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>주야별(1)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[주야별(1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>주야별(1)</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2014</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2014]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2014</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2015</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2015]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2015</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2016</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2016]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2016</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2017</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2017</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2018</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2019</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2019</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2020</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2020</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2021</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2021]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2021</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2022</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2022]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2022</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2023</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2023]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2023</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_7A92B8617446451EA2C8538A1376F97E'>
+            <properties context=''>
+              <relation connection='excel-direct.1py0fxs01bhvdo1ahsv2r1gz14ey' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:K3:no:A1:K3:0' header='yes' outcome='2'>
+                  <column datatype='string' name='주야별(1)' ordinal='0' />
+                  <column datatype='integer' name='2014' ordinal='1' />
+                  <column datatype='integer' name='2015' ordinal='2' />
+                  <column datatype='integer' name='2016' ordinal='3' />
+                  <column datatype='integer' name='2017' ordinal='4' />
+                  <column datatype='integer' name='2018' ordinal='5' />
+                  <column datatype='integer' name='2019' ordinal='6' />
+                  <column datatype='integer' name='2020' ordinal='7' />
+                  <column datatype='integer' name='2021' ordinal='8' />
+                  <column datatype='integer' name='2022' ordinal='9' />
+                  <column datatype='integer' name='2023' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1(혈중알콜농도별음주사고 2014-2023)' inline='true' name='federated.190vtdh0jjfpll18bk0kp0ktuogm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='혈중알콜농도별음주사고 2014-2023' name='excel-direct.0q5jwky1yvgr0s1132iw20s9wqzh'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/이민정/OneDrive/바탕 화면/mid project/데이터 전처리 완료 엑셀/혈중알콜농도별음주사고 2014-2023.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='integer' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[2014]' />
+            <value name='[2015]' />
+            <value name='[2016]' />
+            <value name='[2017]' />
+            <value name='[2018]' />
+            <value name='[2019]' />
+            <value name='[2020]' />
+            <value name='[2021]' />
+            <value name='[2022]' />
+            <value name='[2023]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[Sheet1].[2014]' />
+              <field name='[Sheet1].[2015]' />
+              <field name='[Sheet1].[2016]' />
+              <field name='[Sheet1].[2017]' />
+              <field name='[Sheet1].[2018]' />
+              <field name='[Sheet1].[2019]' />
+              <field name='[Sheet1].[2020]' />
+              <field name='[Sheet1].[2021]' />
+              <field name='[Sheet1].[2022]' />
+              <field name='[Sheet1].[2023]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0q5jwky1yvgr0s1132iw20s9wqzh' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:K12:no:A1:K12:0' header='yes' outcome='2'>
+              <column datatype='string' name='1당음주정도별(2)' ordinal='0' />
+              <column datatype='integer' name='2014' ordinal='1' />
+              <column datatype='integer' name='2015' ordinal='2' />
+              <column datatype='integer' name='2016' ordinal='3' />
+              <column datatype='integer' name='2017' ordinal='4' />
+              <column datatype='integer' name='2018' ordinal='5' />
+              <column datatype='integer' name='2019' ordinal='6' />
+              <column datatype='integer' name='2020' ordinal='7' />
+              <column datatype='integer' name='2021' ordinal='8' />
+              <column datatype='integer' name='2022' ordinal='9' />
+              <column datatype='integer' name='2023' ordinal='10' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K12:no:A1:K12:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1당음주정도별(2)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1당음주정도별(2)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>1당음주정도별(2)</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_7FA57E0C54C349809D785BB7190D5C21]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드명</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[피벗 필드명]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드명</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_7FA57E0C54C349809D785BB7190D5C21]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드 값</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[피벗 필드 값]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드 값</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_7FA57E0C54C349809D785BB7190D5C21]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[1당음주정도별(2)]' role='dimension' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_7FA57E0C54C349809D785BB7190D5C21]' role='measure' type='quantitative' />
+      <column caption='합계' datatype='integer' name='[피벗 필드 값]' role='measure' type='quantitative' />
+      <column caption='연도' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+      <column-instance column='[1당음주정도별(2)]' derivation='None' name='[none:1당음주정도별(2):nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/이민정/AppData/Local/Temp/TableauTemp/#TableauTemp_1dxi7591q2a8j31fvq2pv13liggt.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/28/2025 08:11:16 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>1당음주정도별(2)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[1당음주정도별(2)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1당음주정도별(2)</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <object-id>[Sheet1_7FA57E0C54C349809D785BB7190D5C21]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드명</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[피벗 필드명]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드명</remote-alias>
+              <ordinal>1</ordinal>
+              <family>피벗</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Sheet1_7FA57E0C54C349809D785BB7190D5C21]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드 값</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[피벗 필드 값]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드 값</remote-alias>
+              <ordinal>2</ordinal>
+              <family>피벗</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_7FA57E0C54C349809D785BB7190D5C21]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:1당음주정도별(2):nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;정상운전&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;0.05\%~0.09\%&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;0.20\%~0.249\%&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;0.25\%~0.299\%&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;0.30\%~0.349\%&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;0.35\%이상&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;측정불능&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;측정불응&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;0.15\%~0.199\%&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1당음주정도별(2)&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;0.10\%~0.14\%&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_7FA57E0C54C349809D785BB7190D5C21'>
+            <properties context=''>
+              <relation name='피벗' type='pivot'>
+                <columns>
+                  <column datatype='string' name='피벗 필드명' />
+                  <column datatype='integer' name='피벗 필드 값' />
+                </columns>
+                <tag name='피벗 필드명'>
+                  <value name='[2014]' />
+                  <value name='[2015]' />
+                  <value name='[2016]' />
+                  <value name='[2017]' />
+                  <value name='[2018]' />
+                  <value name='[2019]' />
+                  <value name='[2020]' />
+                  <value name='[2021]' />
+                  <value name='[2022]' />
+                  <value name='[2023]' />
+                </tag>
+                <groups>
+                  <group name='피벗 필드 값'>
+                    <field name='[Sheet1].[2014]' />
+                    <field name='[Sheet1].[2015]' />
+                    <field name='[Sheet1].[2016]' />
+                    <field name='[Sheet1].[2017]' />
+                    <field name='[Sheet1].[2018]' />
+                    <field name='[Sheet1].[2019]' />
+                    <field name='[Sheet1].[2020]' />
+                    <field name='[Sheet1].[2021]' />
+                    <field name='[Sheet1].[2022]' />
+                    <field name='[Sheet1].[2023]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.0q5jwky1yvgr0s1132iw20s9wqzh' name='Sheet1' table='[Sheet1$]' type='table'>
+                  <columns gridOrigin='A1:K12:no:A1:K12:0' header='yes' outcome='2'>
+                    <column datatype='string' name='1당음주정도별(2)' ordinal='0' />
+                    <column datatype='integer' name='2014' ordinal='1' />
+                    <column datatype='integer' name='2015' ordinal='2' />
+                    <column datatype='integer' name='2016' ordinal='3' />
+                    <column datatype='integer' name='2017' ordinal='4' />
+                    <column datatype='integer' name='2018' ordinal='5' />
+                    <column datatype='integer' name='2019' ordinal='6' />
+                    <column datatype='integer' name='2020' ordinal='7' />
+                    <column datatype='integer' name='2021' ordinal='8' />
+                    <column datatype='integer' name='2022' ordinal='9' />
+                    <column datatype='integer' name='2023' ordinal='10' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1(요일별음주운전적발기록)' inline='true' name='federated.1ty84g901i8w8e11154am1vbgp5b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='요일별음주운전적발기록' name='excel-direct.1bhtppd0prioxx13jjmkg0p2ffz8'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/이민정/OneDrive/바탕 화면/mid project/데이터 전처리 완료 엑셀/요일별음주운전적발기록.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1bhtppd0prioxx13jjmkg0p2ffz8' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:L63:no:A1:L63:0' header='yes' outcome='6'>
+            <column datatype='integer' name='연도' ordinal='0' />
+            <column datatype='string' name='구분' ordinal='1' />
+            <column datatype='integer' name='전체' ordinal='2' />
+            <column datatype='real' name='일' ordinal='3' />
+            <column datatype='real' name='월' ordinal='4' />
+            <column datatype='real' name='화' ordinal='5' />
+            <column datatype='real' name='수' ordinal='6' />
+            <column datatype='real' name='목' ordinal='7' />
+            <column datatype='real' name='금' ordinal='8' />
+            <column datatype='real' name='토' ordinal='9' />
+            <column datatype='real' name='평일' ordinal='10' />
+            <column datatype='real' name='주말' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L63:no:A1:L63:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연도</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[연도]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>연도</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>구분</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[구분]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>구분</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전체</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전체]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>전체</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>일</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[일]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>일</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>월</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[월]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>월</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>화</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[화]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>화</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>수</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>수</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>목</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[목]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>목</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>금</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[금]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>금</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>토</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[토]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>토</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>평일</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[평일]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>평일</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>주말</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[주말]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>주말</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='주말평균' datatype='real' name='[Calculation_583216166452969472]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[주말] / 3' />
+      </column>
+      <column caption='평일평균' datatype='real' name='[Calculation_583216166453186561]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[평일] / 4' />
+      </column>
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_E7BD8DEA656B427592DDD295E020220F]' role='measure' type='quantitative' />
+      <column datatype='string' name='[구분]' role='dimension' type='nominal' />
+      <column-instance column='[구분]' derivation='None' name='[none:구분:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/이민정/AppData/Local/Temp/TableauTemp/#TableauTemp_1rwb8bq08y59cg1ghhr2c1p5wuee.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/28/2025 08:29:23 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>연도</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[연도]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>연도</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>구분</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[구분]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>구분</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>전체</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[전체]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>전체</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>일</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[일]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>일</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>61</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>월</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[월]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>월</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>화</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[화]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>화</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>수</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[수]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>수</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>57</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>목</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[목]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>목</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>57</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>금</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[금]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>금</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>토</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[토]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>토</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>61</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>평일</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[평일]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>평일</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>주말</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[주말]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>주말</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:구분:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;비율&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;음주사고&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_E7BD8DEA656B427592DDD295E020220F'>
+            <properties context=''>
+              <relation connection='excel-direct.1bhtppd0prioxx13jjmkg0p2ffz8' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:L63:no:A1:L63:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='연도' ordinal='0' />
+                  <column datatype='string' name='구분' ordinal='1' />
+                  <column datatype='integer' name='전체' ordinal='2' />
+                  <column datatype='real' name='일' ordinal='3' />
+                  <column datatype='real' name='월' ordinal='4' />
+                  <column datatype='real' name='화' ordinal='5' />
+                  <column datatype='real' name='수' ordinal='6' />
+                  <column datatype='real' name='목' ordinal='7' />
+                  <column datatype='real' name='금' ordinal='8' />
+                  <column datatype='real' name='토' ordinal='9' />
+                  <column datatype='real' name='평일' ordinal='10' />
+                  <column datatype='real' name='주말' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='요일별음주운전1991~2021'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(요일별음주운전적발기록)' name='federated.1ty84g901i8w8e11154am1vbgp5b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ty84g901i8w8e11154am1vbgp5b'>
+            <column-instance column='[금]' derivation='Sum' name='[sum:금:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[목]' derivation='Sum' name='[sum:목:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[수]' derivation='Sum' name='[sum:수:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[월]' derivation='Sum' name='[sum:월:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[일]' derivation='Sum' name='[sum:일:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[토]' derivation='Sum' name='[sum:토:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[화]' derivation='Sum' name='[sum:화:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[금]' role='measure' type='quantitative' />
+            <column datatype='real' name='[목]' role='measure' type='quantitative' />
+            <column datatype='real' name='[수]' role='measure' type='quantitative' />
+            <column datatype='real' name='[월]' role='measure' type='quantitative' />
+            <column datatype='real' name='[일]' role='measure' type='quantitative' />
+            <column datatype='real' name='[토]' role='measure' type='quantitative' />
+            <column datatype='real' name='[화]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:월:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:화:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:수:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:목:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:금:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:토:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:일:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:월:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:화:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:수:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:목:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:금:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:토:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:일:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]' field-type='quantitative' max='128171.14587741935' min='60000.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]' num-steps='7' palette='red_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]' />
+              <text column='[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-markers-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]</rows>
+        <cols>[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{994C153F-C0EF-41BD-AA67-9CB410469CF2}' />
+    </worksheet>
+    <worksheet name='주야간별음주운전'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(주야간음주운전사고)' name='federated.0ok63ct1ncxmwn16mfy851a21pst' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ok63ct1ncxmwn16mfy851a21pst'>
+            <column datatype='integer' name='[2014]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2015]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2016]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2017]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2018]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2019]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2020]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2021]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2022]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2023]' role='measure' type='quantitative' />
+            <column-instance column='[주야별(1)]' derivation='None' name='[none:주야별(1):nk]' pivot='key' type='nominal' />
+            <column-instance column='[2014]' derivation='Sum' name='[sum:2014:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2015]' derivation='Sum' name='[sum:2015:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2016]' derivation='Sum' name='[sum:2016:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2017]' derivation='Sum' name='[sum:2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2018]' derivation='Sum' name='[sum:2018:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2019]' derivation='Sum' name='[sum:2019:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2020]' derivation='Sum' name='[sum:2020:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2021]' derivation='Sum' name='[sum:2021:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2022]' derivation='Sum' name='[sum:2022:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2023]' derivation='Sum' name='[sum:2023:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[주야별(1)]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ok63ct1ncxmwn16mfy851a21pst].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ok63ct1ncxmwn16mfy851a21pst].[sum:2014:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ok63ct1ncxmwn16mfy851a21pst].[sum:2015:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ok63ct1ncxmwn16mfy851a21pst].[sum:2016:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ok63ct1ncxmwn16mfy851a21pst].[sum:2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ok63ct1ncxmwn16mfy851a21pst].[sum:2018:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ok63ct1ncxmwn16mfy851a21pst].[sum:2019:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ok63ct1ncxmwn16mfy851a21pst].[sum:2020:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ok63ct1ncxmwn16mfy851a21pst].[sum:2021:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ok63ct1ncxmwn16mfy851a21pst].[sum:2022:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ok63ct1ncxmwn16mfy851a21pst].[sum:2023:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ok63ct1ncxmwn16mfy851a21pst].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0ok63ct1ncxmwn16mfy851a21pst].[none:주야별(1):nk]' />
+              <text column='[federated.0ok63ct1ncxmwn16mfy851a21pst].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ok63ct1ncxmwn16mfy851a21pst].[Multiple Values]</rows>
+        <cols>([federated.0ok63ct1ncxmwn16mfy851a21pst].[none:주야별(1):nk] / [federated.0ok63ct1ncxmwn16mfy851a21pst].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{02C9ED15-F644-43E0-A416-9E36AC78EC56}' />
+    </worksheet>
+    <worksheet name='평일,주말별음주운전1991~2021'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(요일별음주운전적발기록)' name='federated.1ty84g901i8w8e11154am1vbgp5b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ty84g901i8w8e11154am1vbgp5b'>
+            <column caption='주말평균' datatype='real' name='[Calculation_583216166452969472]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[주말] / 3' />
+            </column>
+            <column caption='평일평균' datatype='real' name='[Calculation_583216166453186561]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[평일] / 4' />
+            </column>
+            <column-instance column='[Calculation_583216166452969472]' derivation='Sum' name='[sum:Calculation_583216166452969472:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_583216166453186561]' derivation='Sum' name='[sum:Calculation_583216166453186561:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[금]' derivation='Sum' name='[sum:금:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[목]' derivation='Sum' name='[sum:목:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[수]' derivation='Sum' name='[sum:수:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[월]' derivation='Sum' name='[sum:월:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[일]' derivation='Sum' name='[sum:일:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[주말]' derivation='Sum' name='[sum:주말:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[토]' derivation='Sum' name='[sum:토:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[평일]' derivation='Sum' name='[sum:평일:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[화]' derivation='Sum' name='[sum:화:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[금]' role='measure' type='quantitative' />
+            <column datatype='real' name='[목]' role='measure' type='quantitative' />
+            <column datatype='real' name='[수]' role='measure' type='quantitative' />
+            <column datatype='real' name='[월]' role='measure' type='quantitative' />
+            <column datatype='real' name='[일]' role='measure' type='quantitative' />
+            <column datatype='real' name='[주말]' role='measure' type='quantitative' />
+            <column datatype='real' name='[토]' role='measure' type='quantitative' />
+            <column datatype='real' name='[평일]' role='measure' type='quantitative' />
+            <column datatype='real' name='[화]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:Calculation_583216166453186561:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:Calculation_583216166452969472:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:금:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:목:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:수:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:월:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:일:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:토:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:주말:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:평일:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:화:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:Calculation_583216166453186561:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ty84g901i8w8e11154am1vbgp5b].[sum:Calculation_583216166452969472:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]' palette='orange_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]' />
+              <text column='[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]</rows>
+        <cols>[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{E24F4516-20D9-4650-AF61-0C61FCB5AE52}' />
+    </worksheet>
+    <worksheet name='혈중알콜농도별 음주운전사고 2014~2023'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(혈중알콜농도별음주사고 2014-2023)' name='federated.190vtdh0jjfpll18bk0kp0ktuogm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.190vtdh0jjfpll18bk0kp0ktuogm'>
+            <column datatype='string' name='[1당음주정도별(2)]' role='dimension' type='nominal' />
+            <column-instance column='[1당음주정도별(2)]' derivation='None' name='[none:1당음주정도별(2):nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드 값]' derivation='Sum' name='[sum:피벗 필드 값:qk]' pivot='key' type='quantitative' />
+            <column caption='합계' datatype='integer' name='[피벗 필드 값]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.190vtdh0jjfpll18bk0kp0ktuogm].[none:1당음주정도별(2):nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:1당음주정도별(2):nk]' />
+              <groupfilter function='member' level='[none:1당음주정도별(2):nk]' member='&quot;1당음주정도별(2)&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.190vtdh0jjfpll18bk0kp0ktuogm].[none:1당음주정도별(2):nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:1당음주정도별(2):nk]' />
+              <groupfilter function='member' level='[none:1당음주정도별(2):nk]' member='&quot;정상운전&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.190vtdh0jjfpll18bk0kp0ktuogm].[none:1당음주정도별(2):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.190vtdh0jjfpll18bk0kp0ktuogm].[none:1당음주정도별(2):nk]' value='110' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.190vtdh0jjfpll18bk0kp0ktuogm].[none:1당음주정도별(2):nk]' />
+              <text column='[federated.190vtdh0jjfpll18bk0kp0ktuogm].[sum:피벗 필드 값:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.190vtdh0jjfpll18bk0kp0ktuogm].[sum:피벗 필드 값:qk]</rows>
+        <cols>[federated.190vtdh0jjfpll18bk0kp0ktuogm].[none:1당음주정도별(2):nk]</cols>
+      </table>
+      <simple-id uuid='{7650D742-EB80-451C-9605-A3F0A5CC3AE5}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='72'>
+    <window class='worksheet' maximized='true' name='주야간별음주운전'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0ok63ct1ncxmwn16mfy851a21pst].[none:주야별(1):nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ok63ct1ncxmwn16mfy851a21pst].[none:주야별(1):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A3815203-07A6-4D75-A6F0-B7AC74E8B69D}' />
+    </window>
+    <window class='worksheet' name='혈중알콜농도별 음주운전사고 2014~2023'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.190vtdh0jjfpll18bk0kp0ktuogm].[none:1당음주정도별(2):nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.190vtdh0jjfpll18bk0kp0ktuogm].[none:1당음주정도별(2):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D7669079-AEB3-46A8-9145-9D4794F6399C}' />
+    </window>
+    <window class='worksheet' name='요일별음주운전1991~2021'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{58C7545D-ECCD-42A4-89F0-648DA69E6281}' />
+    </window>
+    <window class='worksheet' name='평일,주말별음주운전1991~2021'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='5' param='[federated.1ty84g901i8w8e11154am1vbgp5b].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]</field>
+            <field>[federated.1ty84g901i8w8e11154am1vbgp5b].[none:구분:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CA8CC63B-4D62-492E-9527-FF4DE85D65C5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='요일별음주운전1991~2021' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAdbklEQVR4nO3deXAc53nn8W93zwwG903iIAUQFwEIIACSIAGCFEVJlHzItmxZ8q5ix1rZ
+      TuLdVWVtbznezR7lcpUTJ3KOTSUbV8pXygldtmytLpdEiQIlkgB4AbxAHAQIEDcG52Awd3e/
+      +wck2opEEsTMYDDA+6lSFUnN8WDQv+m3u9+nX0UIIZCkDUhRFEWNdhGSFE0yANKGtuoBME0T
+      wzBW+20l6UPJPYC0ockASBuaDIC0ockASBuaDIC0ockASBuaDIC0ockASBuaDIC0ockASBua
+      ZeVPFcxMDDPt1SgryGWg5xKTi4Ka2go6287gj0+nZvsWNC2R+dlJsnO3YNWU8FUuSWEQUgA0
+      WxLm/DQgyMwrIsk5wvTEOHHZ5dSXb2JycpCA08GCJYVcufFLa1AIAVBJS09jYmoaRVHxuaZZ
+      MNMoyUlkZOgyr7/RQ2VFFhc7+9l16CEQAt0wEELICXHSmhFCAHS6L3Rw5foQFns8PR0dpGTn
+      kWDZghACFFCsCew7sJ8b/V1k1NQQZ7FgmiaqqqJpWvh+CklaIWW1O8JM00QIIQMgRZ3sCJM2
+      PBkAaUOTAZDCyjAM5ubmEELg9XoZGxsjGAzi8Xhwu903H+fxeBgfH0fXdVwuF9PT0wghWFhY
+      wOFwsFoj8xAOgiXpg/r7+zl16hRPPfUUZ86cYWpqiry8PBYXFwF4+OGHMU2Tl156CYvFQl5e
+      Hl1dXQghOHToEM3NzZSVlZGZmbkqx4lyDyCFVVlZGSUlJQA0NjaSmZlJQUEB9913HwkJCQAo
+      ikJCQgKTk5PY7XaKiop49NFHOXnyJD6fD4fDgWmaq1Kv3ANIEdPS0kJtbS3p6en4fL6b/67r
+      Oh6Ph8cee4xz587h9/uJj4+noKAARVHwer3Mzs6yefPmiNcoAyCFVUdHB93d3bhcLoQQ/OpX
+      v6K+vp6uri4WFxdvngKvq6vj+PHjfPzjH2doaIiJiQkOHz5MW1sbgUCA7OzsValXXgeQVpXX
+      68Vms62J37+8DiCtOsXlYeFiD2YgGO1SAHkQLK0iM6jT/ux3eftjX2XyWFu0ywFkAKRVpKgq
+      KAqYJtf+/gg+x2y0S5IBkFaP4fPjHRqn+jvPomgabZ//Fp7hiajWJAMgrRpX93V8E1Pkf+oB
+      Gv75z7CmJdP61DfxTc5ErSYZAGnVjP/mHbL31xGXnY41NYm9P/oOaTvKOPGpZ3H1DUWlJhkA
+      aVWYgSAzLe3kfOQAyrunQC1JCdT+1TdJr6ug5clv4OzsX/W6QgiAyeTwda72DSFMg97L5znV
+      dpZFr5cLZ1ro6BpgYWEGt9vP0OAAQUMuRLORLfYO4p+YJvvQ3vf9uxZno+5vv0XOw42c+swf
+      M3u+c1XrCuFKsEJiWhazoxOAQl5ROakzNxjp7iWhoJrA6DXmPaDPjONP2oxF5X0z/OTKTBuL
+      4/hpkkruwZ6T9YHfvWq1UPXt/4yWEM+ZZ/4nu//xf5PZsGNV6gopAElJSSjK0pmthelxfFoW
+      m1NmWUyKQ9M0goafvoERqvYVAUtTZYUQN/uCpY1BGAbjrzSz9alPoOv6hz9IVSj75jNYUxJp
+      +8K3qPmbPyHnkaaI1xZyT3DX4CgWezx9l66QmLGZpLJC+tpOIOzpVOUlsmdfE8ND18hKqb7Z
+      EyynQmws7uEJfMPjbHqgAavVeusHWqHs2d8DFC59/S9Q/vzr5H/6QRQlcncUkXOBpIgb+MER
+      Zk6cZ9dPv3fzAPhO+v/pebr+/IfUfv+/suWxByNSl6IoipwNKkWUGdRxHD1J3mc/suyNH6Do
+      S5/BnpNFx9e+R2DGybanP3VXz18uGQApojyDI3gHR8g6UH9Xz1NUlfxP3A9C0PG172F4fZR8
+      9XNhD4EMgBRR08dPY8/bRPyWnBU9P+8T96Ml2Dn3h9/G8AUo+9oXUMMYAnkhTIoYIQRTr7/N
+      pkcOrPg1FEVh84MN7P3pdxn4yf+j57mfIMJ4V0EZACli/OMOFnuuk3X/3js/+DYURSF7/072
+      /fw5bvzsFTq+/pfoHt+dn7gMMgBSxEy9eYrEbVtJLCkMy+ulVpWw92d/xtQ7Z+n4+vcwg6E3
+      1cgASBFh6jpTr79N9kP70OxxYXvd9JpyGo88x8KVPtqf/S662xvS68kASBHhGx5n8Wov2Y8c
+      DPtrp5Rvo/HIX7LQM8jZL/8vArPOFb+WDIAUEfNt7cTn55BYUhCR10/YmkPjv3wPn2OW00//
+      Kf6puRW9jgyAFBHTb54g68EmUCO3icXnbaLpl3+FGQxy+un/vqLGGhkAKewCM3O4u/rIPNQY
+      0Xk8ALaMVBr/5S+wpiTR9vk/YaF74K6eLwMghd1863nicrJJqihdlfezZaRS/8PvYMtI5a2D
+      X+Tit/562dPtZQCksBKmydyJ02Qc2IMaZ1u197Uk2Cn5o6WpEiKowzIDIGeDSmEVnJ2n4zNf
+      ouJvv0NyTeWqv79/eh5bevKy5gzJ2aBS2C20X8aSkkTC9qKIvYcQAr/fj9VqRVVVfD4fdrsd
+      IQSBOA3VNLFqGkIIFhcXsdlsGIZBMBi8eVvG927WG0IATEYH+pgL2Li3dCuDfZcI2rZSVpjE
+      qWMtiNRsqkpysGjJTDlG2FJYLNcJ3gBmjjaTcbARzW6P2Hu4XC6ef/557rvvPux2O6+++ipP
+      Pvkkly9f5saNGzQ1NVFUVMTAwABtbW0Eg0HKysro6enBarWSmZnJ5OQkEGJLZGbOFhaGRkBR
+      yb0nn4HBAHhn0TIKqS7PZ9E5ytjYMNZNhVjU3w5/ZEvk+qQ7XSxe7qL4c5+K6O83KSmJQ4cO
+      YRgGeXl57Ny5EyEEfX19CCHQdR3TNCksLMQwDCYmJti7dy+KonDPPfeQkZFBa2srEGIA7HY7
+      CkuTlez2OBQMsKSSYrvO2ZYzFFZsxjE9y7YtZQBy41/nnOcvoMbZSLh3e8R/x6ZpfuC/jIwM
+      GhoaaG5uZtu2bQwODuJ0OmloaMDv9zM9Pc3u3btpbm6mtrYWCENPcM/wOLbEdBbGLnFj3CQ+
+      oZS5uTkMaxwJtkTq9jQyOjJAIKOSOIuGaZooiiIPgtcZYQoW3m4h/UAD1ggOfwBmZ2dpbm7G
+      YrHgdrvp6OhgaGiIBx54gNdee42mpiZeeeUViouL6ejoYHh4mIMHD9LQ0IDFYmFubo4XX3wR
+      kGeBpDAx3G4uPfb7FP6Pb5B+cF9UazFNk8XFRVJSUm77OLk+gBQ2rvMX0eLiSK6tinYpqKp6
+      x43/5mMjXIu0AQghcJ5oI6muGi05Kdrl3BUZAClkxoIL19l20h/Yv7QGQAyJrWqlNclztRvT
+      6yW5vi7apdw1GQApZPPH3iFl7y4sSbE1/AEZAClEZiCA6/RZ0h64L9qlrIgMgBQSb3cvigKJ
+      VRXRLmVFZACkkCycaCWxthpLZka0S1kRGQBpxQyPl8Vz50k9uD/inV+RIgMgrVhgaAjd4SBl
+      X2g3voomGQBpxVytp0msq0GJ8NyfSJIBkFZEGCaud06SEsPDH5ABkFbI19+P6XaTuKM62qWE
+      RAZAWhF32xnsJUVYN2+KdikhkQGQ7prp9+M+fZqU+2Pz4tfvCqkn+Ma1buZ1Ozu2F9DX3Y5u
+      L6DiniTaWs4gkjZTvi0Di5bCxPgQhSVlsid4nQiOjREcGyOx/u5WfVmLQmqJzC8sxXt9ABSV
+      bWXF9PX5cY4MsXlHA4HBbpw+F3ODA6Ruq3hfT7BsiYxtrpOnsG0rQElMwAjjYhXREMIQSMFi
+      WerqUpTf/lmYoGoKCkvzxH1+P4ilb/73eoKl2CUMA3drK0mNDbAOuvpC7gnuG3W82xN8mRGH
+      SVrDDobPnYLkzVTak8is28P42ACB7PKbPcGyJTJ2+W/cQMzNkrRn77r4HcqeYGnZhBA4n38e
+      d0sLec89F5FlS1eT7AmW7o5h4GltIbGpKeY3/vfIAEjLpjscBAcHSdgbu3N//i0ZAGnZPG2t
+      2IqLseasbM3ftUgGQFoWYZr4zp8joX43itUa7XLCRgZAWhZjehp9bJT4+vUz/AEZAGmZfBfa
+      0dLTsBYWRruUsJIBkO5ICIHv3Bni6/fE9NTnDyMDIN2RWHQR6OokYV9TtEsJOxkA6Y58Heex
+      5uVhycmLdilhJwMg3ZYwTXytJ7HvqkeJi4t2OWEnAyDdljk/hz7Qh31n7E99/jAyANJtBbs6
+      UePsWEtWZ83f1SYDIN2Wv+0k9sb1d/D7HhkA6ZZM9yLB7k5sFdFf9CJSZACkWwpebEdNSsJS
+      UhbtUiImhAAIPM4pBkYcCCGYuNHLxe5BhNC5eKaFk+cu4/G48Pt1ZqYmCRqyEyyWCNMk0H4a
+      W2UVamLs3fZ8uUIKgNMdxLc4jxFwMzoXIFObZ2RyHCVpG/t3V+NyzTAzNszIjA+LbIiPKcLl
+      RO/pxNZ4INqlRFQILZEqubk5OF19mCJIUlIaqVkm05MBZqcGOPbOEOVFKZw718O+j30ChEA3
+      jJtN8bHeTL3e6V2dS9MeCosJBALRLidiQgiAwfD1PgYHb5Cansnc5HXmJhW2FG0nI5DO7JQT
+      3RrP/oMHGOy+QlrtDqwWC6ZpoqqqbIlc44IXzmCr3Y01MWndzf/5XSH0BJssLrgI6Ab2hGQ0
+      ESBgqiQlxLG4sIBijSc+TkNRNAw9gGaxoaqK7AmOAcK9iOtPnyX+6f+ItXZ9XgCDpZ7gkIZA
+      SSmpv/N3K+9dKE9OTXv/I23r7xL6eiWEQO+6hGK1opWUR7uciJOnQaX3ETMOfD/5exQEis0W
+      7XIiTgZAukn4vPh/9TPQg2jbSkELYYAQI9b/Tygtizk/i/+f/y/m7DSJ3/4blOycmFv0eiXk
+      jbEkzLkZfD/4Pmga9q98DTUt4+ZpalVV0XUdVVVRFAVd19E0DU3Tlo4XdB1FUW4+TtM0VFXF
+      MAw0TVvTZ5BCPAiW1gNjeADfj/4Pat492J/6CkpiEqZp8vLLL5OYmEhdXR2/+MUvsFgsHDhw
+      gNOnT2OaJs888wwTExO88MILqKpKU1MT58+fxzAMGhsbefvtt/nKV76CxbK2N7H1v4+TPpQQ
+      AqO/G/8PnkMr3o7997+K8u6UB1VVeeihh0hOTmZ6eppHHnmE6upq0tLS0DSN3NxcAOLi4tA0
+      jfj4eIqKirBYLOTk5FBZWUllZWU0f7xlkwHYgIQQGBfP4P/x32FpPETc7/0hStyHL3RntVqZ
+      mZlhbm6OYDDIE088gcPhwDRNpqamqK2tJTMzk9HRUT772c8yPT0dU7e/lwHYYIRpYpw9gf+X
+      P8Hy4KNYP/rpD4zTdV3n5Zdfpr29HUVRmJqaIiNj6bjgyJEjVFZWcvToUbKzsxkdHcVisWCx
+      WDhy5Ajl5eW0t7dz5coV3nrrrTV/O3x5ELyBCNNEf/Mlgs2/wfa5L6HVrOw2J0II5ufnSUtL
+      W9MHuXeiKIoiA7BBCL+P4GsvYFw4je3ffxm19N6Y3njDQZ4F2iCEYRD45Y8wB64R96X/grql
+      MNolrRlyD7DOmc45gkd+gAgGsX3uy6ibcqNd0poh9wDrmBACMT9D4F//EUxB3BefRUlJu/MT
+      NxgZgHVKjA8T+Nk/oG4twvr4F1HkjNwPFUIABM7pcabcCsX35DB6vQuH10pNZRHXLrdD6ha2
+      Ziegqgm45qdI35Qr1wleBUIIxEAvgV/+ELW8ButHHpcb/22EFICgaSHonccIJDO1CLnJXq51
+      XsXIKCYwcZ25+CxwTTEn7GTnyo0/0oRpYnZfIvj8j9D2PYjlgU9siAltoQipISYrO4vpuXlM
+      ESQhIYWkdJOxwXFySpIIzFrxBr10X7zGnoc/KnuCI00IzDPHoeVN1I8+gdhRT1DXo13VmhfC
+      WSCdvs5OOvtuUFffyFjfZfymSsW927ly5RqmZqdq+yasaiqDQzeortmBzaLKs0ARIAwDo/VN
+      jBNHsXzsSbSa9bWKS6SEeCFMEAwEMEyBxWpFESaGULBaNfRAEEXVUFUFRVFuNsK/92cZgPAR
+      wQD6qz/HvNaJ9XN/gLK1aMNf4FoueSU4xgmfB/03v0AMX8fy2S+h5hdEu6SYIq8DxCghBGJm
+      EuOVIwi/D+szX0dJluf4V0KeIoghQgiEYSAGe9F//H0wDaz/7o/kxh8CuQeIEWJ2CrPnEuaV
+      swiXExJTUHc2oaSmR7u0mCYDcAcLCwsIIUhJScHtdhMIBEhPX9ronE4nhmGQkZGBx+PB7/eT
+      np6O0+lEVVVSUlJW/L5CCPB5EUN9GJfPIEYGUBKTUXfuRy29F+LsYPvwJhZp+eRB8G24XC5e
+      eOEFhBAcPHiQN998k+LiYg4cWLph7Jtvvsnw8DD79u2jtbWVoqIiiouLOXr0KLW1tdTX3/1d
+      1YRhICZGMHsuYl7tAFNHLduBumMvSk4+irr0ufl8Pk6cOEFNTQ02m43W1lYaGxtJS0vD5/PR
+      3NxMWloaZWVlnD17loMHD7K4uMiVK1fYv38/1nW02vtKyYPgO9A0DY/Hg9vtpq2tDZfLhdPp
+      xDRNbDYbmzdvpq+vj0AgwMLCAk6nk0uXLqGqKi6XCyHEsk5JCiHA5cTs68S8dAYxO4WSuxXL
+      4U+jFJRCnP0Dr3P9+nXy8/M5efIkiqJQVVXFsWPHePzxxxkeHiY9PZ3y8nKam5upra3ljTfe
+      wOPxUFRUREdHB3v27InUxxZTZABuIz4+nqeffprm5maysrLIzc3FNE0mJibIycmhoKCAYDCI
+      w+Ggrq4OVVWZnp6mqamJ9vZ2dF2/7TetCAYRQ32YV85i9nejJCahVtWjVtRAWtZtpzGkpKRw
+      9OhRHA4HjY2NHD16lIqKCmCpqb2jo4OJiQny8/N566238Hg8lJeXU11dzalTp8L+WcUqGYDb
+      EEJw7NgxUlNT2bVrF62trbjdbhwOBx6Ph76+Pnw+H48++ijt7e24XC4++clP8tprr1FaWvqh
+      twQRuo6Ye/eA9tIZ0IOo27Zjefw/oGzZhrLMu7GlpKRQVVXF4OAg09PT1NfX09/fz8zMDFar
+      ld27d9Pd3U1OTg6BQACXy8Xs7CzHjx8nJycn3B9VzJLHACvgcrlISlr+bcOFEBDwY/Z3YV5o
+      QYwOomzKR61tQC2qgKSUu75663a76e3tpaysDNM06e3tpaioiFOnTnH48GG6urrIy8tDVVWG
+      h4fZsWMHbreboaEhKioqYvrzDxd5JTiChNeDGBkAmw3zagdm53mUxGSUyjrUyp2o2bIzK9qW
+      FYCgrvPG8RYeOdQUlo12vQdACAF6EOOtlzHPHof4RNTCMtSq3SgFJSj2hGiXKL1rWWeBrvb0
+      83rzKfyBIJ/6yCFUOb/8lkQwsDS2P3UU4fOibM5HbXwIrWp3tEuTbuGWAXB7vPzDj3/O2ISD
+      OJsNm9XKvNNFRnrqrZ6yYQm/b2nDP9OM8Cyi1d+PumMP2OLAIs+3r2W3DEBiQjzbtuYzMjrJ
+      xz96kIP75LfYvyWCQcyr5zHa3oJgAK3hgaWhjhzmxIxbHgNMTs0wPTNHQkI8QgiKCrbc8kWE
+      qdN75QJuNYUdlYV0tLTht6dTs30LmpbI/Owk2blbsGrrox9A+LyYXR0YbW+haBpq3T7Uqnqw
+      x8u5+DEkbGeBAt4pOnsXyEvz4VPjcbqT2FG+icnJQQJOPwuWFCqLclEI/0Gw1+vl9ddfZ/fu
+      3ZimycmTJ3nwwQfZvHkzAPPz8wwPD7N161aOHj3K/fffj8vloquri4cffhjbXSwDJPw+zI4W
+      jIttIATa3kOoFXUo9viw/CzS6gpbAIRp0N91keGJSfILqpievIHLI6isyOLi2X52HTpMTqoN
+      43d6gsP1Tfn2229TUFDAhQsXaGhowGq1cuzYMZ588kmEEPz6179GURRsNhu7du3inXfeQdM0
+      du7cicPhoKGh4c5v4lnEvHwWpeMUamIyyu77MMuqN8QSQutZXFzc7c8CCSFwDA6SXFiIPj9P
+      Qnr6hx80CIHX68NUEslMj2NqQoACijWBfQf2c6P/Khk1NcRFYJ3giooK3njjDRwOB4cOHeLF
+      F1+koqICm81Gd3c3paWljI6OkpubyyuvvEJJSQk2m40TJ06Qnp5+yz2AEAK8Hsz2kxgXWtFs
+      dtT7H0XdvuOWtxKXYs9t9wBzjlEGrg9jagGuDvr4/BMPh9xBE+4h0OzsLBcuXGB6eprS0lIW
+      FhYYGxvj0KFDjI2N0d7eTl9fHzt37iQrK4vx8XHq6uq4fPky1dXVH1jIQQgBC/OYF1sx2ltQ
+      klNR9x5CrdwpbzGyztxxCHT1XAtzho0kbZGX3+jkG//tPxHqaDfcAfD5fIyMjJCfn4/f72dy
+      cpLc3Fza2to4fPgwQgg8Hg8Wi4WhoSHy8vLwer14vV62bNly87qGEAIWF5bG+BdaUOwJaE0P
+      o5RWyRtLrVN3DMCpo0cprdpEz3QiPW8088Q3/oBQrwKspbNAwu1CeBaXvvGH+hD9VyE5DfXe
+      XajltShrfH0rKTR3DEAwGESzqAQDJnFx4bmgs1YCIIJB9J/9HcIxConJaLsOoNY2oMQnRrUu
+      afXccSrEe3PZ4+Ki/20ddnoQsbgAiclYP/8sSlpmtCuSomBD7uOFEJgDPYDA+oU/hhTZWL5R
+      bcgAYOiY595eGvKkZkS7GimKNuR5PdHftTRpbdeBaJciRdmGC4AI+DHPn0Cr3YeSkBTtcqQo
+      23gB6LuKcM6h7twX7VKkNWBDBUDoOub5E6g796PIm0pJbLQA9F9F+H2o1bK3QVqyYQIgAn7M
+      9lOoNXvl2F+6aeMEYLAXsehcalWUpHdtiAAIPbj07V/XJG8oK73PxgjAYC/C50GtrJMti9L7
+      hOVKsB500XbiDIYljuqqMtrPX8awJlFTkYNVTeXG8CDVNTVRWSdYBANL3/475Nhf+qDwTIUQ
+      JrohELjpvXCdiqYD+K91sRj00HOuk/oHH8Kigq7rq75MqjLYC+5FzJJ7MQKBVXlPKXaEpydY
+      CAzDYKzvIl49DjNjC4GxfjK3ZmLOe5lXUqguy49IU/xt69KDGC/8BKW4Em1nU8TfT4otiqIo
+      4TkGEAa9V84zJzIorSzHnOjBkp5DWmIqWVuLyU4wCehmWN5q2SUJgRjoBZ8XtaJuVd9bih3r
+      9ua4S9/+P0UpqUSrk9MepA8K3x5gDRI3+iDgR91eE+1SpDVsXQZA6EHMK2dRKutQEmSLo3Rr
+      6zIA3LgGbhdq5c5oVyKtcesuAMI0MC+dQb13t7yBlXRH6y4A3OgDXUfZXh3tSqQYsK4CIIKB
+      paWIynfIW5RLy7K+AjB4DTyLKOXyvL+0POsmAELXEVfbUSp3gryjm7RM6ycAg71gGigllXLG
+      p7Rs6yIAIhhA9FxE2S7H/tLdWRcBYGQAggGU4so7P1aSfkfMB0DoQUTXBZTtO5ZWZZSkuxDb
+      ARAChq8vjf2LyuXYX7prMR0AYeiInktQVo0SJxeqk+5eTAeA0UEwTZSC0mhXIsWosJwwF6ZO
+      54WzOP0WanZWcvHkaURqNlUlOVi0ZKYcI2wpLA5rT7AIBhHXrkBJpZzzI61YWAJg6n58Ip68
+      TIWF6Um0jEKqy/NZdI4yNjaMdVMhFvW3zTDv9QWHZGwQEQyiFJSG/lrShhWeS6aKQDWCzLoE
+      eSn5pNgmONtyhsKKzTimZ9m2tQwgfBu/aaL0XIbiCkzNAjIA0gqFac6ASsC3iF+oBIM+5ubm
+      MKxxxNsSqdvTyOjIAIH0SuIs2s1FskNpiRTD/aAABaVyITspJDHXEyz0IJw6CnmFKKX3hrk6
+      aSOJzZ7g8WEI+GFbWbQrkdaBmAqAME243g3bylEs4Vm2VdrYYioAjN0AYcLWomhXIq0TMRMA
+      oQdhsBfuKZbn/aWwiZkAMDkKwSBsLY52JdI6EhsBMPSlb//CUjn2l8IqNk6iT4ygmCbkF4Kc
+      8SmF0drfAxg6DPUvDX3kfH8pzNb2HuC9A1/TgLx7ol2NtA6t7T3A3PRSw4s9Xt7pQYqItb1V
+      pWZA7lbI3AwxeNFaWvtibi6QJIWLoihKVPYATqeTV199lfr6erKysujs7OTgwYM3/99LL73E
+      rl27sFqtHD9+nIaGBjRNo7Ozk8ceewyrVZ4KlcLj/wOnwfBUhwZU0QAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='주야간별음주운전' width='192'>
+      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
+      NJH5zw+vAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='평일,주말별음주운전1991~2021' width='190'>
+      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
+      DWlKAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='혈중알콜농도별 음주운전사고 2014~2023' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAATB0lEQVR4nO3dSW8beXrH8W8V91VcREqytXprud329BrM0pn0oU8DzFuYl5AccwrQyCsI
+      8h4CJDnkMMghCAZoBDMJeqbRA/dit2S1tYsSSS2kyCKLtf1z0Iy63ZY8VJtFyqrnAwiWIKP+
+      z5+qH2t7qqgppRRCBJQ+6gKEGKWBBMB1XWRDIl5FsgUQgSYBEIEmARCBJgEQgSYBEIEmARCB
+      JgEQgSYBEIEWHnUBV9HS0hLVapVEIkGtVuMXv/gFX331Fdvb25TLZSYnJ/nss88ol8v85Cc/
+      GXW5gSZbAB/s7u7SarUwDINr167heR7FYhFN07h16xaO4+B5HrZtj7rUwNMG0Qznui66rqNp
+      2iBqeuXVajW+/PJLZmZmODg4IJvNYpomtm2jaRq2bZ+G4t69e6MuN9AkAEPgui6hUGjUZYgz
+      9H0MsLW2gqUnwWzQVVGK2TimBQvzM37Wd6n1VlbY/6d/HvhyY3duM/53fzvw5Yrn9R2AVqtF
+      zzPJ5rJkUOxurTM+dw/P8/A8L5DdoI7Zwz04GPxym2Ucxxn4csXz+g7AtevXqTa6pKMapopz
+      6+6PsCwLTdfRlQrkLpAT8uccgqZphMNygm4Y+n6Vc8UJckU/SxFi+OQ0qAg0CYAINAmACDQJ
+      gAg0CYAINAmACDQJgAg0CYAINAmACDQJgAi0vlshqpVNWj2NhG5jhxLk0gksy6JcLvtZnxC+
+      6jsAHcPA05MYpkE4FWNt+QtKCw8C3Q3qup4vy1VKSTfokPQdgFQqTWW/RSmX5sgwmJq7Rbdz
+      jKbnpBt0wKQbdHj6fpXL12YoXzv5/rpf1QgxZFf+bWZzc5Pd3V0mJyfpdrssLi7S6/WoVCps
+      bGxQLpcJh8PcuXNn1KWKEbjyZ4EePXpELpcjk8mwv7+PUorPP/+cnZ0d3nnnHZRS1Ov1UZcp
+      RuTKB+D27dt88cUX/Pa3v2VsbIyjoyOq1Spra2usrKxw8+ZNdnd3qVQqoy5VjMCV3wWamZk5
+      fTaP67o0m01++ctfnp5lCYVCfPjhh8RisRFXKkbh6gTguA37z9+g/v3VegxgdeOZiedetNxM
+      GkpyL+hVdXUCsFuF//108Mt97aYE4Aq78scAQryIBEAEmgRABJoEQARa3wfB7eYB9aZJeSyB
+      SZR0PILruiSTST/rE8JXfQdgp7JLvjzNXn0fpaBqHpPMX2c2Hkcphef50xnZL015vmzOlFJ4
+      rnvm7zzPpw5YpXDPGVMMVt8BKOTzrK+tMZZJ4BEiGo3hOvZpB+ioO0E1/Bv/vLn5N2dt5K9n
+      UPQdgOxYjjupHPEwOISJRUIn7/rayR/rz18j49PYmqah6WdvW3xc/9HPGVMMVt8BiCVSp1dV
+      pWlAXBXyNiMCTQIgAk0CIAJNAiACTQIgAk0CIAJNAiACTQIgAk0CIALtArdEKlotA82zMGzI
+      Z9N4nkc8HvevOiF81ncAmvtVljbrZGOK0tQc698sEcmUmJ+eRCl1+jUySvnWDarO6XT1bb6K
+      kXfXBkXf68zuXpVOq0E6O8bm5gaeUii/2oGFGJK+twCLb/yIhV4Pq2uQHiuSikdP+uQD3Q3q
+      03ylG3RoLvRYlFgsJg+QEleKvM2IQJMAiECTAIhAkwCIQJMAiECTAIhAkwCIQJMAiECTAIhA
+      kwCIQOu7FcLqNHn49QbFdBhTRSlk4/RsxfzcjJ/1CeGrvgPw6NEjWoZLsTBLWlPsbq0xPvcG
+      nufhed5oW6EBzfMI+bBcz/Pw/vSBet/nuv60LCulTj/ET/ir7wC89d5POTw8xO62MFWcm4sP
+      sCwLTdfRlULX9dF2g/rUPanrOnr47JfJCfkzpqZphM8ZUwzWhV7lQqEAFHwqRYjhk4NgEWgS
+      ABFoEgARaBIAEWgSABFoEgARaBIAEWgSABFoEgARaBIAEWh9t0LUd7c4MByyUYWlJ8hnkliW
+      RalU8rM+IXzVdwBS6TSbtQq65RFJx1ld+pzSwgPpBvWBdIMOT98BOG420ZQimU5z1G4xNXuT
+      bucYTc9JN+iASTfo8PT9Kk9OzzM5ffL9tF/VCDFkchAsAk0CIALtjF0gi//4l3/j2PFYeO0B
+      f/Pjt4ZflRBDckYAbOKZCYpjUd59+8HwKxJiiM4IQJQfv/9jkjGwbAeifpxcFOJyOCMAIZYf
+      /h9uMoMeKvDT9+4OvyohhuSMg+A2//rv/83O2pesbu4NvyIhhuiMLUCGf/jHvyeaSMlnAIsr
+      74wAaIyXJ3wZ7I9//CO1Wg3HcSiXy7z11lv8+te/Zmpqip2dHX7+85/zu9/9jg8++IBisehL
+      DUJ811CvA+RyORYXFykWi2xvb59+GLTjOKTTaT755BOePn1KtVodZlkiwPrvBt3b5qjjkovr
+      dFWUfCaBbdsXeqfe2toinU4TDod58803WVlZoVAoMD4+jm3bvPnmm7z//vuy6yWGpv9u0GSS
+      reouUT2Fpjp8s7RCae4e+Qt0g/7sZz975melFIuLiwDcuXPnmd9dtBtSukHFD9F/N+jxMa7r
+      YJsGPaJMXp+jaxyjTeSf6wZdXf6arbXVgRd747W7zCzcOPuX0g0qfoAf1A36lziOg9Uzf2hN
+      53JdeVcUgyXNcCLQJAAi0GRH84o4ODjgk08+4fbt26fXVB4/fkyj0SCRSAAnB/SapvHee++N
+      uNrLQ7YAV0Qul6NcLrO6uoplWZimieM4rK+v02w26XQ6hMNhNE0b+f3bl4kE4IpYWVmhXq8z
+      NzeH53msrKyQy+W4fv065XIZy7Lodrs4jjPae7cvGdkFuiIWFxdPr6ncvXsXwzBIpVIsLCwA
+      cP/+/VGWd2lJAF4xtmXx+OFnA19uJBrl9TffGfhyLzsJwCvGdV1qu5WBLzcWTwx8ma8COQYQ
+      gSYBEIHW/yfFdw1aPZe47tGxIZdN4XkesVjMz/qE8FXfAeiaJru7NcLKpjg1y/rTZcLJAvMz
+      UyilTr8A8Ok8s1Lq9B6C79OUwo+Te0op1Dlj+nY+XXHuPP08h3/emFdZ3wHoGG0mJq9hGw22
+      NjdJhJ9tP/7uH8bPyywvWgH8Ort97pi+TVS9YJ5+DfqiMa+uvgMQi8VotdvkMinmMgUyyRiu
+      64KmoWnaM+3Qfl1o0TSNUOicrv8RjKnpPkXuRWNqfh22veC1vcL6DkChNEnBz0qEGAE5CyQC
+      TQIgAk0CIAJNAiACTQIgAk0CIAJNAiACTQIgAk0CIAJNAiACrf+H4+5us1VvMhbXMFWUYjaB
+      aXnMz834WZ8Qvuo7APFkkolyDKfXIa0Ulc1VSvNvnDw89nsPxz2vffhleZ537kNjg/JwXNd1
+      fRkTgvlA3r4DcHRwQNcLk43r9Ihxc/EBlmWh6fpzD8fVfHxQ7bkPjQ3Iw3Ed3zo2g/lA3r5n
+      PHvjtp91CDESchAsAk0CIAJNAiACTQIgAk0CIAJNAiACTQIgAk0CIAJNAiACTQIgAq3/XqD9
+      HdpWHLtdQ0/mSEY0zJ7D7GyfHx4sxCXUdwDy4+MY28eEwyHaRofDox1KNx5IN6gPpBt0ePoO
+      wP5elf0Dg2I+TkQLMfXafSyrJ92gPpBu0OHpe8bjk7OMT/pZihDDJwfBItAkACLQJAAi0CQA
+      ItAkACLQJAAi0CQAItAkACLQJAAi0CQAItD6boVoHtawtQTKbNBVUfKZJJZlUSwW/axPCF/1
+      HYD0WJrdXQPHcUF1WNleoTR3j7x0gw6cdIMOT//3A9RrbO80yY+FsFWMiWuzmMYx2kReukEH
+      TLpBh+cC3aDz0g0qnuN5HrZtEw6H0XUd27YJhUKoP70pAqf/XkbBi7wYKNM0+fjjj5mcnKRQ
+      KPCHP/wBTdNIJBLMz88TiURYXFwcdZnnurzRFK+EZDJJuVzm7bffPt11SyQSlEol5ufnL/1u
+      lQRAvBSlFAsLC1QqFcLhMKVSifv37zM2Nsbq6ip7e3vPnCC5bC53PMWlcXKG6OwVOZcbO/1+
+      cnLiud+77jln7tAIjXgLIQEQffmf//pPvAGfgh0rFPmrv/5goMu8KNkFEoEmARCBJgEQgSYB
+      EIEmARCBduGzQJ32MV1bkU0nUUoRjUb9qEuIobhwADY31ilMzrKx+oRQIs/8zBRKqdMvAPy6
+      8KEU3jmdpppSaL4Mqc7tbvXtAo/i3Hn6eVHpvDF984K/57BcOADZbJbtrU3iIZdE4ttV7pl2
+      6MHU9hylXrwC+BGAk3HPHtO/dVG9YEzfXt2RXLEd9VXiCwcglUoxmy6QScZOetM1DU3Tnm2H
+      1vxZFTVdI3ReO7BfY2rnj6nrPkXuhWP6ddj2gtfWLy+Y57BcOABjhZIfdQgxEnIWSASaBEAE
+      mgRAvHIMw+DTTz8FoNVq8Zvf/Ib19XU+/vhjNjY2+P3vf9/3wbUEQLxykskksVgMgIcPHwJQ
+      qVQA+OKLL+j1ehIAcXW1Wi0ePnzI8vIy4+PjGIZBNBql2WxSKpU4ODjo+/qC3A8gXjnZbJZf
+      /epXHB4eksvluHv3LgDvvvvuhZclARCXkus4PF16/Bf/335l+0LLDYXD3Fx8/fTni/cCtRr0
+      VIRUPILruiQSiYsuQoi/yHVdNp6uDHy5kWjsZQKgqFTrKAV7PYNEbpL5aQmAeHVd/CDY8/C8
+      k02J67i+9f0IMQwX3AJoTE9fxyZMPBIaeSefEC9LUy/Zjud5Hq7rPtOk1e106Jndly7u+xLJ
+      JLH4yS7Xn8s+bbzrmtBqD3xMEnHIpE9/VEqdjul1utjbWwMfUk8miUxPnz2m53HcOBr8mLpO
+      Npc/c0yA5tHhwDs3w+Ew6ey3j1T57pjK82j6MU9NJ5v/dp4vHQA4+aNof+oKHZbnAjAknucN
+      /VmXMqZ/Qh999NFHL7uQ76/8SimeLj/CsHWyyQhLXz/CC+k8XVrBdWwq+w00PBKJBBpwUN3h
+      6VaVcqnI3tY6O/UG7cMqDcNiZ/0phMOEIzHC33ka81mB21x9wsGxST6XZe3pE2LxFKsrX9Mx
+      TDZ364T0k62IBrQbdb5eWadQHKfTPKB21CITD/PoySqtwyqW46JCMWKRZ9t1vztmfXebjUqN
+      YrFAvbJF19Ooba9zbHTZ2txEaWHiySS6Bo7V5fGjx0SSOULKZG1zF80xWV3fxnG6bFfqGMf7
+      dHoOrqcRj0XPHLN1WGNpZZ1iuUyjtsPa5h52r0WldsTh7gY2EfRIlEhIB+Wy9OhLHD1BIqJ4
+      svwELxRnb/MberbL5uYWZq9Ds9XBdT0SifiZY1pGk6++fkImX6TXOmD5yTpgsVXZp3VYpee4
+      OCpEPBYBpVheWUaLpAi5XZaXVuj2umxv7eK6PbZ3qhitQzo9B8eFRPzsebYbdR4vr53Ms15h
+      daOCYxlsVw9pVDexVRgtHCEaDoFyWX78FbYWIxWDpaVlPD1OffsbupbHxsYGpmXSOG7jfW+e
+      AwnA8xRG18JzeiRiYbRoBvNoj1ZPEYtFaLeatJsNLMtla2cHR+nkoyEiuRzHjSZRHWzHpnbY
+      IKZ7NFsGtgf5bOaFYzaODTTlksvl0HQX1/TQU0m6jX1My6bdbmL3LDa3NumYcG0iR8/TyeUy
+      tJotGof7dHs2kRAcHDYwbZdiIXfujTb7h0dk4yHCiTHSiTjtboduu4mHjt3r0my38Vyb7Y0N
+      jG6b8uQsrdYxxUKRjtEmpCmO93c4Vim6zTqhcJRW84im0WNivHDm1q1a22duPMaRmyGXDNOz
+      XDylCOvg2l0Omy16lsNhdYeu2SSUnsXpHpIvjOM6PVzL5OCwgR6N4xh1Gr0YTueIRrNNfrxE
+      +Ix7HGr1OtMTBfYNj2IujWmaaMqj07MJaXB0eEjbdOge1zk8bnFzepz9gyaFQgHL6qEBvUaF
+      hpum16qBHsNoHtEwepRLZ89zr7rPQilO3UmTi2lUqvtE43FiIQ3bMjlqtjAth6PaDkbnmFDq
+      Oo7ZIJ8v0m7U6Jg92sfHqEgc1a1z0I3idps0mi1y4+XTefq0vdHotg/RIjFsBw52NwknC6QT
+      IRKZAtPXpkjEdJJjRd54/S7ZuE61beIaBiHl0LY8UskE4+NlZucXKBXyfXx4g4ZndbBVCMMw
+      qO7ssN9q0ahWSI5PMzt9jbFUnFA8w/037jNVTLKxUyWsXPbrNSqVPSLJJJ7ncu36DOVyGeec
+      R/r9WSwE9aaJ0+tQ291mr3ZAPJHAVSFmZ2YYz2dxPJ179+8ze32a7Y2nJOMRGo0GlUoFhxAq
+      XmB+IkMqk+fmjXmuTZax7fPHzaaiLG01idFla2ODnmWhK4dOz2V6Zp6JUgHH9bi9+DrT0zdo
+      174hEktyfFRlq3JwslWKRYhGo3h6hgf3bjA1MYGmPLxz9oZz2RRLqzukooqtjQ0Ms0c4FgfX
+      YWp6mslyCcd1mFm4w425OVbW90gk4lT3KtQbLWLxBG40z43JDIlUntu3Tubp2O65tw/m0jEe
+      bTRI6SaNZoNYJIyOS8t0mJmdZ7JUwHZdbr32OjMzCxj7a4RjSY4bh5iOTigUIh6PEotGcbQ0
+      P7p3k6nJCXRcXO/bQf8fgxdhJX2wr/sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
