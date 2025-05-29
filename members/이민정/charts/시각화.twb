@@ -542,7 +542,6 @@
               <approx-count>11</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LKO_RKR' />
-              <object-id>[Sheet1_7FA57E0C54C349809D785BB7190D5C21]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>피벗 필드명</remote-name>
@@ -557,7 +556,6 @@
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
-              <object-id>[Sheet1_7FA57E0C54C349809D785BB7190D5C21]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>피벗 필드 값</remote-name>
@@ -571,7 +569,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>101</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_7FA57E0C54C349809D785BB7190D5C21]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -934,7 +931,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>31</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>구분</remote-name>
@@ -949,7 +945,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LKO_RKR' />
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>전체</remote-name>
@@ -963,7 +958,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>32</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>일</remote-name>
@@ -977,7 +971,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>61</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>월</remote-name>
@@ -991,7 +984,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>60</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>화</remote-name>
@@ -1005,7 +997,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>58</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>수</remote-name>
@@ -1019,7 +1010,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>57</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>목</remote-name>
@@ -1033,7 +1023,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>57</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>금</remote-name>
@@ -1047,7 +1036,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>60</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>토</remote-name>
@@ -1061,7 +1049,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>61</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>평일</remote-name>
@@ -1075,7 +1062,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>60</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>주말</remote-name>
@@ -1089,7 +1075,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>60</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_E7BD8DEA656B427592DDD295E020220F]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -1138,8 +1123,2056 @@
         </objects>
       </object-graph>
     </datasource>
+    <datasource caption='Sheet1(연령별음주사고)' inline='true' name='federated.151nv7v00eu76214bhmhb0n5ii3t' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='연령별음주사고' name='excel-direct.0qu4aw60f14at512wl4rx1bd4egt'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/이민정/OneDrive/바탕 화면/mid project/데이터 전처리 완료 엑셀/연령별음주사고.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0qu4aw60f14at512wl4rx1bd4egt' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I18:no:A1:I18:0' header='yes' outcome='6'>
+            <column datatype='integer' name='연도' ordinal='0' />
+            <column datatype='string' name='구분' ordinal='1' />
+            <column datatype='integer' name='전체' ordinal='2' />
+            <column datatype='integer' name='20세 이하' ordinal='3' />
+            <column datatype='integer' name='21-30 세' ordinal='4' />
+            <column datatype='integer' name='31-40 세' ordinal='5' />
+            <column datatype='integer' name='41-50 세' ordinal='6' />
+            <column datatype='integer' name='51-60 세' ordinal='7' />
+            <column datatype='integer' name='61세 이상' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I18:no:A1:I18:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연도</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[연도]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>연도</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_362E875784E8474AB8D4FBBAC568F6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>구분</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[구분]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>구분</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_362E875784E8474AB8D4FBBAC568F6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전체</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전체]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>전체</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_362E875784E8474AB8D4FBBAC568F6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>20세 이하</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[20세 이하]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>20세 이하</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_362E875784E8474AB8D4FBBAC568F6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>21-30 세</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[21-30 세]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>21-30 세</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_362E875784E8474AB8D4FBBAC568F6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>31-40 세</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[31-40 세]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>31-40 세</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_362E875784E8474AB8D4FBBAC568F6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>41-50 세</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[41-50 세]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>41-50 세</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_362E875784E8474AB8D4FBBAC568F6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>51-60 세</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[51-60 세]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>51-60 세</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_362E875784E8474AB8D4FBBAC568F6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>61세 이상</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[61세 이상]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>61세 이상</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_362E875784E8474AB8D4FBBAC568F6E8]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[20세 이하]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[21-30 세]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[31-40 세]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[41-50 세]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[51-60 세]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[61세 이상]' role='measure' type='quantitative' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_362E875784E8474AB8D4FBBAC568F6E8]' role='measure' type='quantitative' />
+      <column-instance column='[20세 이하]' derivation='Sum' name='[sum:20세 이하:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[21-30 세]' derivation='Sum' name='[sum:21-30 세:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[31-40 세]' derivation='Sum' name='[sum:31-40 세:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[41-50 세]' derivation='Sum' name='[sum:41-50 세:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[51-60 세]' derivation='Sum' name='[sum:51-60 세:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[61세 이상]' derivation='Sum' name='[sum:61세 이상:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/이민정/AppData/Local/Temp/TableauTemp/#TableauTemp_0i2inwl03qqojx12kk0410ajxr0f.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/29/2025 02:26:56 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>연도</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[연도]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>연도</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>구분</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[구분]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>구분</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>전체</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[전체]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>전체</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>20세 이하</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[20세 이하]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>20세 이하</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>21-30 세</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[21-30 세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>21-30 세</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>31-40 세</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[31-40 세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>31-40 세</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>41-50 세</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[41-50 세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>41-50 세</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>51-60 세</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[51-60 세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>51-60 세</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>61세 이상</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[61세 이상]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>61세 이상</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' palette='summer_10_0' type='palette'>
+            <map to='#d3293d'>
+              <bucket>&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:41-50 세:qk]&quot;</bucket>
+            </map>
+            <map to='#f05c4d'>
+              <bucket>&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:31-40 세:qk]&quot;</bucket>
+            </map>
+            <map to='#f7c480'>
+              <bucket>&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:20세 이하:qk]&quot;</bucket>
+            </map>
+            <map to='#f7c480'>
+              <bucket>&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:51-60 세:qk]&quot;</bucket>
+            </map>
+            <map to='#f7c480'>
+              <bucket>&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:61세 이상:qk]&quot;</bucket>
+            </map>
+            <map to='#fa8f79'>
+              <bucket>&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:21-30 세:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_362E875784E8474AB8D4FBBAC568F6E8'>
+            <properties context=''>
+              <relation connection='excel-direct.0qu4aw60f14at512wl4rx1bd4egt' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:I18:no:A1:I18:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='연도' ordinal='0' />
+                  <column datatype='string' name='구분' ordinal='1' />
+                  <column datatype='integer' name='전체' ordinal='2' />
+                  <column datatype='integer' name='20세 이하' ordinal='3' />
+                  <column datatype='integer' name='21-30 세' ordinal='4' />
+                  <column datatype='integer' name='31-40 세' ordinal='5' />
+                  <column datatype='integer' name='41-50 세' ordinal='6' />
+                  <column datatype='integer' name='51-60 세' ordinal='7' />
+                  <column datatype='integer' name='61세 이상' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1(연간음주율)' inline='true' name='federated.1hw0o5k0x93g6p17vpg9a1nj1m2y' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='연간음주율' name='excel-direct.1qrczg610pg69d193vsr20h7tfub'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/이민정/OneDrive/바탕 화면/mid project/데이터 전처리 완료 엑셀/연간음주율.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='real' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[19~29세]' />
+            <value name='[30~39세]' />
+            <value name='[40~49세]' />
+            <value name='[50~59세]' />
+            <value name='[60~69세]' />
+            <value name='[70세이상]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[Sheet1].[19~29세]' />
+              <field name='[Sheet1].[30~39세]' />
+              <field name='[Sheet1].[40~49세]' />
+              <field name='[Sheet1].[50~59세]' />
+              <field name='[Sheet1].[60~69세]' />
+              <field name='[Sheet1].[70세이상]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.1qrczg610pg69d193vsr20h7tfub' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:J16:no:A1:J16:0' header='yes' outcome='6'>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='date' date-parse-format='yyyy' name='연도' ordinal='1' />
+              <column datatype='string' name='구분' ordinal='2' />
+              <column datatype='real' name='전체' ordinal='3' />
+              <column datatype='real' name='19~29세' ordinal='4' />
+              <column datatype='real' name='30~39세' ordinal='5' />
+              <column datatype='real' name='40~49세' ordinal='6' />
+              <column datatype='real' name='50~59세' ordinal='7' />
+              <column datatype='real' name='60~69세' ordinal='8' />
+              <column datatype='real' name='70세이상' ordinal='9' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J16:no:A1:J16:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연도</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[연도]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>연도</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>구분</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[구분]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>구분</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전체</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[전체]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>전체</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드명</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[피벗 필드명]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드명</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드 값</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[피벗 필드 값]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드 값</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_29DBC78961C24482BEAD8BD4B3F0A9D3]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[구분]' role='dimension' type='nominal' />
+      <column caption='음주율' datatype='real' name='[피벗 필드 값]' role='measure' type='quantitative' />
+      <column caption='연령대' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+      <column-instance column='[피벗 필드명]' derivation='None' name='[none:피벗 필드명:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/이민정/AppData/Local/Temp/TableauTemp/#TableauTemp_0bkubq30dnzsbv140c65m11owhi3.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/29/2025 02:27:58 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>연도</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[연도]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>연도</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>전체</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[전체]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>전체</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드명</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[피벗 필드명]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드명</remote-alias>
+              <ordinal>2</ordinal>
+              <family>피벗</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드 값</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[피벗 필드 값]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드 값</remote-alias>
+              <ordinal>3</ordinal>
+              <family>피벗</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>79</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:피벗 필드명:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;19~29세&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;60~69세&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;50~59세&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;40~49세&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;70세이상&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;30~39세&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_29DBC78961C24482BEAD8BD4B3F0A9D3'>
+            <properties context=''>
+              <relation name='피벗' type='pivot'>
+                <columns>
+                  <column datatype='string' name='피벗 필드명' />
+                  <column datatype='real' name='피벗 필드 값' />
+                </columns>
+                <tag name='피벗 필드명'>
+                  <value name='[19~29세]' />
+                  <value name='[30~39세]' />
+                  <value name='[40~49세]' />
+                  <value name='[50~59세]' />
+                  <value name='[60~69세]' />
+                  <value name='[70세이상]' />
+                </tag>
+                <groups>
+                  <group name='피벗 필드 값'>
+                    <field name='[Sheet1].[19~29세]' />
+                    <field name='[Sheet1].[30~39세]' />
+                    <field name='[Sheet1].[40~49세]' />
+                    <field name='[Sheet1].[50~59세]' />
+                    <field name='[Sheet1].[60~69세]' />
+                    <field name='[Sheet1].[70세이상]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.1qrczg610pg69d193vsr20h7tfub' name='Sheet1' table='[Sheet1$]' type='table'>
+                  <columns gridOrigin='A1:J16:no:A1:J16:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='date' date-parse-format='yyyy' name='연도' ordinal='1' />
+                    <column datatype='string' name='구분' ordinal='2' />
+                    <column datatype='real' name='전체' ordinal='3' />
+                    <column datatype='real' name='19~29세' ordinal='4' />
+                    <column datatype='real' name='30~39세' ordinal='5' />
+                    <column datatype='real' name='40~49세' ordinal='6' />
+                    <column datatype='real' name='50~59세' ordinal='7' />
+                    <column datatype='real' name='60~69세' ordinal='8' />
+                    <column datatype='real' name='70세이상' ordinal='9' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1(폭음률)' inline='true' name='federated.1lyxedr1e7m8hr1ggir7j1q2io7r' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='폭음률' name='excel-direct.14cozbb0hupzny1amah0v0w4ceto'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/이민정/OneDrive/바탕 화면/mid project/데이터 전처리 완료 엑셀/폭음률.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='real' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[19~29세]' />
+            <value name='[30~39세]' />
+            <value name='[40~49세]' />
+            <value name='[50~59세]' />
+            <value name='[60~69세]' />
+            <value name='[70세이상]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[Sheet1].[19~29세]' />
+              <field name='[Sheet1].[30~39세]' />
+              <field name='[Sheet1].[40~49세]' />
+              <field name='[Sheet1].[50~59세]' />
+              <field name='[Sheet1].[60~69세]' />
+              <field name='[Sheet1].[70세이상]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.14cozbb0hupzny1amah0v0w4ceto' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:I16:no:A1:I16:0' header='yes' outcome='6'>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='date' date-parse-format='yyyy' name='연도' ordinal='1' />
+              <column datatype='real' name='전체' ordinal='2' />
+              <column datatype='real' name='19~29세' ordinal='3' />
+              <column datatype='real' name='30~39세' ordinal='4' />
+              <column datatype='real' name='40~49세' ordinal='5' />
+              <column datatype='real' name='50~59세' ordinal='6' />
+              <column datatype='real' name='60~69세' ordinal='7' />
+              <column datatype='real' name='70세이상' ordinal='8' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I16:no:A1:I16:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_850F895F085B45A8A503B08E8209B963]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연도</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[연도]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>연도</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <object-id>[Sheet1_850F895F085B45A8A503B08E8209B963]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전체</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[전체]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>전체</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_850F895F085B45A8A503B08E8209B963]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드명</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[피벗 필드명]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드명</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_850F895F085B45A8A503B08E8209B963]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드 값</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[피벗 필드 값]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드 값</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_850F895F085B45A8A503B08E8209B963]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_850F895F085B45A8A503B08E8209B963]' role='measure' type='quantitative' />
+      <column caption='폭음률' datatype='real' name='[피벗 필드 값]' role='measure' type='quantitative' />
+      <column caption='연령대' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/이민정/AppData/Local/Temp/TableauTemp/#TableauTemp_0bwisip0sf6v5k16m8uvk04ifac3.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/29/2025 05:00:01 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>연도</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[연도]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>연도</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>전체</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[전체]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>전체</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드명</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[피벗 필드명]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드명</remote-alias>
+              <ordinal>2</ordinal>
+              <family>피벗</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드 값</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[피벗 필드 값]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드 값</remote-alias>
+              <ordinal>3</ordinal>
+              <family>피벗</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_850F895F085B45A8A503B08E8209B963'>
+            <properties context=''>
+              <relation name='피벗' type='pivot'>
+                <columns>
+                  <column datatype='string' name='피벗 필드명' />
+                  <column datatype='real' name='피벗 필드 값' />
+                </columns>
+                <tag name='피벗 필드명'>
+                  <value name='[19~29세]' />
+                  <value name='[30~39세]' />
+                  <value name='[40~49세]' />
+                  <value name='[50~59세]' />
+                  <value name='[60~69세]' />
+                  <value name='[70세이상]' />
+                </tag>
+                <groups>
+                  <group name='피벗 필드 값'>
+                    <field name='[Sheet1].[19~29세]' />
+                    <field name='[Sheet1].[30~39세]' />
+                    <field name='[Sheet1].[40~49세]' />
+                    <field name='[Sheet1].[50~59세]' />
+                    <field name='[Sheet1].[60~69세]' />
+                    <field name='[Sheet1].[70세이상]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.14cozbb0hupzny1amah0v0w4ceto' name='Sheet1' table='[Sheet1$]' type='table'>
+                  <columns gridOrigin='A1:I16:no:A1:I16:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='date' date-parse-format='yyyy' name='연도' ordinal='1' />
+                    <column datatype='real' name='전체' ordinal='2' />
+                    <column datatype='real' name='19~29세' ordinal='3' />
+                    <column datatype='real' name='30~39세' ordinal='4' />
+                    <column datatype='real' name='40~49세' ordinal='5' />
+                    <column datatype='real' name='50~59세' ordinal='6' />
+                    <column datatype='real' name='60~69세' ordinal='7' />
+                    <column datatype='real' name='70세이상' ordinal='8' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1(총인구수2015~2021)' inline='true' name='federated.0kyyr420p482e4180vwbl045jtyz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='총인구수2015~2021' name='excel-direct.07bx0cj1woaphn1dwjkk11g60ji9'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/이민정/OneDrive/바탕 화면/mid project/데이터 전처리 완료 엑셀/총인구수2015~2021.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='integer' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[2015 년]' />
+            <value name='[2016 년]' />
+            <value name='[2017 년]' />
+            <value name='[2018 년]' />
+            <value name='[2019 년]' />
+            <value name='[2020 년]' />
+            <value name='[2021 년]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[Sheet1].[2015 년]' />
+              <field name='[Sheet1].[2016 년]' />
+              <field name='[Sheet1].[2017 년]' />
+              <field name='[Sheet1].[2018 년]' />
+              <field name='[Sheet1].[2019 년]' />
+              <field name='[Sheet1].[2020 년]' />
+              <field name='[Sheet1].[2021 년]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.07bx0cj1woaphn1dwjkk11g60ji9' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:J24:no:A1:J24:0' header='yes' outcome='2'>
+              <column datatype='string' name='행정구역별(읍면동)' ordinal='0' />
+              <column datatype='string' name='연령별' ordinal='1' />
+              <column datatype='string' name='항목' ordinal='2' />
+              <column datatype='integer' name='2015 년' ordinal='3' />
+              <column datatype='integer' name='2016 년' ordinal='4' />
+              <column datatype='integer' name='2017 년' ordinal='5' />
+              <column datatype='integer' name='2018 년' ordinal='6' />
+              <column datatype='integer' name='2019 년' ordinal='7' />
+              <column datatype='integer' name='2020 년' ordinal='8' />
+              <column datatype='integer' name='2021 년' ordinal='9' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J24:no:A1:J24:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>행정구역별(읍면동)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[행정구역별(읍면동)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>행정구역별(읍면동)</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연령별</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[연령별]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>연령별</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>항목</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[항목]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>항목</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드명</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[피벗 필드명]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드명</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드 값</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[피벗 필드 값]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드 값</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]' role='measure' type='quantitative' />
+      <column caption='총인구수' datatype='integer' name='[피벗 필드 값]' role='measure' type='quantitative' />
+      <column caption='연도' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/이민정/AppData/Local/Temp/TableauTemp/#TableauTemp_0jdqwm70suoip117goszl0lma93y.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/29/2025 05:01:45 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>행정구역별(읍면동)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[행정구역별(읍면동)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>행정구역별(읍면동)</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <object-id>[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>연령별</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[연령별]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>연령별</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <object-id>[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>항목</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[항목]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>항목</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <object-id>[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드명</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[피벗 필드명]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드명</remote-alias>
+              <ordinal>3</ordinal>
+              <family>피벗</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드 값</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[피벗 필드 값]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드 값</remote-alias>
+              <ordinal>4</ordinal>
+              <family>피벗</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>161</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_5A435D948A9449A4BB932AB0BFE4E44B]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_5A435D948A9449A4BB932AB0BFE4E44B'>
+            <properties context=''>
+              <relation name='피벗' type='pivot'>
+                <columns>
+                  <column datatype='string' name='피벗 필드명' />
+                  <column datatype='integer' name='피벗 필드 값' />
+                </columns>
+                <tag name='피벗 필드명'>
+                  <value name='[2015 년]' />
+                  <value name='[2016 년]' />
+                  <value name='[2017 년]' />
+                  <value name='[2018 년]' />
+                  <value name='[2019 년]' />
+                  <value name='[2020 년]' />
+                  <value name='[2021 년]' />
+                </tag>
+                <groups>
+                  <group name='피벗 필드 값'>
+                    <field name='[Sheet1].[2015 년]' />
+                    <field name='[Sheet1].[2016 년]' />
+                    <field name='[Sheet1].[2017 년]' />
+                    <field name='[Sheet1].[2018 년]' />
+                    <field name='[Sheet1].[2019 년]' />
+                    <field name='[Sheet1].[2020 년]' />
+                    <field name='[Sheet1].[2021 년]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.07bx0cj1woaphn1dwjkk11g60ji9' name='Sheet1' table='[Sheet1$]' type='table'>
+                  <columns gridOrigin='A1:J24:no:A1:J24:0' header='yes' outcome='2'>
+                    <column datatype='string' name='행정구역별(읍면동)' ordinal='0' />
+                    <column datatype='string' name='연령별' ordinal='1' />
+                    <column datatype='string' name='항목' ordinal='2' />
+                    <column datatype='integer' name='2015 년' ordinal='3' />
+                    <column datatype='integer' name='2016 년' ordinal='4' />
+                    <column datatype='integer' name='2017 년' ordinal='5' />
+                    <column datatype='integer' name='2018 년' ordinal='6' />
+                    <column datatype='integer' name='2019 년' ordinal='7' />
+                    <column datatype='integer' name='2020 년' ordinal='8' />
+                    <column datatype='integer' name='2021 년' ordinal='9' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1(총인구수와연간음주율병합)' inline='true' name='federated.1ix668a1jiyrw3191ihf90x7u9h4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='총인구수와연간음주율병합' name='excel-direct.0er41gn1n6ypwn1a7qe6x0ez1856'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/이민정/OneDrive/바탕 화면/mid project/데이터 전처리 완료 엑셀/총인구수와연간음주율병합.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0er41gn1n6ypwn1a7qe6x0ez1856' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:M8:no:A1:M8:0' header='yes' outcome='2'>
+            <column datatype='date' date-parse-format='yyyy' name='연도' ordinal='0' />
+            <column datatype='real' name='19~29세' ordinal='1' />
+            <column datatype='real' name='30~39세_x' ordinal='2' />
+            <column datatype='real' name='40~49세_x' ordinal='3' />
+            <column datatype='real' name='50~59세_x' ordinal='4' />
+            <column datatype='real' name='60~69세_x' ordinal='5' />
+            <column datatype='real' name='70세이상_x' ordinal='6' />
+            <column datatype='integer' name='20~29세' ordinal='7' />
+            <column datatype='integer' name='30~39세_y' ordinal='8' />
+            <column datatype='integer' name='40~49세_y' ordinal='9' />
+            <column datatype='integer' name='50~59세_y' ordinal='10' />
+            <column datatype='integer' name='60~69세_y' ordinal='11' />
+            <column datatype='integer' name='70세이상_y' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>14</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M8:no:A1:M8:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연도</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[연도]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>연도</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>19~29세</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[19~29세]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>19~29세</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>30~39세_x</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[30~39세_x]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>30~39세_x</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>40~49세_x</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[40~49세_x]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>40~49세_x</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>50~59세_x</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[50~59세_x]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>50~59세_x</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>60~69세_x</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[60~69세_x]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>60~69세_x</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>70세이상_x</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[70세이상_x]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>70세이상_x</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>20~29세</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[20~29세]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>20~29세</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>30~39세_y</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[30~39세_y]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>30~39세_y</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>40~49세_y</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[40~49세_y]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>40~49세_y</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>50~59세_y</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[50~59세_y]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>50~59세_y</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>60~69세_y</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[60~69세_y]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>60~69세_y</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>70세이상_y</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[70세이상_y]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>70세이상_y</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='30~39세 X' datatype='real' name='[30~39세_x]' role='measure' type='quantitative' />
+      <column caption='30~39세 Y' datatype='integer' name='[30~39세_y]' role='dimension' type='ordinal' />
+      <column caption='40~49세 X' datatype='real' name='[40~49세_x]' role='measure' type='quantitative' />
+      <column caption='40~49세 Y' datatype='integer' name='[40~49세_y]' role='dimension' type='ordinal' />
+      <column caption='50~59세 X' datatype='real' name='[50~59세_x]' role='measure' type='quantitative' />
+      <column caption='50~59세 Y' datatype='integer' name='[50~59세_y]' role='dimension' type='ordinal' />
+      <column caption='60~69세 X' datatype='real' name='[60~69세_x]' role='measure' type='quantitative' />
+      <column caption='60~69세 Y' datatype='integer' name='[60~69세_y]' role='dimension' type='ordinal' />
+      <column caption='70세이상 X' datatype='real' name='[70세이상_x]' role='measure' type='quantitative' />
+      <column caption='70세이상 Y' datatype='integer' name='[70세이상_y]' role='dimension' type='ordinal' />
+      <column caption='20대 음주인구' datatype='real' name='[Calculation_1362338902299590658]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[20~29세] * [19~29세]' />
+      </column>
+      <column caption='30대 음주인구' datatype='real' name='[Calculation_1362338902299697155]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[30~39세_x] * [30~39세_y]' />
+      </column>
+      <column caption='40대 음주인구' datatype='real' name='[Calculation_1362338902300037125]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[40~49세_x] * [40~49세_y]' />
+      </column>
+      <column caption='50대 음주인구' datatype='real' name='[Calculation_1362338902300127238]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[50~59세_x] * [50~59세_y]' />
+      </column>
+      <column caption='60대 음주인구' datatype='real' name='[Calculation_1362338902300217351]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[60~69세_x] * [60~69세_y]' />
+      </column>
+      <column caption='70대 이상 음주인구' datatype='real' name='[Calculation_1362338902300295176]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[70세이상_x]*[70세이상_y]' />
+      </column>
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/이민정/AppData/Local/Temp/TableauTemp/#TableauTemp_1w8esel0esroy312mua9i0baq572.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/29/2025 05:49:14 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>연도</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[연도]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>연도</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>19~29세</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[19~29세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>19~29세</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>30~39세_x</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[30~39세_x]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>30~39세_x</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>40~49세_x</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[40~49세_x]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>40~49세_x</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>50~59세_x</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[50~59세_x]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>50~59세_x</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>60~69세_x</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[60~69세_x]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>60~69세_x</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>70세이상_x</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[70세이상_x]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>70세이상_x</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>20~29세</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[20~29세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>20~29세</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>30~39세_y</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[30~39세_y]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>30~39세_y</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>40~49세_y</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[40~49세_y]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>40~49세_y</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>50~59세_y</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[50~59세_y]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>50~59세_y</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>60~69세_y</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[60~69세_y]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>60~69세_y</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>70세이상_y</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[70세이상_y]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>70세이상_y</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_C4197D6E6C624FC28BE4BBDAEE6F4F3B'>
+            <properties context=''>
+              <relation connection='excel-direct.0er41gn1n6ypwn1a7qe6x0ez1856' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:M8:no:A1:M8:0' header='yes' outcome='2'>
+                  <column datatype='date' date-parse-format='yyyy' name='연도' ordinal='0' />
+                  <column datatype='real' name='19~29세' ordinal='1' />
+                  <column datatype='real' name='30~39세_x' ordinal='2' />
+                  <column datatype='real' name='40~49세_x' ordinal='3' />
+                  <column datatype='real' name='50~59세_x' ordinal='4' />
+                  <column datatype='real' name='60~69세_x' ordinal='5' />
+                  <column datatype='real' name='70세이상_x' ordinal='6' />
+                  <column datatype='integer' name='20~29세' ordinal='7' />
+                  <column datatype='integer' name='30~39세_y' ordinal='8' />
+                  <column datatype='integer' name='40~49세_y' ordinal='9' />
+                  <column datatype='integer' name='50~59세_y' ordinal='10' />
+                  <column datatype='integer' name='60~69세_y' ordinal='11' />
+                  <column datatype='integer' name='70세이상_y' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1(연간음주율과총인구)' inline='true' name='federated.0r1bgik0mi9mur137ktwq0mq8m5a' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='연간음주율과총인구' name='excel-direct.165tntg1m9lpkj160iubv09x2fga'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/이민정/OneDrive/바탕 화면/mid project/데이터 전처리 완료 엑셀/연간음주율과총인구.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='integer' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[19~29세]' />
+            <value name='[30~39세]' />
+            <value name='[40~49세]' />
+            <value name='[50~59세]' />
+            <value name='[60~69세]' />
+            <value name='[70세이상]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[Sheet1].[19~29세]' />
+              <field name='[Sheet1].[30~39세]' />
+              <field name='[Sheet1].[40~49세]' />
+              <field name='[Sheet1].[50~59세]' />
+              <field name='[Sheet1].[60~69세]' />
+              <field name='[Sheet1].[70세이상]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.165tntg1m9lpkj160iubv09x2fga' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:G8:no:A1:G8:0' header='yes' outcome='6'>
+              <column datatype='date' date-parse-format='yyyy' name='연도' ordinal='0' />
+              <column datatype='integer' name='30~39세' ordinal='1' />
+              <column datatype='integer' name='40~49세' ordinal='2' />
+              <column datatype='integer' name='50~59세' ordinal='3' />
+              <column datatype='integer' name='60~69세' ordinal='4' />
+              <column datatype='integer' name='70세이상' ordinal='5' />
+              <column datatype='integer' name='19~29세' ordinal='6' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>14</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G8:no:A1:G8:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연도</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[연도]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>연도</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <object-id>[Sheet1_656EC4435B6D4F1FAB9EF62C1DFAAC65]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드명</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[피벗 필드명]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드명</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_656EC4435B6D4F1FAB9EF62C1DFAAC65]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드 값</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[피벗 필드 값]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드 값</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_656EC4435B6D4F1FAB9EF62C1DFAAC65]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='음주인구' datatype='integer' name='[Calculation_1266637410226270208]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INT([피벗 필드 값]/ 100)' />
+      </column>
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_656EC4435B6D4F1FAB9EF62C1DFAAC65]' role='measure' type='quantitative' />
+      <column caption='1' datatype='integer' name='[피벗 필드 값]' role='measure' type='quantitative' />
+      <column caption='연령대' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/이민정/AppData/Local/Temp/TableauTemp/#TableauTemp_17mb3g20rhvbl81csbehs0wspr7z.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/29/2025 06:19:44 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>연도</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[연도]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>연도</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_656EC4435B6D4F1FAB9EF62C1DFAAC65]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드명</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[피벗 필드명]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드명</remote-alias>
+              <ordinal>1</ordinal>
+              <family>피벗</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Sheet1_656EC4435B6D4F1FAB9EF62C1DFAAC65]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드 값</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[피벗 필드 값]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드 값</remote-alias>
+              <ordinal>2</ordinal>
+              <family>피벗</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_656EC4435B6D4F1FAB9EF62C1DFAAC65]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[sum:60~69세:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[sum:40~49세:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[sum:30~39세:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[sum:19~29세:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[sum:50~59세:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[sum:70세이상:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='연도' />
+        <field-sort-custom-order field='피벗 필드명' />
+        <field-sort-custom-order field='피벗 필드 값' />
+        <field-sort-custom-order field='Calculation_1266637410226270208' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_656EC4435B6D4F1FAB9EF62C1DFAAC65'>
+            <properties context=''>
+              <relation name='피벗' type='pivot'>
+                <columns>
+                  <column datatype='string' name='피벗 필드명' />
+                  <column datatype='integer' name='피벗 필드 값' />
+                </columns>
+                <tag name='피벗 필드명'>
+                  <value name='[19~29세]' />
+                  <value name='[30~39세]' />
+                  <value name='[40~49세]' />
+                  <value name='[50~59세]' />
+                  <value name='[60~69세]' />
+                  <value name='[70세이상]' />
+                </tag>
+                <groups>
+                  <group name='피벗 필드 값'>
+                    <field name='[Sheet1].[19~29세]' />
+                    <field name='[Sheet1].[30~39세]' />
+                    <field name='[Sheet1].[40~49세]' />
+                    <field name='[Sheet1].[50~59세]' />
+                    <field name='[Sheet1].[60~69세]' />
+                    <field name='[Sheet1].[70세이상]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.165tntg1m9lpkj160iubv09x2fga' name='Sheet1' table='[Sheet1$]' type='table'>
+                  <columns gridOrigin='A1:G8:no:A1:G8:0' header='yes' outcome='6'>
+                    <column datatype='date' date-parse-format='yyyy' name='연도' ordinal='0' />
+                    <column datatype='integer' name='30~39세' ordinal='1' />
+                    <column datatype='integer' name='40~49세' ordinal='2' />
+                    <column datatype='integer' name='50~59세' ordinal='3' />
+                    <column datatype='integer' name='60~69세' ordinal='4' />
+                    <column datatype='integer' name='70세이상' ordinal='5' />
+                    <column datatype='integer' name='19~29세' ordinal='6' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
   </datasources>
   <worksheets>
+    <worksheet name='연간음주인구2015~2021'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(연간음주율과총인구)' name='federated.0r1bgik0mi9mur137ktwq0mq8m5a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r1bgik0mi9mur137ktwq0mq8m5a'>
+            <column caption='음주인구' datatype='integer' name='[Calculation_1266637410226270208]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='INT([피벗 필드 값]/ 100)' />
+            </column>
+            <column-instance column='[피벗 필드명]' derivation='None' name='[none:피벗 필드명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1266637410226270208]' derivation='Sum' name='[sum:Calculation_1266637410226270208:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[연도]' derivation='Year' name='[yr:연도:ok]' pivot='key' type='ordinal' />
+            <column datatype='date' name='[연도]' role='dimension' type='ordinal' />
+            <column caption='1' datatype='integer' name='[피벗 필드 값]' role='measure' type='quantitative' />
+            <column caption='연령대' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[yr:연도:ok]' value='152' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[none:피벗 필드명:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[sum:Calculation_1266637410226270208:qk]</rows>
+        <cols>[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[yr:연도:ok]</cols>
+      </table>
+      <simple-id uuid='{5DA24D3C-D4D2-4363-BF35-ACAFEB670C89}' />
+    </worksheet>
+    <worksheet name='연령별연간음주율2007~2021'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(연간음주율)' name='federated.1hw0o5k0x93g6p17vpg9a1nj1m2y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hw0o5k0x93g6p17vpg9a1nj1m2y'>
+            <column-instance column='[피벗 필드명]' derivation='None' name='[none:피벗 필드명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드 값]' derivation='Sum' name='[sum:피벗 필드 값:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[연도]' derivation='Year-Trunc' name='[tyr:연도:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[연도]' role='dimension' type='ordinal' />
+            <column caption='음주율' datatype='real' name='[피벗 필드 값]' role='measure' type='quantitative' />
+            <column caption='연령대' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1hw0o5k0x93g6p17vpg9a1nj1m2y].[tyr:연도:qk]' scope='cols' value='연도' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1hw0o5k0x93g6p17vpg9a1nj1m2y].[none:피벗 필드명:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-mode' value='line-ends' />
+                <format attr='mark-labels-line-last' value='false' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1hw0o5k0x93g6p17vpg9a1nj1m2y].[sum:피벗 필드 값:qk]</rows>
+        <cols>[federated.1hw0o5k0x93g6p17vpg9a1nj1m2y].[tyr:연도:qk]</cols>
+      </table>
+      <simple-id uuid='{7618F155-61E9-473F-94CD-2D2507A4D399}' />
+    </worksheet>
+    <worksheet name='연령별음주운전2005~2021'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(연령별음주사고)' name='federated.151nv7v00eu76214bhmhb0n5ii3t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.151nv7v00eu76214bhmhb0n5ii3t'>
+            <column datatype='integer' name='[20세 이하]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[21-30 세]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[31-40 세]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[41-50 세]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[51-60 세]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[61세 이상]' role='measure' type='quantitative' />
+            <column-instance column='[구분]' derivation='None' name='[none:구분:nk]' pivot='key' type='nominal' />
+            <column-instance column='[20세 이하]' derivation='Sum' name='[sum:20세 이하:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[21-30 세]' derivation='Sum' name='[sum:21-30 세:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[31-40 세]' derivation='Sum' name='[sum:31-40 세:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[41-50 세]' derivation='Sum' name='[sum:41-50 세:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[51-60 세]' derivation='Sum' name='[sum:51-60 세:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[61세 이상]' derivation='Sum' name='[sum:61세 이상:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[구분]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.151nv7v00eu76214bhmhb0n5ii3t].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:20세 이하:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:21-30 세:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:31-40 세:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:41-50 세:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:51-60 세:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.151nv7v00eu76214bhmhb0n5ii3t].[sum:61세 이상:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.151nv7v00eu76214bhmhb0n5ii3t].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.151nv7v00eu76214bhmhb0n5ii3t].[none:구분:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.151nv7v00eu76214bhmhb0n5ii3t].[:Measure Names]' />
+              <text column='[federated.151nv7v00eu76214bhmhb0n5ii3t].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-transparency' value='208' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.151nv7v00eu76214bhmhb0n5ii3t].[Multiple Values]</rows>
+        <cols>([federated.151nv7v00eu76214bhmhb0n5ii3t].[none:구분:nk] / [federated.151nv7v00eu76214bhmhb0n5ii3t].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{EDB0DBEF-AE06-4C39-AEB5-E3BBA8AE1781}' />
+    </worksheet>
     <worksheet name='요일별음주운전1991~2021'>
       <table>
         <view>
@@ -1298,6 +3331,58 @@
       </table>
       <simple-id uuid='{02C9ED15-F644-43E0-A416-9E36AC78EC56}' />
     </worksheet>
+    <worksheet name='총인구수2015~2021'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(총인구수2015~2021)' name='federated.0kyyr420p482e4180vwbl045jtyz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kyyr420p482e4180vwbl045jtyz'>
+            <column-instance column='[연령별]' derivation='None' name='[none:연령별:nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드명]' derivation='None' name='[none:피벗 필드명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드 값]' derivation='Sum' name='[sum:피벗 필드 값:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[연령별]' role='dimension' type='nominal' />
+            <column caption='총인구수' datatype='integer' name='[피벗 필드 값]' role='measure' type='quantitative' />
+            <column caption='연도' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kyyr420p482e4180vwbl045jtyz].[none:연령별:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:연령별:nk]' member='&quot;20대&quot;' />
+              <groupfilter function='member' level='[none:연령별:nk]' member='&quot;30대&quot;' />
+              <groupfilter function='member' level='[none:연령별:nk]' member='&quot;40대&quot;' />
+              <groupfilter function='member' level='[none:연령별:nk]' member='&quot;50대&quot;' />
+              <groupfilter function='member' level='[none:연령별:nk]' member='&quot;60대&quot;' />
+              <groupfilter function='member' level='[none:연령별:nk]' member='&quot;70대이상&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kyyr420p482e4180vwbl045jtyz].[none:연령별:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.0kyyr420p482e4180vwbl045jtyz].[sum:피벗 필드 값:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kyyr420p482e4180vwbl045jtyz].[none:피벗 필드명:nk]</rows>
+        <cols>[federated.0kyyr420p482e4180vwbl045jtyz].[none:연령별:nk]</cols>
+      </table>
+      <simple-id uuid='{94060F82-49AD-4BC8-9966-81FCBBB5A974}' />
+    </worksheet>
     <worksheet name='평일,주말별음주운전1991~2021'>
       <table>
         <view>
@@ -1386,6 +3471,43 @@
       </table>
       <simple-id uuid='{E24F4516-20D9-4650-AF61-0C61FCB5AE52}' />
     </worksheet>
+    <worksheet name='폭음률 2007~2021'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(폭음률)' name='federated.1lyxedr1e7m8hr1ggir7j1q2io7r' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lyxedr1e7m8hr1ggir7j1q2io7r'>
+            <column-instance column='[피벗 필드명]' derivation='None' name='[none:피벗 필드명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드 값]' derivation='Sum' name='[sum:피벗 필드 값:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[연도]' derivation='Year-Trunc' name='[tyr:연도:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[연도]' role='dimension' type='ordinal' />
+            <column caption='폭음률' datatype='real' name='[피벗 필드 값]' role='measure' type='quantitative' />
+            <column caption='연령대' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1lyxedr1e7m8hr1ggir7j1q2io7r].[tyr:연도:qk]' scope='cols' value='연도' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1lyxedr1e7m8hr1ggir7j1q2io7r].[none:피벗 필드명:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1lyxedr1e7m8hr1ggir7j1q2io7r].[sum:피벗 필드 값:qk]</rows>
+        <cols>[federated.1lyxedr1e7m8hr1ggir7j1q2io7r].[tyr:연도:qk]</cols>
+      </table>
+      <simple-id uuid='{896ED748-FD79-441A-A1D0-5BE481010C04}' />
+    </worksheet>
     <worksheet name='혈중알콜농도별 음주운전사고 2014~2023'>
       <table>
         <view>
@@ -1451,8 +3573,8 @@
       <simple-id uuid='{7650D742-EB80-451C-9605-A3F0A5CC3AE5}' />
     </worksheet>
   </worksheets>
-  <windows source-height='72'>
-    <window class='worksheet' maximized='true' name='주야간별음주운전'>
+  <windows source-height='198'>
+    <window class='worksheet' name='주야간별음주운전'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1479,13 +3601,6 @@
           </strip>
         </edge>
       </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.0ok63ct1ncxmwn16mfy851a21pst].[none:주야별(1):nk]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
       <simple-id uuid='{A3815203-07A6-4D75-A6F0-B7AC74E8B69D}' />
     </window>
     <window class='worksheet' name='혈중알콜농도별 음주운전사고 2014~2023'>
@@ -1514,13 +3629,6 @@
           </strip>
         </edge>
       </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.190vtdh0jjfpll18bk0kp0ktuogm].[none:1당음주정도별(2):nk]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
       <simple-id uuid='{D7669079-AEB3-46A8-9145-9D4794F6399C}' />
     </window>
     <window class='worksheet' name='요일별음주운전1991~2021'>
@@ -1550,13 +3658,6 @@
           </strip>
         </edge>
       </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
       <simple-id uuid='{58C7545D-ECCD-42A4-89F0-648DA69E6281}' />
     </window>
     <window class='worksheet' name='평일,주말별음주운전1991~2021'>
@@ -1586,466 +3687,507 @@
           </strip>
         </edge>
       </cards>
+      <simple-id uuid='{CA8CC63B-4D62-492E-9527-FF4DE85D65C5}' />
+    </window>
+    <window class='worksheet' name='연령별음주운전2005~2021'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.151nv7v00eu76214bhmhb0n5ii3t].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{69413740-DF5B-4882-BAED-90F4E0558D77}' />
+    </window>
+    <window class='worksheet' name='연령별연간음주율2007~2021'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1hw0o5k0x93g6p17vpg9a1nj1m2y].[none:피벗 필드명:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{442C6787-EC36-4D17-894C-1EA040BC3F13}' />
+    </window>
+    <window class='worksheet' name='폭음률 2007~2021'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1lyxedr1e7m8hr1ggir7j1q2io7r].[none:피벗 필드명:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F2346937-2480-4DA9-8239-F02E0CE00899}' />
+    </window>
+    <window class='worksheet' name='총인구수2015~2021'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2E93BE76-3FE2-46DD-A5B3-5FCC38CFD1DE}' />
+    </window>
+    <window class='worksheet' maximized='true' name='연간음주인구2015~2021'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[none:피벗 필드명:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
       <viewpoint>
         <highlight>
           <color-one-way>
-            <field>[federated.1ty84g901i8w8e11154am1vbgp5b].[:Measure Names]</field>
-            <field>[federated.1ty84g901i8w8e11154am1vbgp5b].[none:구분:nk]</field>
+            <field>[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[:Measure Names]</field>
+            <field>[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[none:피벗 필드명:nk]</field>
+            <field>[federated.0r1bgik0mi9mur137ktwq0mq8m5a].[yr:연도:ok]</field>
           </color-one-way>
         </highlight>
       </viewpoint>
-      <simple-id uuid='{CA8CC63B-4D62-492E-9527-FF4DE85D65C5}' />
+      <simple-id uuid='{1991F002-BE63-4417-8AB1-938173C8AE9E}' />
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='요일별음주운전1991~2021' width='192'>
+    <thumbnail height='192' name='연간음주인구2015~2021' width='192'>
       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
-      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
+      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
     </thumbnail>
-    <thumbnail height='192' name='주야간별음주운전' width='192'>
-      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
-      NJH5zw+vAAAAAElFTkSuQmCC
-    </thumbnail>
-    <thumbnail height='192' name='평일,주말별음주운전1991~2021' width='190'>
-      iVBORw0KGgoAAAANSUhEUgAAAL4AAADACAYAAAC6XNksAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAARDUlEQVR4nO3de1RU5d7A8S8zwDAKiqJhXFouCRXUtIOmeMFMuywrPOaFwmtajK+4Fkt9
-      V6nd03qPlZ6FLTVINEVRMUNfL6WvihXJ0daUectzjKS4KOKoXEfAmf3+oQHDUOk5XH1+n7X4
-      Y/azZ1/k226zFzzjommahhCK0TX3AQjRHCR8oSQJXyhJwhdKkvCFkiR8oSQJXyhJwr9N5eXl
-      zX0IogFJ+EJJEr5QkoQvlCThCyVJ+EJJEr5QkoQvlCThCyVJ+EJJEr5QkmtzH8AfsV3P44f/
-      28/hfxzH85l4YsJqDVZd5B8bk0g1/0pZlRttg0cwa9Y4unsC2CjMWMPyLd9xxe6B/9AXmRfd
-      G08AzCQmQkz1xqwcT/obPwx8lWm93Zr4DEVzacFX/Hz2rU7mbOfHmD2ml9Po8Y2rOd0tilf/
-      nkDCqg+Y/5dcPkk7c+ute/kovQPT3llFQvxChls2sO6Itd69lJqTSXOPYrJEr5QWHL4fo+cu
-      IHqQPx5659E+U19n5vD76egG6D3wHx5OoPVm3FkZZu4bO46e7fXg1oXh0aMo/daMU/qlZlL2
-      eTM1OpR6diHuYi04/D+m19dOtZR/bf8Gj4dCAbh2rQNBQbXGfUIJdbVgcdhCKceS9+IdNY4g
-      qV45Lfoe/3bYis6y4+PdEDmL57sbgQoqKowYjbXX0qErLKAACAAwJ2IygaG/iWX1VP97v4Jc
-      UlLS8CcgmkWrDr/ql12s3glPzPrvWz/UAhgwGKxYrUB1/HbsnX3x/e1lWAwJMT3IiH+bLWf6
-      MiXUMf42bdo47au8vBwvL69GOQ/R9FrtrQ6Wg3x8wJdpsU/Xiv4mb++rZGXZaq17hjM3fPBx
-      WMuToTOjsG5NwlzaBMcrWpRWG/6ZvSe5/68P0b6e+/OgoWH8mrads0U2qLrIlykH8BwQhrHu
-      ip5hzHzRl71JGUj7anFpuVMImkk0JWKuuzgshoSYAPYufp2duXXG7n2KN958Gr86z/G7jYwl
-      dlz333mObyN311I2MJWXnw743ac75eXl9d4CidapBYffskj4d5dWe6sjxH9CwhdKkvCFkiR8
-      oSQJXyhJwhdKkvCFkiR8oSQJXyhJwhdKkvCFkiR8oSQJXyhJwhd3rLCwkCVLltCjRw+2bdvm
-      MFZSUsLHH39Mv379WLx4scPY5s2bCQ4ORq/XYzAYGD9+PFevXq13H0ePHiUkJAS9Xk/37t3Z
-      v38/ALm5uQQGBuLi4uLwNWzYMEpKSrDb7SQmJtKuXTsMBgNxcXFUVFQ4bV/CF3ekuLiY2NhY
-      AgICeP31153G58+fj8Vi4b333qNt27bVy2/cuEFFRQU7duygsrKSa9eu0b17d5YuXeq0jQsX
-      LvDGG2/wySefUFVVxc6dO3n//fc5d+4cAQEB5OTkoGla9demTZsYN24cXl5eHD16lE8//ZQT
-      J05QUFBAXl4eKSkpTvuQ8MUdadeuHampqUyfPh13d3en8cTERBYsWOD098murq5Mnz6dXr16
-      odfrMRqNjB49msrKSqdtZGdnM2zYMAYOHIhOpyMkJIQXXniBr776ymndsrIyDh8+zMSJEwFI
-      S0sjNjaWrl274u3tzaJFi0hPT6eqqsrhfRK+aHKVlZUcOnSIJUuWMHnyZKfxTp06sW/fPk6d
-      OgWA1WrFarWSlZXltO6hQ4fw9fXFz8+vet2QkJDq8W7dutGuXTvKysoc3teqZ1kQrc/EiRPZ
-      tm0bAwYMYM2aNTzwwANO6wQHBzN37lwef/xx8vPz6dixI3379iUwMNBhvYqKCvbs2cP8+fOB
-      m7dTNpvN4S/ldDodly5dorS0FG9v75rljXR+QtQrNTWVGzdukJycTHx8fL333wBjx44lLy8P
-      TdOwWCzMmTOHoKAgh3UyMzMxGo3Vy11dXdHr9Q7zItntdu655x48PR2n4pDwRZPT6/X06NGD
-      t956i127dv3pRF12u539+/fTt2/f6mVVVVVs376dKVOmoNPVZGw0Gvnxxx+rX//8888UFxc7
-      /KANEr5oIpcuXeLDDz8kJycHu91OZWUln332GXa7HQ8PD4d1b9y4wfHjx7FardhsNlauXElW
-      VhYjRoyoXufkyZMYDAb69evn8N6xY8eycuVKsrOzuXbtGu+++y4jRozAza3OpMCauC1lZWXN
-      fQgtQk5OjhYQEKABDl8TJkzQioqKtEGDBjmNDRo0SLt48aK2ePFizc/PTwM0d3d3LTIyUsvJ
-      ydE0TdPMZrM2ZMgQraCgQNM0TXvttdc0o9Go6fV6bfDgwVp2dnb1MdhsNm3OnDlaenq60/HZ
-      bDYtISFB8/Ly0tzd3bVFixZp169fd1pPphe5TTK9SONatmwZXl5exMTENMn+5FZHNLvi4mKK
-      ioqYNGlSk+1Trvi3Sa74dxe54gslSfhCSRK+UJL8yoK4Y+uG9GjuQ7hjz3/zT4fXcsUXSpLw
-      hZIkfKEkCV8oScIXSpLwhZIkfKEkCV8oScIXSpLwhZIkfKEkCV8oScIXSpLwhZIkfKEkCV8o
-      ScIXSpLwhZJadPi263l8t2sdy1+JI9HsNEjed7tYt/wV4pwHKcxIYOEcE6bZcbydcorS6jEz
-      iQ7rWzme9AbrT1Uh1NGCw89n3+pkznZ+jNljejmP7ltN8tnOPDZ7DE6j+Xv5KL0D095ZRUL8
-      QoZbNrDuiLXevZSak0lzj2Jyb7d6x8XdqQWH78fouQuIHuSPh76e0dFzWRA9CP96BrMyzNw3
-      dhw92+vBrQvDo0dR+q0Zp/RLzaTs82ZqdCj17ELcxVpw+P++a9c6EBRUK2WfUEJdLVgc1irl
-      WPJevKPGESTVK+cunF6kgooKI0Zj7WU6dIUFFAABAOZETCYw9DexrJ7qa3+wQG1/No+7aLnq
-      fu/uwvANGAxWrFagOn479s6++P72MiyGhJgeZMS/zZYzfZkS6hh/fXNklpeXO32gmWg96n7v
-      7spbHW/vq2Rl2WoWWM5w5oYPPg5reTJ0ZhTWrUmYSxGKuSvDDxoaxq9p2zlbZIOqi3yZcgDP
-      AWEY667oGcbMF33Zm5SBtK+WFnyrYybRlEjNE3cTJrh1mxKGOdHk8GzfdHOQmIQYwvxGM2vE
-      Gpa/Mpsrdg+6jYwldrBT9gDoA57i+W5LWbGrKy8/HSBPdxQh8+PfJpkfv4bMnSlEKyXhCyVJ
-      +EJJEr5QkoQvlCThCyVJ+EJJEr5QkoQvlCThCyVJ+EJJEr5QkoQvlCThCyVJ+EJJEr5QkoQv
-      lCThCyVJ+EJJEr5QkoQvlCThCyVJ+EJJEr5QkoQvlCThCyVJ+EJJEr5QkoQvlCThCyVJ+EJJ
-      Er5QkoQvlCThCyVJ+EJJEr5QkoQvlCThCyVJ+EJJEr5QkoQvlCThCyVJ+EJJEr5QkoQvlCTh
-      CyVJ+EJJLTp82/U8vtu1juWvxJForjtayr+2LyVutgnTnIWsOJiLreadFGYksHCOCdPsON5O
-      OUVp9ZiZRIeNWTme9AbrT1U16rmIlqUFh5/PvtXJnO38GLPH9HIatZpT2JA/iIXxCax6Zxpd
-      jiSwI/u3t+7lo/QOTHtnFQnxCxlu2cC6I9Z691JqTibNPYrJvd0a71REi9OCw/dj9NwFRA/y
-      x0Nfd8yKOcNCRPRwuriBvn1Pxo29n5PHsgDIyjBz39hx9GyvB7cuDI8eRem3ZpzSLzWTss+b
-      qdGhOO1C3NVacPh/5CpXCSLIp2aJPiQEX4sFG3DtWgeCgmql7BNKqKsFi8M2SjmWvBfvqHEE
-      SfXKcW3uA/j3VFKpM2KsvUivR1+QTwEVVFQYMToM6tAVFlAABACYEzGZwNDfxLJ6qi8vL693
-      ryUlJQ12BqJp1f3etdLw3XG3Wx1vXWw2bL6++GLggsGK1Qo1/2XYsXf2xfe3l2ExJMT0ICP+
-      bbac6cuUUMf427Rp47TH8vJyvLy8GvxMRNOo+71rpbc6HehAFlm17l1sP/5IgY8PesDb+ypZ
-      WTXPeLCc4cwNH3wctuHJ0JlRWLcmYS5FKKaVhm8kbKgPX6V8ycUqsBWdZXvaT/R5KAiAoKFh
-      /Jq2nbNFNqi6yJcpB/AcEOZ4awTgGcbMF33Zm5SBtK+WFnyrYybRlEjNE3cTJrh1mxKGMSya
-      qdkr+Z+4FK7rOvKXZ+fxQtdbq/qNZtaINSx/ZTZX7B50GxlL7GCn7AHQBzzF892WsmJXV15+
-      OkCe7ijCRdM0rbkPojUoLy+v995fReuG9GjuQ7hjz3/zT4fXrfRWR4j/jIQvlCThCyVJ+EJJ
-      Er5QkoQvlCThCyVJ+EJJEr5QkoQvlCThCyVJ+EJJEr5QkoQvlCThCyVJ+EJJEr5QkoQvlCTh
-      CyVJ+EJJEr5QkoTfCNLS0vD390ev19O/f39Onz5dPZadnc2YMWMwGAwYDAYmT578u1MTbtu2
-      DRcXl+qv9u3bk5mZSWZmJu3bt3cYc3FxYdKkSQ7vLy4uJiIigvDwcIqLixv1nFsbCb+BHT9+
-      nLVr13L48GGqqqr44IMPeOmll7hy5QolJSUsWLCAZ599lpKSEi5fvkynTp1ISkqqd1s//fQT
-      27dvR9M0NE2jqKiI8PBwwsPDKSoqql6uaRpLlixh4sSJDu/fsmULwcHB+Pv7N8WptyoSfgM7
-      d+4cEyZMIDg4GJ1Ox8MPP0xERATff/89bdu2ZdOmTTz33HO4u7vj5eXF+PHjsdls9W7r8uXL
-      3HvvvX+6z/z8fH755RdGjRrlcByHDh0iLi4OnU6+zXXJv0gD69y5Mxs3buTChQvAzduNyspK
-      zp8/j06nQ6+vmautpKSE9evXM3ToUKftVFVVUVZWRmBg4J/uMzU1lcGDB9O2bVsA7HY7q1at
-      YubMmXTs2LGBzuzuIuE3sIiICJ544gl69+6Ni4sLISEhHD58mNzcXIf1zGYzUVFRzJkzh4ED
-      Bzpt5/r165w+fZrAwEBcXFzw9/dn5cqV2O12h/UKCws5efIkkZGR1csOHjyIp6cnI0eObJyT
-      vAtI+A1Mp9Mxb948LBYLmqaRl5fHI488Qq9eNz/OyG63s3HjRtauXcvWrVvp27dvvdvx8vLi
-      66+/RtM0bDYbBw8eZPfu3ezfv99hvT179tCnT5/qK3txcTGbN29m9uzZcovzB+RfppGVlZVh
-      NpsJCro5k/Pnn39OdnY2K1asuO359nU6HT179mTGjBmYzTXT6BYXF5Oenu7wQ+2BAwdYv349
-      fn5+uLi4EBgYyLZt2wgMDCQzM7NhT64Vk/AbmNVq5cSJE1RWVlJeXs6bb76Jt7c3ffr0wWq1
-      snv3bmbMmOFwr1+fY8eOMW/ePPLz84GbP6yuXr2aIUOGVK+Tnp7Ogw8+iJ+fX/WyZ555BpvN
-      Vv20JycnhwkTJpCTk0N4eHjjnHQrJOE3guXLl+Pl5UWHDh04f/48y5Ytw83NjStXrvDFF1/g
-      7+/v8Pz9tyv2zp07iYyMxGq1EhYWRu/evRkwYAAuLi4MGTKEadOmERERAdz8P0lqaipPPvlk
-      c55qqyXThN+mxp4m3G63ExcXR2RkJI8++mij7achyDThosHk5ubSpUsXeRLTROSKf5vkgyFq
-      yBVfiFZKwhdKkvCFklrwpx62LmUnTM19CHes7QMJzX0IzUau+EJJEr5QkoQvlCThCyVJ+EJJ
-      Er5QkoQvlCThCyVJ+EJJEr5QUuv9lYXSU6TEr+XIr2XYPfwZMOm/mPpQZ27+QZ+Nwow1LN/y
-      HVfsHvgPfZF50b3xBMBMYiLExITd2pCV40l/44eBrzKtt1sznYxoaq30im/hYML/4vrXV/l7
-      QgIfLp1Ml8MfsSP71nD+Xj5K78C0d1aREL+Q4ZYNrDtirXdLpeZk0tyjmCzRK+X/AfDwEqd9
-      DWlKAAAAAElFTkSuQmCC
-    </thumbnail>
-    <thumbnail height='192' name='혈중알콜농도별 음주운전사고 2014~2023' width='192'>
-      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAATB0lEQVR4nO3dSW8beXrH8W8V91VcREqytXprud329BrM0pn0oU8DzFuYl5AccwrQyCsI
-      8h4CJDnkMMghCAZoBDMJeqbRA/dit2S1tYsSSS2kyCKLtf1z0Iy63ZY8VJtFyqrnAwiWIKP+
-      z5+qH2t7qqgppRRCBJQ+6gKEGKWBBMB1XWRDIl5FsgUQgSYBEIEmARCBJgEQgSYBEIEmARCB
-      JgEQgSYBEIEWHnUBV9HS0hLVapVEIkGtVuMXv/gFX331Fdvb25TLZSYnJ/nss88ol8v85Cc/
-      GXW5gSZbAB/s7u7SarUwDINr167heR7FYhFN07h16xaO4+B5HrZtj7rUwNMG0Qznui66rqNp
-      2iBqeuXVajW+/PJLZmZmODg4IJvNYpomtm2jaRq2bZ+G4t69e6MuN9AkAEPgui6hUGjUZYgz
-      9H0MsLW2gqUnwWzQVVGK2TimBQvzM37Wd6n1VlbY/6d/HvhyY3duM/53fzvw5Yrn9R2AVqtF
-      zzPJ5rJkUOxurTM+dw/P8/A8L5DdoI7Zwz04GPxym2Ucxxn4csXz+g7AtevXqTa6pKMapopz
-      6+6PsCwLTdfRlQrkLpAT8uccgqZphMNygm4Y+n6Vc8UJckU/SxFi+OQ0qAg0CYAINAmACDQJ
-      gAg0CYAINAmACDQJgAg0CYAINAmACDQJgAi0vlshqpVNWj2NhG5jhxLk0gksy6JcLvtZnxC+
-      6jsAHcPA05MYpkE4FWNt+QtKCw8C3Q3qup4vy1VKSTfokPQdgFQqTWW/RSmX5sgwmJq7Rbdz
-      jKbnpBt0wKQbdHj6fpXL12YoXzv5/rpf1QgxZFf+bWZzc5Pd3V0mJyfpdrssLi7S6/WoVCps
-      bGxQLpcJh8PcuXNn1KWKEbjyZ4EePXpELpcjk8mwv7+PUorPP/+cnZ0d3nnnHZRS1Ov1UZcp
-      RuTKB+D27dt88cUX/Pa3v2VsbIyjoyOq1Spra2usrKxw8+ZNdnd3qVQqoy5VjMCV3wWamZk5
-      fTaP67o0m01++ctfnp5lCYVCfPjhh8RisRFXKkbh6gTguA37z9+g/v3VegxgdeOZiedetNxM
-      GkpyL+hVdXUCsFuF//108Mt97aYE4Aq78scAQryIBEAEmgRABJoEQARa3wfB7eYB9aZJeSyB
-      SZR0PILruiSTST/rE8JXfQdgp7JLvjzNXn0fpaBqHpPMX2c2Hkcphef50xnZL015vmzOlFJ4
-      rnvm7zzPpw5YpXDPGVMMVt8BKOTzrK+tMZZJ4BEiGo3hOvZpB+ioO0E1/Bv/vLn5N2dt5K9n
-      UPQdgOxYjjupHPEwOISJRUIn7/rayR/rz18j49PYmqah6WdvW3xc/9HPGVMMVt8BiCVSp1dV
-      pWlAXBXyNiMCTQIgAk0CIAJNAiACTQIgAk0CIAJNAiACTQIgAk0CIALtArdEKlotA82zMGzI
-      Z9N4nkc8HvevOiF81ncAmvtVljbrZGOK0tQc698sEcmUmJ+eRCl1+jUySvnWDarO6XT1bb6K
-      kXfXBkXf68zuXpVOq0E6O8bm5gaeUii/2oGFGJK+twCLb/yIhV4Pq2uQHiuSikdP+uQD3Q3q
-      03ylG3RoLvRYlFgsJg+QEleKvM2IQJMAiECTAIhAkwCIQJMAiECTAIhAkwCIQJMAiECTAIhA
-      kwCIQOu7FcLqNHn49QbFdBhTRSlk4/RsxfzcjJ/1CeGrvgPw6NEjWoZLsTBLWlPsbq0xPvcG
-      nufhed5oW6EBzfMI+bBcz/Pw/vSBet/nuv60LCulTj/ET/ir7wC89d5POTw8xO62MFWcm4sP
-      sCwLTdfRlULX9dF2g/rUPanrOnr47JfJCfkzpqZphM8ZUwzWhV7lQqEAFHwqRYjhk4NgEWgS
-      ABFoEgARaBIAEWgSABFoEgARaBIAEWgSABFoEgARaBIAEWh9t0LUd7c4MByyUYWlJ8hnkliW
-      RalU8rM+IXzVdwBS6TSbtQq65RFJx1ld+pzSwgPpBvWBdIMOT98BOG420ZQimU5z1G4xNXuT
-      bucYTc9JN+iASTfo8PT9Kk9OzzM5ffL9tF/VCDFkchAsAk0CIALtjF0gi//4l3/j2PFYeO0B
-      f/Pjt4ZflRBDckYAbOKZCYpjUd59+8HwKxJiiM4IQJQfv/9jkjGwbAeifpxcFOJyOCMAIZYf
-      /h9uMoMeKvDT9+4OvyohhuSMg+A2//rv/83O2pesbu4NvyIhhuiMLUCGf/jHvyeaSMlnAIsr
-      74wAaIyXJ3wZ7I9//CO1Wg3HcSiXy7z11lv8+te/Zmpqip2dHX7+85/zu9/9jg8++IBisehL
-      DUJ811CvA+RyORYXFykWi2xvb59+GLTjOKTTaT755BOePn1KtVodZlkiwPrvBt3b5qjjkovr
-      dFWUfCaBbdsXeqfe2toinU4TDod58803WVlZoVAoMD4+jm3bvPnmm7z//vuy6yWGpv9u0GSS
-      reouUT2Fpjp8s7RCae4e+Qt0g/7sZz975melFIuLiwDcuXPnmd9dtBtSukHFD9F/N+jxMa7r
-      YJsGPaJMXp+jaxyjTeSf6wZdXf6arbXVgRd747W7zCzcOPuX0g0qfoAf1A36lziOg9Uzf2hN
-      53JdeVcUgyXNcCLQJAAi0GRH84o4ODjgk08+4fbt26fXVB4/fkyj0SCRSAAnB/SapvHee++N
-      uNrLQ7YAV0Qul6NcLrO6uoplWZimieM4rK+v02w26XQ6hMNhNE0b+f3bl4kE4IpYWVmhXq8z
-      NzeH53msrKyQy+W4fv065XIZy7Lodrs4jjPae7cvGdkFuiIWFxdPr6ncvXsXwzBIpVIsLCwA
-      cP/+/VGWd2lJAF4xtmXx+OFnA19uJBrl9TffGfhyLzsJwCvGdV1qu5WBLzcWTwx8ma8COQYQ
-      gSYBEIHW/yfFdw1aPZe47tGxIZdN4XkesVjMz/qE8FXfAeiaJru7NcLKpjg1y/rTZcLJAvMz
-      UyilTr8A8Ok8s1Lq9B6C79OUwo+Te0op1Dlj+nY+XXHuPP08h3/emFdZ3wHoGG0mJq9hGw22
-      NjdJhJ9tP/7uH8bPyywvWgH8Ort97pi+TVS9YJ5+DfqiMa+uvgMQi8VotdvkMinmMgUyyRiu
-      64KmoWnaM+3Qfl1o0TSNUOicrv8RjKnpPkXuRWNqfh22veC1vcL6DkChNEnBz0qEGAE5CyQC
-      TQIgAk0CIAJNAiACTQIgAk0CIAJNAiACTQIgAk0CIAJNAiACrf+H4+5us1VvMhbXMFWUYjaB
-      aXnMz834WZ8Qvuo7APFkkolyDKfXIa0Ulc1VSvNvnDw89nsPxz2vffhleZ537kNjg/JwXNd1
-      fRkTgvlA3r4DcHRwQNcLk43r9Ihxc/EBlmWh6fpzD8fVfHxQ7bkPjQ3Iw3Ed3zo2g/lA3r5n
-      PHvjtp91CDESchAsAk0CIAJNAiACTQIgAk0CIAJNAiACTQIgAk0CIAJNAiACTQIgAq3/XqD9
-      HdpWHLtdQ0/mSEY0zJ7D7GyfHx4sxCXUdwDy4+MY28eEwyHaRofDox1KNx5IN6gPpBt0ePoO
-      wP5elf0Dg2I+TkQLMfXafSyrJ92gPpBu0OHpe8bjk7OMT/pZihDDJwfBItAkACLQJAAi0CQA
-      ItAkACLQJAAi0CQAItAkACLQJAAi0CQAItD6boVoHtawtQTKbNBVUfKZJJZlUSwW/axPCF/1
-      HYD0WJrdXQPHcUF1WNleoTR3j7x0gw6cdIMOT//3A9RrbO80yY+FsFWMiWuzmMYx2kReukEH
-      TLpBh+cC3aDz0g0qnuN5HrZtEw6H0XUd27YJhUKoP70pAqf/XkbBi7wYKNM0+fjjj5mcnKRQ
-      KPCHP/wBTdNIJBLMz88TiURYXFwcdZnnurzRFK+EZDJJuVzm7bffPt11SyQSlEol5ufnL/1u
-      lQRAvBSlFAsLC1QqFcLhMKVSifv37zM2Nsbq6ip7e3vPnCC5bC53PMWlcXKG6OwVOZcbO/1+
-      cnLiud+77jln7tAIjXgLIQEQffmf//pPvAGfgh0rFPmrv/5goMu8KNkFEoEmARCBJgEQgSYB
-      EIEmARCBduGzQJ32MV1bkU0nUUoRjUb9qEuIobhwADY31ilMzrKx+oRQIs/8zBRKqdMvAPy6
-      8KEU3jmdpppSaL4Mqc7tbvXtAo/i3Hn6eVHpvDF984K/57BcOADZbJbtrU3iIZdE4ttV7pl2
-      6MHU9hylXrwC+BGAk3HPHtO/dVG9YEzfXt2RXLEd9VXiCwcglUoxmy6QScZOetM1DU3Tnm2H
-      1vxZFTVdI3ReO7BfY2rnj6nrPkXuhWP6ddj2gtfWLy+Y57BcOABjhZIfdQgxEnIWSASaBEAE
-      mgRAvHIMw+DTTz8FoNVq8Zvf/Ib19XU+/vhjNjY2+P3vf9/3wbUEQLxykskksVgMgIcPHwJQ
-      qVQA+OKLL+j1ehIAcXW1Wi0ePnzI8vIy4+PjGIZBNBql2WxSKpU4ODjo+/qC3A8gXjnZbJZf
-      /epXHB4eksvluHv3LgDvvvvuhZclARCXkus4PF16/Bf/335l+0LLDYXD3Fx8/fTni/cCtRr0
-      VIRUPILruiQSiYsuQoi/yHVdNp6uDHy5kWjsZQKgqFTrKAV7PYNEbpL5aQmAeHVd/CDY8/C8
-      k02J67i+9f0IMQwX3AJoTE9fxyZMPBIaeSefEC9LUy/Zjud5Hq7rPtOk1e106Jndly7u+xLJ
-      JLH4yS7Xn8s+bbzrmtBqD3xMEnHIpE9/VEqdjul1utjbWwMfUk8miUxPnz2m53HcOBr8mLpO
-      Npc/c0yA5tHhwDs3w+Ew6ey3j1T57pjK82j6MU9NJ5v/dp4vHQA4+aNof+oKHZbnAjAknucN
-      /VmXMqZ/Qh999NFHL7uQ76/8SimeLj/CsHWyyQhLXz/CC+k8XVrBdWwq+w00PBKJBBpwUN3h
-      6VaVcqnI3tY6O/UG7cMqDcNiZ/0phMOEIzHC33ka81mB21x9wsGxST6XZe3pE2LxFKsrX9Mx
-      TDZ364T0k62IBrQbdb5eWadQHKfTPKB21CITD/PoySqtwyqW46JCMWKRZ9t1vztmfXebjUqN
-      YrFAvbJF19Ooba9zbHTZ2txEaWHiySS6Bo7V5fGjx0SSOULKZG1zF80xWV3fxnG6bFfqGMf7
-      dHoOrqcRj0XPHLN1WGNpZZ1iuUyjtsPa5h52r0WldsTh7gY2EfRIlEhIB+Wy9OhLHD1BIqJ4
-      svwELxRnb/MberbL5uYWZq9Ds9XBdT0SifiZY1pGk6++fkImX6TXOmD5yTpgsVXZp3VYpee4
-      OCpEPBYBpVheWUaLpAi5XZaXVuj2umxv7eK6PbZ3qhitQzo9B8eFRPzsebYbdR4vr53Ms15h
-      daOCYxlsVw9pVDexVRgtHCEaDoFyWX78FbYWIxWDpaVlPD1OffsbupbHxsYGpmXSOG7jfW+e
-      AwnA8xRG18JzeiRiYbRoBvNoj1ZPEYtFaLeatJsNLMtla2cHR+nkoyEiuRzHjSZRHWzHpnbY
-      IKZ7NFsGtgf5bOaFYzaODTTlksvl0HQX1/TQU0m6jX1My6bdbmL3LDa3NumYcG0iR8/TyeUy
-      tJotGof7dHs2kRAcHDYwbZdiIXfujTb7h0dk4yHCiTHSiTjtboduu4mHjt3r0my38Vyb7Y0N
-      jG6b8uQsrdYxxUKRjtEmpCmO93c4Vim6zTqhcJRW84im0WNivHDm1q1a22duPMaRmyGXDNOz
-      XDylCOvg2l0Omy16lsNhdYeu2SSUnsXpHpIvjOM6PVzL5OCwgR6N4xh1Gr0YTueIRrNNfrxE
-      +Ix7HGr1OtMTBfYNj2IujWmaaMqj07MJaXB0eEjbdOge1zk8bnFzepz9gyaFQgHL6qEBvUaF
-      hpum16qBHsNoHtEwepRLZ89zr7rPQilO3UmTi2lUqvtE43FiIQ3bMjlqtjAth6PaDkbnmFDq
-      Oo7ZIJ8v0m7U6Jg92sfHqEgc1a1z0I3idps0mi1y4+XTefq0vdHotg/RIjFsBw52NwknC6QT
-      IRKZAtPXpkjEdJJjRd54/S7ZuE61beIaBiHl0LY8UskE4+NlZucXKBXyfXx4g4ZndbBVCMMw
-      qO7ssN9q0ahWSI5PMzt9jbFUnFA8w/037jNVTLKxUyWsXPbrNSqVPSLJJJ7ncu36DOVyGeec
-      R/r9WSwE9aaJ0+tQ291mr3ZAPJHAVSFmZ2YYz2dxPJ179+8ze32a7Y2nJOMRGo0GlUoFhxAq
-      XmB+IkMqk+fmjXmuTZax7fPHzaaiLG01idFla2ODnmWhK4dOz2V6Zp6JUgHH9bi9+DrT0zdo
-      174hEktyfFRlq3JwslWKRYhGo3h6hgf3bjA1MYGmPLxz9oZz2RRLqzukooqtjQ0Ms0c4FgfX
-      YWp6mslyCcd1mFm4w425OVbW90gk4lT3KtQbLWLxBG40z43JDIlUntu3Tubp2O65tw/m0jEe
-      bTRI6SaNZoNYJIyOS8t0mJmdZ7JUwHZdbr32OjMzCxj7a4RjSY4bh5iOTigUIh6PEotGcbQ0
-      P7p3k6nJCXRcXO/bQf8fgxdhJX2wr/sAAAAASUVORK5CYII=
+    <thumbnail height='184' name='총인구수2015~2021' width='192'>
+      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
+      RU5ErkJggg==
     </thumbnail>
   </thumbnails>
 </workbook>
