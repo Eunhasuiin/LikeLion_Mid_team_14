@@ -17,7 +17,7 @@ git checkout -b name/first-branch
 - git push origin your-branch-name
 
 ## 5. GitHub에 올라온 변경사항 반영하기 (푸시 전에 꼭!)
-- git pull origin main
+- git pull origin master
 거의 그럴 일은 없겠지만 끌어와서 수정사항 바뀐걸 반영한 뒤에 올려주세요
 
 
