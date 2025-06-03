@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0520.1026                               -->
+<workbook original-version='18.1' source-build='2025.1.2 (20251.25.0520.1026)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1(자동차등록대수_사고건수비_분석결과(12-16))' inline='true' name='federated.05qxmld0qv056r15kz73v07o8aaz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='자동차등록대수_사고건수비_분석결과(12-16)' name='excel-direct.03j0mdi0k8d9k11a6hklp1ignhid'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/윤후/Desktop/효린/Midproject/자동차등록대수_사고건수비_분석결과(12-16).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='real' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[2012 자동차등록대수 사고건수비]' />
+            <value name='[2013 자동차등록대수 사고건수비]' />
+            <value name='[2014 자동차등록대수 사고건수비]' />
+            <value name='[2015 자동차등록대수 사고건수비]' />
+            <value name='[2016 자동차등록대수 사고건수비]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[Sheet1].[2012_자동차등록대수_사고건수비]' />
+              <field name='[Sheet1].[2013_자동차등록대수_사고건수비]' />
+              <field name='[Sheet1].[2014_자동차등록대수_사고건수비]' />
+              <field name='[Sheet1].[2015_자동차등록대수_사고건수비]' />
+              <field name='[Sheet1].[2016_자동차등록대수_사고건수비]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.03j0mdi0k8d9k11a6hklp1ignhid' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:F40:no:A1:F40:0' header='yes' outcome='2'>
+              <column datatype='string' name='국가_국가' ordinal='0' />
+              <column datatype='real' name='2012_자동차등록대수_사고건수비' ordinal='1' />
+              <column datatype='real' name='2013_자동차등록대수_사고건수비' ordinal='2' />
+              <column datatype='real' name='2014_자동차등록대수_사고건수비' ordinal='3' />
+              <column datatype='real' name='2015_자동차등록대수_사고건수비' ordinal='4' />
+              <column datatype='real' name='2016_자동차등록대수_사고건수비' ordinal='5' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F40:no:A1:F40:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>국가_국가</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[국가_국가]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>국가_국가</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_73E4991BE5F74420B063E503E2019CAF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드명</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[피벗 필드명]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드명</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_73E4991BE5F74420B063E503E2019CAF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드 값</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[피벗 필드 값]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드 값</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_73E4991BE5F74420B063E503E2019CAF]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_73E4991BE5F74420B063E503E2019CAF]' role='measure' type='quantitative' />
+      <column caption='국가 국가' datatype='string' name='[국가_국가]' role='dimension' type='nominal' />
+      <column caption='자동차등록대수_사고건수비' datatype='real' name='[피벗 필드 값]' role='measure' type='quantitative' />
+      <column caption='연도' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+      <column-instance column='[국가_국가]' derivation='None' name='[none:국가_국가:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/윤후/AppData/Local/Temp/TableauTemp/#TableauTemp_11ntvqo02p1syg1f5yvr80ij3id7.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/01/2025 09:53:30 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>국가_국가</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[국가_국가]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>국가_국가</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <object-id>[Sheet1_73E4991BE5F74420B063E503E2019CAF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드명</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[피벗 필드명]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드명</remote-alias>
+              <ordinal>1</ordinal>
+              <family>피벗</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Sheet1_73E4991BE5F74420B063E503E2019CAF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드 값</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[피벗 필드 값]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드 값</remote-alias>
+              <ordinal>2</ordinal>
+              <family>피벗</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>151</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_73E4991BE5F74420B063E503E2019CAF]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:국가_국가:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;대한민국&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;일본&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;오스트리아&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;뉴질랜드&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;호주&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;미국&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;핀란드&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;독일&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;그리스&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_73E4991BE5F74420B063E503E2019CAF'>
+            <properties context=''>
+              <relation name='피벗' type='pivot'>
+                <columns>
+                  <column datatype='string' name='피벗 필드명' />
+                  <column datatype='real' name='피벗 필드 값' />
+                </columns>
+                <tag name='피벗 필드명'>
+                  <value name='[2012 자동차등록대수 사고건수비]' />
+                  <value name='[2013 자동차등록대수 사고건수비]' />
+                  <value name='[2014 자동차등록대수 사고건수비]' />
+                  <value name='[2015 자동차등록대수 사고건수비]' />
+                  <value name='[2016 자동차등록대수 사고건수비]' />
+                </tag>
+                <groups>
+                  <group name='피벗 필드 값'>
+                    <field name='[Sheet1].[2012_자동차등록대수_사고건수비]' />
+                    <field name='[Sheet1].[2013_자동차등록대수_사고건수비]' />
+                    <field name='[Sheet1].[2014_자동차등록대수_사고건수비]' />
+                    <field name='[Sheet1].[2015_자동차등록대수_사고건수비]' />
+                    <field name='[Sheet1].[2016_자동차등록대수_사고건수비]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.03j0mdi0k8d9k11a6hklp1ignhid' name='Sheet1' table='[Sheet1$]' type='table'>
+                  <columns gridOrigin='A1:F40:no:A1:F40:0' header='yes' outcome='2'>
+                    <column datatype='string' name='국가_국가' ordinal='0' />
+                    <column datatype='real' name='2012_자동차등록대수_사고건수비' ordinal='1' />
+                    <column datatype='real' name='2013_자동차등록대수_사고건수비' ordinal='2' />
+                    <column datatype='real' name='2014_자동차등록대수_사고건수비' ordinal='3' />
+                    <column datatype='real' name='2015_자동차등록대수_사고건수비' ordinal='4' />
+                    <column datatype='real' name='2016_자동차등록대수_사고건수비' ordinal='5' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='하이라이트 1(생성됨)' name='[Action1_C353CDDF92E6431DA99DB86409B6C688]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='시트 1' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='국가 국가' />
+        <param name='target' value='시트 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(자동차등록대수_사고건수비_분석결과(12-16))' name='federated.05qxmld0qv056r15kz73v07o8aaz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05qxmld0qv056r15kz73v07o8aaz'>
+            <column-instance column='[국가_국가]' derivation='None' name='[none:국가_국가:nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드명]' derivation='None' name='[none:피벗 필드명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드 값]' derivation='Sum' name='[sum:피벗 필드 값:qk]' pivot='key' type='quantitative' />
+            <column caption='국가 국가' datatype='string' name='[국가_국가]' role='dimension' type='nominal' />
+            <column caption='자동차등록대수_사고건수비' datatype='real' name='[피벗 필드 값]' role='measure' type='quantitative' />
+            <column caption='연도' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05qxmld0qv056r15kz73v07o8aaz].[none:국가_국가:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;그리스&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;뉴질랜드&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;대한민국&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;독일&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;미국&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;오스트리아&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;일본&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;핀란드&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.05qxmld0qv056r15kz73v07o8aaz].[none:국가_국가:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.05qxmld0qv056r15kz73v07o8aaz].[none:국가_국가:nk]' />
+              <text column='[federated.05qxmld0qv056r15kz73v07o8aaz].[none:국가_국가:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05qxmld0qv056r15kz73v07o8aaz].[sum:피벗 필드 값:qk]</rows>
+        <cols>[federated.05qxmld0qv056r15kz73v07o8aaz].[none:피벗 필드명:nk]</cols>
+      </table>
+      <simple-id uuid='{028F209B-B975-43DE-B966-29D2ACBDA76F}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05qxmld0qv056r15kz73v07o8aaz].[none:국가_국가:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.05qxmld0qv056r15kz73v07o8aaz].[none:피벗 필드명:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6FD04C3A-603F-473A-BB4E-56AA40F9B8A4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

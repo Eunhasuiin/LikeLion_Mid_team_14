@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0520.1026                               -->
+<workbook original-version='18.1' source-build='2025.1.2 (20251.25.0520.1026)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1(자동차등록대수_사고건수비_분석결과)' inline='true' name='federated.0a4q8b11n0g3951das5lj0gvqqsb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='자동차등록대수_사고건수비_분석결과' name='excel-direct.0jig10o0ownm1g16e5urq03kvr7t'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/윤후/Desktop/효린/Midproject/자동차등록대수_사고건수비_분석결과.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='real' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[2012 사고율]' />
+            <value name='[2013 사고율]' />
+            <value name='[2014 사고율]' />
+            <value name='[2015 사고율]' />
+            <value name='[2016 사고율]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[Sheet1].[2012_사고율]' />
+              <field name='[Sheet1].[2013_사고율]' />
+              <field name='[Sheet1].[2014_사고율]' />
+              <field name='[Sheet1].[2015_사고율]' />
+              <field name='[Sheet1].[2016_사고율]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0jig10o0ownm1g16e5urq03kvr7t' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:F40:no:A1:F40:0' header='yes' outcome='2'>
+              <column datatype='string' name='국가_국가' ordinal='0' />
+              <column datatype='real' name='2012_사고율' ordinal='1' />
+              <column datatype='real' name='2013_사고율' ordinal='2' />
+              <column datatype='real' name='2014_사고율' ordinal='3' />
+              <column datatype='real' name='2015_사고율' ordinal='4' />
+              <column datatype='real' name='2016_사고율' ordinal='5' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F40:no:A1:F40:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>국가_국가</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[국가_국가]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>국가_국가</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_AE86943D9BE14BAFAFB33B4EB4D87003]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드명</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[피벗 필드명]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드명</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_AE86943D9BE14BAFAFB33B4EB4D87003]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드 값</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[피벗 필드 값]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드 값</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Sheet1_AE86943D9BE14BAFAFB33B4EB4D87003]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_AE86943D9BE14BAFAFB33B4EB4D87003]' role='measure' type='quantitative' />
+      <column caption='국가 국가' datatype='string' name='[국가_국가]' role='dimension' type='nominal' />
+      <column caption='사고율' datatype='real' name='[피벗 필드 값]' role='measure' type='quantitative' />
+      <column caption='연도' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+      <column-instance column='[국가_국가]' derivation='None' name='[none:국가_국가:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/윤후/AppData/Local/Temp/TableauTemp/#TableauTemp_1iny2h616pas9212qkoh00hi69o3.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/01/2025 03:57:29 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>국가_국가</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[국가_국가]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>국가_국가</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <object-id>[Sheet1_AE86943D9BE14BAFAFB33B4EB4D87003]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드명</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[피벗 필드명]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드명</remote-alias>
+              <ordinal>1</ordinal>
+              <family>피벗</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Sheet1_AE86943D9BE14BAFAFB33B4EB4D87003]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>피벗 필드 값</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[피벗 필드 값]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>피벗 필드 값</remote-alias>
+              <ordinal>2</ordinal>
+              <family>피벗</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>133</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_AE86943D9BE14BAFAFB33B4EB4D87003]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:국가_국가:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;그리스&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;벨기에&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;이스라엘&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;미국&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;독일&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;호주&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;캐나다&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;덴마크&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;일본&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;대한민국&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;이탈리아&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;핀란드&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_AE86943D9BE14BAFAFB33B4EB4D87003'>
+            <properties context=''>
+              <relation name='피벗' type='pivot'>
+                <columns>
+                  <column datatype='string' name='피벗 필드명' />
+                  <column datatype='real' name='피벗 필드 값' />
+                </columns>
+                <tag name='피벗 필드명'>
+                  <value name='[2012 사고율]' />
+                  <value name='[2013 사고율]' />
+                  <value name='[2014 사고율]' />
+                  <value name='[2015 사고율]' />
+                  <value name='[2016 사고율]' />
+                </tag>
+                <groups>
+                  <group name='피벗 필드 값'>
+                    <field name='[Sheet1].[2012_사고율]' />
+                    <field name='[Sheet1].[2013_사고율]' />
+                    <field name='[Sheet1].[2014_사고율]' />
+                    <field name='[Sheet1].[2015_사고율]' />
+                    <field name='[Sheet1].[2016_사고율]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.0jig10o0ownm1g16e5urq03kvr7t' name='Sheet1' table='[Sheet1$]' type='table'>
+                  <columns gridOrigin='A1:F40:no:A1:F40:0' header='yes' outcome='2'>
+                    <column datatype='string' name='국가_국가' ordinal='0' />
+                    <column datatype='real' name='2012_사고율' ordinal='1' />
+                    <column datatype='real' name='2013_사고율' ordinal='2' />
+                    <column datatype='real' name='2014_사고율' ordinal='3' />
+                    <column datatype='real' name='2015_사고율' ordinal='4' />
+                    <column datatype='real' name='2016_사고율' ordinal='5' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(자동차등록대수_사고건수비_분석결과)' name='federated.0a4q8b11n0g3951das5lj0gvqqsb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a4q8b11n0g3951das5lj0gvqqsb'>
+            <column-instance column='[국가_국가]' derivation='None' name='[none:국가_국가:nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드명]' derivation='None' name='[none:피벗 필드명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드 값]' derivation='Sum' name='[sum:피벗 필드 값:qk]' pivot='key' type='quantitative' />
+            <column caption='국가 국가' datatype='string' name='[국가_국가]' role='dimension' type='nominal' />
+            <column caption='사고율' datatype='real' name='[피벗 필드 값]' role='measure' type='quantitative' />
+            <column caption='연도' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0a4q8b11n0g3951das5lj0gvqqsb].[none:국가_국가:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;대한민국&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;독일&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;미국&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;벨기에&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;이탈리아&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;일본&quot;' />
+              <groupfilter function='member' level='[none:국가_국가:nk]' member='&quot;캐나다&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0a4q8b11n0g3951das5lj0gvqqsb].[none:국가_국가:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0a4q8b11n0g3951das5lj0gvqqsb].[none:피벗 필드명:nk]' value='181' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0a4q8b11n0g3951das5lj0gvqqsb].[none:국가_국가:nk]' />
+              <text column='[federated.0a4q8b11n0g3951das5lj0gvqqsb].[none:국가_국가:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0a4q8b11n0g3951das5lj0gvqqsb].[sum:피벗 필드 값:qk]</rows>
+        <cols>[federated.0a4q8b11n0g3951das5lj0gvqqsb].[none:피벗 필드명:nk]</cols>
+      </table>
+      <simple-id uuid='{05543B4A-B14E-4925-B714-BD9E25C2D694}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0a4q8b11n0g3951das5lj0gvqqsb].[none:국가_국가:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0a4q8b11n0g3951das5lj0gvqqsb].[none:국가_국가:nk]</field>
+            <field>[federated.0a4q8b11n0g3951das5lj0gvqqsb].[none:피벗 필드명:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E6FD4777-8E16-4A6A-80B0-457CE9489DB4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAWAUlEQVR4nO2dWXcbR5pgb0RuAIiFpGgtli1X2S5Xue2qcru6+vRD9+M8zJmn+QPzF/ul
+      55z+A/PQfaar7LLHkrVZkkWRIsUFOzIzlnmIBEjbsmwci6Sg/O4RTgLITCAoxM0v1gzlvfcI
+      Qk3RF50AQbhIRIC64z3OObz3DEcjAJxzi8frXkCILzoBwsWy8+hr7u8MGB4fMvUR//O//zf+
+      97/+O2+9ew1UzMe//4gkUhedzDNDIkDNUUqD92Fb0ek0sNbirMG41zsCKKkE15vZ8Q6PBpp3
+      37zE7t4e169dw1rLZ3/7jE/+8Alaa7R+fa+TL1WA+Ucp9fqGzNcN7wy3vrpJYR1xtsaHv3mH
+      r766ia2u/Nfe/jWXN7sXnMqz46UK4JwDeK2vGMLrheRUodaIAEKtEQGEWiMCCLVGBBBqzVIC
+      2GLK11/f4u43jxbvzcbH3L736AVnCcKry1JDIZSOef/93/D5374AbuC948HDbUqnFn0A3vvX
+      fvyI8Pqw3Fgg5fni889494O/A+Bg+z7PhjMmg2N++7vfEamQ+ef9AYLwqrOUAOOjPYzOeLb/
+      DDOCtSvv889vOR49fEwaa5xzKKWkI0xYGaQnWKg1klOFWiMCCLVGBBBqjQgg1BoRQKg1IoBQ
+      a0QAobZ47+WuEEJ98N4zM4btQZ/7hwc8GfSlI0x4fZln+CdVht8e9PF4rnd7vLu5xfVuVwQQ
+      Xh+89+TGsDMccO/wgMf9Y6x3XO/2eG9zi+u9Hq0k/c45IoCwMnjvcd5jvcc6h/WOwlj6syn3
+      j0KGL63jWqfL+5e2eKu3zlqavvAzRQDh3PBVxjXeYZ2ntJbcGnJjmJYlk7KgsJZpWTIzJdOy
+      pLAW4yyldZTOAqCVItERWivSKKaTZvxqY5O3e+u0s2ypNC1XCfaeyWSMjjMaWXLqdUoje7Fp
+      wmqzuPouMrBbZNapKReZODeGSVmQG8PMGIxzlNZSWIvzjkhrIqWJtCbWmkac0IhjmklCM0nI
+      opheo0EzTmgkCUkUkeqIJIpIzuAmXUtFgHI6ZHu/z/7+Pn/+099TzkZs7x2zv7fHn/7hU5AI
+      sJIYZxnlBfvjEbvDAcMiZ2ZMuPpaS+kspbVopUIGrjJxFsdkcUwrCZk4ZOaERhLTjBOyOCap
+      Mm+sNUkUXfSf+gOWigBJo03GPu3eRnidrdHQ+6z1NlDV1UEmxLzaFNZwNJ2yMxywOxpxPJsy
+      NSXNOOHKWpsr7TZvdXs04oQ0iogjHTKx1r/sjn/eY4x5eX/IS2LJCTE7PDqY8dt332ZwuI9z
+      lod7Y3773g04NRFGIsDFY51jUhbsjUbsjobsDgccz6ZopdhotrjW6fLR1au80Wqzlqa1vZ3l
+      UkUgU+YcHvXRcUJ3rQlKcXzcR0cJly5t4KUIdO547ymdpT+bsTcasj0Y8HQ0ZFaWtNKUzVaL
+      690eV9tdNprNV7IYcpFIK9AK4b1nXBYcTSZsD/rsDAcM8hnWeTpZxtVOl+vdLlvVVT2S3+En
+      EQFeUYxzDPMZu8Mhu6NwVR/lBZFWXF7r8Ga3y+V2h81mi2aSXHRyVxYR4IKZd9cfTiehYjoc
+      8Gw8pnSWbtbgaqfDlXZ4dLOGXNVfMiLAOWKdY5jnHE7HPO732R0OGJcFSinWG02udbpc7/bY
+      aLZoJUltK6bnycoI8ODokFGRv/CYWP94BU8B8U+kS2uF5sczXawjXrCbSCn0qUxrnWdvPGR7
+      0OdwMmFmSrI44Wq7w/VujyudDp2sQSoV0wtjZYZDF9bQn015ka7mJ/ofTNWV/mPYn7irnXHu
+      hd9v/XdXVdRKcbnd4bdbl7nS7tBK0+8IIlw8KxMBBOEskJwq1BoRQKg1IoBQa0QAodaIAEKt
+      EQGEWrOUAGY25tatW9y8fQ8AZ3K++vIL7j749kwSJwhnzVIdYVHa5P33fs1nX9wE4Ojpt6xf
+      /w3HT+5i/VtQdSTJEknCqrCUAM7kfP7FLT76+PdAGDrgvcOjwgiBqpdTxrAIq8JSAkxHx0Rp
+      xvaTHdab0Nq8wd7926z1NtFK4byXJZKElUKGQgi1RnKqUGtEAKHWiABCrREBhFojAgi1RgQQ
+      ao0IINQaEUCoNSKAUGtEAKHWiABCrREBhFqztACzyYjSVuPnvGd/9wmD0fRlp0sQzoWlBHAm
+      5+7NLzgch5U+hgfbHBUR9+5+fSaJE4SzZqn5ADrOePutq8yq10mjxeH9+0RxiquWRpIlkoRV
+      YikBTD7h4aNtyhborRRjDI1Wh2IywssSScIKstSEGO8d1p5MelFK4ZxFqbB8pUyIEVYNmREm
+      1BrJqUKtEQGEWiMCCLVGBBBqjQgg1BoRQKg1IoBQa0QAodaIAEKtEQGEWiMCCLVGBBBqzVIC
+      eO+4f/srRrldvH5w7w4PH++cSeIE4axZaj6Ad4a1Rsw4d7SziOGzbZ4NC26sN7+zLJIskSSs
+      CsvNCItSGlmymBFW5lM2rlxn79ED1jf/iK6GQ8sSScKqsOSMsDGPnuxjM4faTGlv/Yqnd2+j
+      W20SpfAyI0xYMWRCjFBrJKcKtUYEEGqNCCDUGhFAqDUigFBrRACh1ogAQq0RAYRaIwIItUYE
+      EGqNCCDUGhFAqDVLC2BNiXOnx/47iqJ8qYkShPNi6SWSvvzLf7A/Mov3njy8y399/v9eesIE
+      4TxYeomkX71z/WRCzHTA2KV0m2axNJIskSSsEksJ4KxhNBqTuzEDa8mLElNM2d7Z4YMPPySS
+      CTHCirHUhBhb5uw9O0SpmPX1NZK0RaQ9+awga2QyIUZYOWRGmFBrJKcKtUYEEGqNCCDUmue0
+      Anke3vuao1yz2QBam9y4unXuCROE8+CHAnjHs6Mhf/n8MzZamkn3A/7X//iXC0iaIJw9PywC
+      eVBRDDqi3WpeQJIE4fz4YQRQmsTNeOvG+7y5mVLsFxeQLEE4H360H8A5h9aayXRKq/nzIoH0
+      AwirxnOHQvzf//g/GB+howwXK/7p7z8573QJwrnw3Eu1ytb4xz9/yuWtdSbjyXmnSRDOjR8t
+      qygVsbGxQSNNzjM9gnCuPLcOkOc5aZrgveLo+IhLm5s/68OkDiCsGs/pB/DcvfUlR8+ecmDX
+      ePvq5YUAzuR88df/4s0P/5E32jHlbMTdB4+ZzEo+/eT35512QfjFPKcZVPHRH/+Ed5bbX31J
+      9+qbi106zvjVjWvMqimRSaPNjWuXuf1wVybECCvJc1uBHj+4y5273/Dme3/Hta3ec08s8im2
+      zLnzaI8/fvwhWimQCTHCivGj/QDee/a2H2DSda5f3gDCEkl37z9ExU2ubLWJopRvt3dIGy3e
+      +/UNvNQBhBVDJsQItUZyqlBrRACh1ogAQq0RAYRaIwIItUYEEGqNCCDUGhFAqDUigFBrRACh
+      1ogAQq0RAYRas5QA3jseP7zHuAiD3rxzfHPvNjt7B2eSOEE4a5YTwBowOaOZBWCw/wjdvsrB
+      0ye8tCGlgnCOLLlEUkqn3TxZIqksyDoNxlpjvYcznBHm9r8GPGptC9XcABW99O8Q6sdSAph8
+      zMPHu9iGQ11KaW1c596dm6StDrFSuDOcEVaOn2If/yd+coCfHlWpb6Bbl1Cda+jONVT3Grp9
+      GdW6hMo6Lz0NwuvHSk6I8d6DM2AL/Hgf198O28E2frSHmxxAOQUdo9I1VOdKEGQuytol1Nob
+      KL2U/8JryEoK8HPwzoEr8cUYP9zFDZ+E7WAnRJHJAXgHUYJqbaG711DtK+jum2HbuoRqrl/0
+      nyGcMa+tAD+F9x68BVviJwe4wRP86CluuIsf7uDHB/h8ADpCJa1KjtNRZAu1dhkVpxf9pwi/
+      gNoK8HPw3oWiVjnFjZ7iB09ww6f4wTZucoAfPwNXgopRrY2TYlb3Gqp9FdXaAB2BNTAXzlnA
+      hxY1COef2udPHYMpFsd470LEsiZsXRnSaKvznak+w+Grfdj5+SZ8pj+1z5ThO2yBJzRg4E4W
+      QF8pogTdvY7uvYXeeAfVuRaKuEr95KkiwC8gRJGqqDXrB0EGOyeRZHoYMp6OQenw0FH4YXR1
+      y0kdg1LV+1E4Jqr2RSG6qCgNxygdzlM6rOGwOKa6JY2OQUWhbqPU4nx0jKq+G/3d81SchPPV
+      qX2rhitw/ce440f440chmk8Owt/d3ECvv4Nefxu9XsnRvryQQwQQXktC9Lb46RHu+NH35HgG
+      aFRrQwQQ6se8FdHPjkUAod5IThVqjQgg1BoRQKg1IoBQa0QAodaIAEKtWarrLx8e8Lfbj4iS
+      lE//8BGT4z1ufvMU5x1//vSPZ5VGQTgzlhLgaH+HX3/4CbvffBVOTlOKfEqUZrJEkrCSLCVA
+      u7fO7sE+1lomwz79g6e8+e7vOPr2LlapRQeYdIQJq8KSPcGevZ1tmr03iFxO0uywv/OIRucS
+      m7229AQLK4cMhRBqjeRUodaszABwO3uMtwU66aLiXhgbjwLUz5r4IAjPY2UEMOO7mNFNvBni
+      yuMwEQWquRwddNxBJevoeB0Vd9DpJiruouO5MHNZJOgJJ6x8HcB7izdDvBnhyiO8GeDMEF8e
+      4MygEqYPuDB1UOkgS9SuhOmhkg46OS1MdxFhRJjXm5UXYFm8N/hygLcjXNnHm+MgSnmMK48r
+      gUZhfi0eVBSEiTuouFcJ00UnG5UwPVTcqSKMFmFWjNoJsCzemSCFHQZxzDFusT0lDLaKMDE6
+      blfCrKPTLaLsCjq7gk63qjvaaam3vCKIAC8Z78qTYpgZ4oqnuPwprtjH5vuAAxQ62URnl9Hp
+      GyeCJJeqyfIiyHkhAlwA3pW48hBX7Ac58j1s/hRfHuB9uDXJDwRJqwiiYyASQV4SIsAriHcG
+      Vx5UguyfiiLPwn2DqARJL1VFq8uVJFugknBrFBHkZyECrCAhghwFQRZRZC5ISShiraPTN8Ij
+      u0qUXa4ESUWQU6yMAP9+89940n9Mp9Flo7lJr7nOenODXnOdbtYj0ppIx2hphakiyCGuOKii
+      x96iHhIEORVBKkF0GgRROg13uquJICsjwLSYcDg5YDDrczQ95Hh6zGDW53h6xGDWp7AFCkij
+      jHbWoZN16DZ6bLQ2WW9tst5Yp9fcIIszIh0R1fgqGFq2jhcV8yBHFUFcDt6jomboUIzbqLgb
+      WrSS9dD0m6yj4l51B7qIVa6TLCWAsyV3bt+m2d3ixvUreO94cO8uutHhnbeuXXgRyHtPbnJG
+      +ZBB3qc/PaY/O+ZockR/esTR9JDSlpS2RCnFWtqmnbXpZF3Wmxtsti7Ra67Ta6zTaXSJdERc
+      w6jivcfbCd6GDkZvBlWT7+km4AH4sqqTOJRuoeJ21WfSRSW9qle+h056r6wwSwlw8Pg2efsd
+      Dh/f4eOPP2aw/4ivt4e8ff0aV7Y2wn+c9ytRB7DOMi5GDGcDRsWIo8khR9ND+tMj+tM+w3yA
+      dQbjLFlcRZVGN0SV5kaILM0Nuo110igl1hHRqt5b85dSCeNeJIwZVDfwNXg8Ovq+MPNe+d5i
+      OItSMai5NGfDUr+Yd44oisIYNMDkOZeuXOfZ4wdsbm0QVQKswowwhaKddminP72SzMzMmBQj
+      RsWoKoIdcWf/a46nx/SnxxQmp7Qlzjs6WYdWuka30aPXWCfSEVppIh1+RKU0cSWKUmrxHCCN
+      Tm61rlVENJ9gpKLF+RpFVN0YV6GI5zfSBRIdM/9xTkeueRqqL0VxcvU9fSXWqMX+SGv0MhlP
+      N1G6iUouh+984cEe7ATvxmBHi554O3uCH92s5BmGPpXqztiqEkZF7SqirC8iSyiSdaq6S1QJ
+      8/MizFIRwJYzbt66Q7OzQa/haW1c4eHdO5A0+N0H74VFKahvK5BxhnE+YpQPGeZDBrNjjLM4
+      77AuNF96HKa6NbrHL54DlPPbmQPWW2z1/+m8xVXNn847TPVZeE85v905YGy4ugJYZ3DVgEFb
+      pWH+nad/8u88x4cUeo+rzomjhDRKSaKUNE7Joow0TkmjjGbSIoszGnGDZtoK76VNsmpfI2mg
+      VZBPK43WevF8Gbx3eDsO0WUxhKV/ahuEwZtTRbIGKlr7bpSZj/VKemEoi85WpxIsXAylLSls
+      QWkKCpuTm5zCFszMjLyckducWTllWk4pTM60nJCbnGk5ZWZmWGdCqcC7SmSHQpHEKWmULuTK
+      4kaQKWmQRmF7IliTRtygkTRpJE2SKDmR6tRjHs2CMNMgjR1VgyUHVXFsUA2a7OPdbHUEeHzr
+      b4z7RySNJnGSEqcpcdogTlOSNCPJGmgdobQOj+qKo0TGVw7rbJDKFhSmoLAFhckXMhW2WEiV
+      m1m1rUQzU0xV3HTeYp0NglWRLdbxovgW6xitI2IdLYqRYX9ErBNiHa/OfIBsrcNsPGI2HmLy
+      nDKfYYqcIs8pZzNMMcMag3MOZy3euWo9igitI6I0JYpikiwjTlOiJIgTZ42wTTPSrEFUyRQn
+      CUnaJM5SoihZiKUruYJkL78lIyy64cNVrKpTeTd/7vDOYY3BmhJblmFryvBeWWDKAmsNrtpv
+      fnBciTMmFHGsDcdae+o9w+lLov6Jv3N+sXnx/h8/X0c/Xl6PgURrOovzY+C7dTato2okbsB6
+      i1fgnMU4g8Ph8DhnsD5f7DfOkDuzOhFgWbz3OOuwRcgcpixChihyyllOWQSJytls8dzkM8o8
+      p5hNw3F52GeLEucsSquw0Euk0Fqh46SKRClJmgZx5nJlDeIkPcmMiwxaLjKfm2e+723RYR6C
+      UtX29GutieKEKI6JkiB1lKThdZwQJylRnKC/9zocn4R9URwuDFFMVG31qe3pDOusXdQrnvv/
+      7BzevWB/Je2P4ZzlRausO2/hBZ/vXDXPY/59+PB/eOodZ099v3fYU/tfWwFeNt55rLHY0lRi
+      BalMUVDO8kqY8DBFTjELQhXjEpMbyklJMSnxFtJmRtJskK01ydaaNNotGp01Gp0WWbtF0kzJ
+      Whk6jtCRRkdSlDsrRIBzxlmHyUtsaShnJeWsoJzkFJOcYppTTArKWUExnuGsqx42NJmmCVEa
+      kzQSkkZK0sxI1zLSZkbaTEmaKamIsxQiwIrgjMUUphKnoJwWFJM8bKf5yfNJvpDGWRfEyRLi
+      NCbOEtJWRtIIoqStjGT+upkuxIF5qcKHf89rNj39frV1zi+KO86eFE1s6Rbnejvfbxff4czJ
+      /nlxxRm7+J55kcV/7/PnRS/vfBA+rppa4ygUU6OTC0F4RKjFcxWOEwFeb6yxVcSxmDwIciLO
+      PPrMKGflIuKEmW2qqluqkzqm+u7zOUqH56HVrXp+qsM0iqPFOXPBdBxRfTw6nncSnuxXpz5r
+      cb4+dffB6KRyrbQKjR+mipgmNIKcRND5vnBR8NZVx1sRQKg3klOFWiMCCLVGBBBqjQgg1BoR
+      QKg1SwlQTgf85a+f8eWtO4v3DnYf8Z9//fKlJ0wQzoOlBsMd7n7L2x/8gacPwhJJzuTs9Wes
+      JVqWSBJWkqUEaLRaHI9GeOcpi5zjZ7vkRcne7i4ffPjhyQwm6QcQVoSlOsK8d3z74Bta62+Q
+      uBmN3mWy2HN01GdjY106woSV4/8D3cEFhmGnmm0AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
