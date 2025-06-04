@@ -1,0 +1,1617 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0114.1153                               -->
+<workbook original-version='18.1' source-build='2024.3.3 (20243.25.0114.1153)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <_.fcp.PatternedLineMarks.true...PatternedLineMarks />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='연도별 사고건수' inline='true' name='federated.19i1iyv17ox6601a2lhnd1pkm31a' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='경찰청_초범율_재범률' name='textscan.0efg5fw14oal4e1030b6n1ngq5s0'>
+            <connection class='textscan' directory='C:/Users/sherm/Desktop/workspace/LikeLion_Mid_team_14/data/processed' filename='경찰청_초범율_재범률.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0efg5fw14oal4e1030b6n1ngq5s0' name='경찰청_초범율_재범률.csv' table='[경찰청_초범율_재범률#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' date-parse-format='yyyy' name='년도' ordinal='1' />
+            <column datatype='integer' name='1회' ordinal='2' />
+            <column datatype='real' name='초범율' ordinal='3' />
+            <column datatype='integer' name='2회' ordinal='4' />
+            <column datatype='real' name='2회차율' ordinal='5' />
+            <column datatype='integer' name='재범자수' ordinal='6' />
+            <column datatype='real' name='재범률' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[경찰청_초범율_재범률.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[경찰청_초범율_재범률.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>년도</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[년도]</local-name>
+            <parent-name>[경찰청_초범율_재범률.csv]</parent-name>
+            <remote-alias>년도</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1회</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1회]</local-name>
+            <parent-name>[경찰청_초범율_재범률.csv]</parent-name>
+            <remote-alias>1회</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>초범율</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[초범율]</local-name>
+            <parent-name>[경찰청_초범율_재범률.csv]</parent-name>
+            <remote-alias>초범율</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2회</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2회]</local-name>
+            <parent-name>[경찰청_초범율_재범률.csv]</parent-name>
+            <remote-alias>2회</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2회차율</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2회차율]</local-name>
+            <parent-name>[경찰청_초범율_재범률.csv]</parent-name>
+            <remote-alias>2회차율</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>재범자수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[재범자수]</local-name>
+            <parent-name>[경찰청_초범율_재범률.csv]</parent-name>
+            <remote-alias>재범자수</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>재범률</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[재범률]</local-name>
+            <parent-name>[경찰청_초범율_재범률.csv]</parent-name>
+            <remote-alias>재범률</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[1회]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[2회]' role='measure' type='quantitative' />
+      <column datatype='real' name='[2회차율]' role='measure' type='quantitative' />
+      <column caption='경찰청_초범율_재범률.csv' datatype='table' name='[__tableau_internal_object_id__].[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]' role='measure' type='quantitative' />
+      <column datatype='date' datatype-customized='true' name='[년도]' role='dimension' type='quantitative' />
+      <column datatype='real' name='[재범률]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[재범자수]' role='measure' type='quantitative' />
+      <column datatype='real' name='[초범율]' role='measure' type='quantitative' />
+      <column-instance column='[년도]' derivation='None' name='[none:년도:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[1회]' derivation='Sum' name='[sum:1회:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[2회]' derivation='Sum' name='[sum:2회:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[2회차율]' derivation='Sum' name='[sum:2회차율:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[재범률]' derivation='Sum' name='[sum:재범률:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[재범자수]' derivation='Sum' name='[sum:재범자수:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[초범율]' derivation='Sum' name='[sum:초범율:qk]' pivot='key' type='quantitative' />
+      <group caption='동작(년도)' hidden='true' name='[Action (년도)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:년도:ok]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/sherm/AppData/Local/Temp/TableauTemp/#TableauTemp_0sheyqi1pti6ch1dyf248070r9yc.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/04/2025 11:49:57 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>경찰청_초범율_재범률.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>년도</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[년도]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>년도</remote-alias>
+              <ordinal>1</ordinal>
+              <family>경찰청_초범율_재범률.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1회</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[1회]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1회</remote-alias>
+              <ordinal>2</ordinal>
+              <family>경찰청_초범율_재범률.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>초범율</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[초범율]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>초범율</remote-alias>
+              <ordinal>3</ordinal>
+              <family>경찰청_초범율_재범률.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2회</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2회]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2회</remote-alias>
+              <ordinal>4</ordinal>
+              <family>경찰청_초범율_재범률.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2회차율</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2회차율]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2회차율</remote-alias>
+              <ordinal>5</ordinal>
+              <family>경찰청_초범율_재범률.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>재범자수</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[재범자수]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>재범자수</remote-alias>
+              <ordinal>6</ordinal>
+              <family>경찰청_초범율_재범률.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>재범률</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[재범률]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>재범률</remote-alias>
+              <ordinal>7</ordinal>
+              <family>경찰청_초범율_재범률.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout common-percentage='1' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' user-set-layout-v2='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' palette='tableau-10' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:1회:qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회:qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:초범율:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범률:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범자수:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회차율:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='경찰청_초범율_재범률.csv' id='경찰청_초범율_재범률.csv_F2EDE6E29F80437397DEFCF92AFACE78'>
+            <properties context=''>
+              <relation connection='textscan.0efg5fw14oal4e1030b6n1ngq5s0' name='경찰청_초범율_재범률.csv' table='[경찰청_초범율_재범률#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='date' date-parse-format='yyyy' name='년도' ordinal='1' />
+                  <column datatype='integer' name='1회' ordinal='2' />
+                  <column datatype='real' name='초범율' ordinal='3' />
+                  <column datatype='integer' name='2회' ordinal='4' />
+                  <column datatype='real' name='2회차율' ordinal='5' />
+                  <column datatype='integer' name='재범자수' ordinal='6' />
+                  <column datatype='real' name='재범률' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='1회차'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Malgun Gothic'>연도별 음주 교통사고 1회 적발 추이 (2010-2024)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='연도별 사고건수' name='federated.19i1iyv17ox6601a2lhnd1pkm31a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19i1iyv17ox6601a2lhnd1pkm31a'>
+            <column datatype='integer' name='[1회]' role='measure' type='quantitative' />
+            <column-instance column='[년도]' derivation='None' name='[none:년도:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[1회]' derivation='Sum' name='[sum:1회:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[초범율]' derivation='Sum' name='[sum:초범율:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[년도]' derivation='Year-Trunc' name='[tyr:년도:ok]' pivot='key' type='ordinal' />
+            <column datatype='date' datatype-customized='true' name='[년도]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[초범율]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[none:년도:ok]'>
+            <groupfilter function='level-members' level='[none:년도:ok]' user:ui-enumeration='all' user:ui-exclude='true' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[none:년도:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:초범율:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:1회:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:초범율:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='dashed' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:1회:qk] + [federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:초범율:qk])</rows>
+        <cols>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:ok]</cols>
+        <annotations>
+          <annotation class='point' id='6' mark-position='1' pullback='12' text-width='232'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontname='맑은 고딕' fontsize='13'>음주운전 1회 적발 비율(%)</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:ok]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:초범율:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:1회:qk]</field>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:초범율:qk]</field>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:ok]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>65755</value>
+                    <value>56.181167283259711</value>
+                    <value>#2024-01-01 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-92' y='-52' />
+          </annotation>
+          <annotation class='area' id='7' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true' fontname='맑은 고딕' fontsize='13'>1회 적발 횟수(번)</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.85'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>#2015-01-01 00:00:00#</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='24540.944067796619'>
+                  <node-reference>
+                    <axis>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:1회:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.05'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>#2020-01-01 00:00:00#</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='14023.3966101695'>
+                  <node-reference>
+                    <axis>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:1회:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{5561F187-1C1E-4291-8176-3784672CA368}' />
+    </worksheet>
+    <worksheet name='2회차'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Malgun Gothic'>연도별 음주 교통사고 2회 적발 추이 (2010-2024)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='연도별 사고건수' name='federated.19i1iyv17ox6601a2lhnd1pkm31a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19i1iyv17ox6601a2lhnd1pkm31a'>
+            <column datatype='integer' name='[2회]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2회차율]' role='measure' type='quantitative' />
+            <column-instance column='[2회]' derivation='Sum' name='[sum:2회:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2회차율]' derivation='Sum' name='[sum:2회차율:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[년도]' derivation='Year-Trunc' name='[tyr:년도:ok]' pivot='key' type='ordinal' />
+            <column datatype='date' datatype-customized='true' name='[년도]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회차율:qk]' field-type='quantitative' fold='true' max='100.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+            <format attr='title' class='0' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회차율:qk]' scope='rows' value='음주운전 2번째 적발 비율(%)' />
+            <format attr='title' class='0' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회:qk]' scope='rows' value='횟수(번)' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#59a14f' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#59a14f' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회차율:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='dashed' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회:qk] + [federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회차율:qk])</rows>
+        <cols>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:ok]</cols>
+        <annotations>
+          <annotation class='point' id='6' mark-position='1' pullback='12' text-width='228'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontname='맑은 고딕' fontsize='13'>음주운전 2회 적발 비율(%)</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:ok]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회차율:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회:qk]</field>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회차율:qk]</field>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:ok]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>27664</value>
+                    <value>23.636161686930222</value>
+                    <value>#2024-01-01 00:00:00#</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-135' y='-37' />
+          </annotation>
+          <annotation class='area' id='7' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true' fontalignment='0' fontname='맑은 고딕' fontsize='13'>2회 적발 횟수(번)</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.333333'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>#2016-01-01 00:00:00#</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='12198.135818908126'>
+                  <node-reference>
+                    <axis>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.933333'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>#2018-01-01 00:00:00#</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='8427.8029294274311'>
+                  <node-reference>
+                    <axis>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{D32598DB-58B3-46BA-B6CC-929C610A0BEF}' />
+    </worksheet>
+    <worksheet name='3회차 이상'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Malgun Gothic'>연도별 음주 교통사고 3회 이상 적발 추이 (2010-2024)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='연도별 사고건수' name='federated.19i1iyv17ox6601a2lhnd1pkm31a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19i1iyv17ox6601a2lhnd1pkm31a'>
+            <column-instance column='[재범률]' derivation='Sum' name='[sum:재범률:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[재범자수]' derivation='Sum' name='[sum:재범자수:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[년도]' derivation='Year' name='[yr:년도:ok]' pivot='key' type='ordinal' />
+            <column datatype='date' datatype-customized='true' name='[년도]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[재범률]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[재범자수]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='render-fold-reversed' value='false' />
+            <encoding attr='space' class='0' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범률:qk]' field-type='quantitative' fold='true' max='100.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범자수:qk]' scope='rows' value='횟수(번)' />
+            <format attr='title' class='0' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범률:qk]' scope='rows' value='음주운전 3번 이상 적발 비율(%)' />
+            <encoding attr='space' class='0' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범자수:qk]' field-type='quantitative' max='80000' min='0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범률:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='dashed' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범자수:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범자수:qk] + [federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범률:qk])</rows>
+        <cols>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[yr:년도:ok]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='275'>
+            <formatted-text>
+              <run bold='true' fontname='맑은 고딕' fontsize='13'>음주운전 3회 이상 적발 비율(%)</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[yr:년도:ok]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범률:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범률:qk]</field>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범자수:qk]</field>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[yr:년도:ok]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>20.182671029810066</value>
+                    <value>23622</value>
+                    <value>2024</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-109' y='-50' />
+          </annotation>
+          <annotation class='area' id='1' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true' fontalignment='0' fontname='맑은 고딕' fontsize='13'>3회 이상 적발 횟수(번)</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.85'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[yr:년도:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>2015</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='11078.561917443412'>
+                  <node-reference>
+                    <axis>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범자수:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.233333'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[yr:년도:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>2019</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='6924.1011984021306'>
+                  <node-reference>
+                    <axis>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범자수:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{A2A043BF-4261-4891-9CD1-28D1ABD4A1F0}' />
+    </worksheet>
+    <worksheet name='연도별 음주 교통사고 적발 비율 추이 (2010-2024)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='연도별 사고건수' name='federated.19i1iyv17ox6601a2lhnd1pkm31a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19i1iyv17ox6601a2lhnd1pkm31a'>
+            <column datatype='real' name='[2회차율]' role='measure' type='quantitative' />
+            <column-instance column='[2회차율]' derivation='Sum' name='[sum:2회차율:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[재범률]' derivation='Sum' name='[sum:재범률:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[초범율]' derivation='Sum' name='[sum:초범율:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[년도]' derivation='Year-Trunc' name='[tyr:년도:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' datatype-customized='true' name='[년도]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[재범률]' role='measure' type='quantitative' />
+            <column datatype='real' name='[초범율]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:초범율:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회차율:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범률:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:초범율:qk]&quot;</bucket>
+              <bucket>&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회차율:qk]&quot;</bucket>
+              <bucket>&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범률:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[Multiple Values]' scope='rows' value='비율(%)' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[Multiple Values]' palette='gold_purple_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[Multiple Values]' />
+              <lod column='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[Multiple Values]</rows>
+        <cols>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:qk]</cols>
+      </table>
+      <simple-id uuid='{6F247D59-25E5-4D43-AF47-6C6A00D974B4}' />
+    </worksheet>
+    <worksheet name='연도별 음주 교통사고 적발 횟수 추이 (2010-2024)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='연도별 사고건수' name='federated.19i1iyv17ox6601a2lhnd1pkm31a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19i1iyv17ox6601a2lhnd1pkm31a'>
+            <column datatype='integer' name='[1회]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2회]' role='measure' type='quantitative' />
+            <column-instance column='[1회]' derivation='Sum' name='[sum:1회:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2회]' derivation='Sum' name='[sum:2회:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[재범자수]' derivation='Sum' name='[sum:재범자수:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[년도]' derivation='Year-Trunc' name='[tyr:년도:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' datatype-customized='true' name='[년도]' role='dimension' type='quantitative' />
+            <column datatype='integer' name='[재범자수]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:1회:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:2회:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.19i1iyv17ox6601a2lhnd1pkm31a].[sum:재범자수:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[Multiple Values]' scope='rows' value='실측값' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[Multiple Values]' palette='gold_purple_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[Multiple Values]' />
+              <lod column='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[Multiple Values]</rows>
+        <cols>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:qk]</cols>
+      </table>
+      <simple-id uuid='{2A7D12FD-FB0B-4130-A6DB-5F5B519AF865}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='1회차'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='39'>
+            <card type='columns' />
+          </strip>
+          <strip size='39'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[:Measure Names]</field>
+            <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:qk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='2' />
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{417CCED2-B78F-42DA-82C5-D7BD5803B3FD}' />
+    </window>
+    <window class='worksheet' name='2회차'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[:Measure Names]</field>
+            <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[none:년도:ok]</field>
+            <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9EC0D048-44F8-4298-9503-FBCE982F7335}' />
+    </window>
+    <window class='worksheet' name='3회차 이상'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AF68602D-2BE3-4ED4-BDF1-6EA45BC7E138}' />
+    </window>
+    <window class='worksheet' maximized='true' name='연도별 음주 교통사고 적발 비율 추이 (2010-2024)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='39'>
+            <card type='columns' />
+          </strip>
+          <strip size='39'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D28CF2EF-77D8-436B-999C-09EE807481A4}' />
+    </window>
+    <window class='worksheet' name='연도별 음주 교통사고 적발 횟수 추이 (2010-2024)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19i1iyv17ox6601a2lhnd1pkm31a].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.19i1iyv17ox6601a2lhnd1pkm31a].[tyr:년도:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BF893603-A9AE-47A5-B346-EE8F57EB1B35}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='1회차' width='192'>
+      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
+      YV9YzqeYms1w580R3PLmF3vchj1AtVwknV5GXc5QQCY4Ym/bsAfw+KPEWtzYmo6yHSMSYgtt
+      2AP4An6On3wc/VBK/vcXe96GAKieCHEPEOnahuEIsbX27gle0RSXfzbG/HK+pm13w2cKSQBE
+      Xa5cHav5Q7V2w2cKyWI44WgSAOFoEgDhaBIA4WgSAOFoEgDhaBIA4Wh1XQfIpBeZTWVpDXko
+      mhrRUADDqBCLxZo1PiGaqq4A5LJZsrkcAa8OtsntazfpHT4vLZF7uPbtLZG2bTdcuxPVFQBN
+      13FrGpZpULF0+g4fo5RZQg11SEvkHq19e0ukotS+Rng3tFPWNbpEVw8JWSMn9hA5CBaOJgEQ
+      jiYBEI62s49QxJ5ydyZNvmTUtG17S4BES6DJI5IAiC30L999ra5ego8/dbzJI5IpkHA4CYBw
+      NAmAcDQJgHA0CYBwNAmAcDQJgHA0CYBwNLkQJnaFP/valYYvor1brewBhKNJAISj1TUFSi/M
+      kcobeBWDoqkTC/soGxZdnfI1qWJ3qisAy8srFItV9FgYrwrjt6+z//g56Qnew7Wb2RO8E2vr
+      CkBHR4KJuSUCLo2ypXN4+AyGkUdVY9ITvEdrN7MneCfW1hUAXyjKUChaT4kQO5ocBAtHkwAI
+      R5MACEeTAAhHkwAIR5MACEeTAAhHkwAIR5MACEeTAAhHkwAIR5MACEeTAAhHkwAIR5MACEeT
+      AAhHq6shxiznefHqTbpbAxQtnYhXwXSF6O2WnmCxO9UVgIl7k9hGCcvVhh+b1GKSRF9ceoL3
+      cO1u6Ot9lNq6AnBgYIiunhKWUaJk6XR1dWOaVVRVlZ7gPVq7G/p6H6W27k+G83q94PXiX7vF
+      Xe9DCLFjyEGwcDQJgHA0CYBwNAmAcDQJgHA0CYBwNAmAcDQJgHA0CYBwNAmAcDQJgHA0CYBw
+      NPma1F3i3LGudUt8nzjSyb62QE21Yb+n4dp98fC62t/6wBAfPtu/pbW/vLJzs0kAdonWsG/d
+      uvbWsI+A11VTra6pDdd63fq62p72MFWztn6CzaxtFpkCCUeraw9QLReZWVyhLeylZOkEvG4s
+      y8Tn8zVrfGITWEaRmWQOn1rhv773H0T6HiO1OM2zlz4EwOzkXa5dv8Wxk4+RXVmkUq5wsDtG
+      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
+    </thumbnail>
+    <thumbnail height='192' name='2회차' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='3회차 이상' width='192'>
+      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
+      wb6WVd7loAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='연도별 음주 교통사고 적발 비율 추이 (2010-2024)' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='연도별 음주 교통사고 적발 횟수 추이 (2010-2024)' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
