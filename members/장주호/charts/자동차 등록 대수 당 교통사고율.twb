@@ -1,0 +1,655 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0114.1153                               -->
+<workbook original-version='18.1' source-build='2024.3.3 (20243.25.0114.1153)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='차량_등록대수_당_사고건수' inline='true' name='federated.1fj76a718je7jt1cg3w2g0lowc0t' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='차량_등록대수_당_사고건수' name='textscan.1mnbzqj0r29gr8115q82o1mnzhcd'>
+            <connection class='textscan' directory='C:/Users/sherm/Desktop/workspace/LikeLion_Mid_team_14/data/processed' filename='차량_등록대수_당_사고건수.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1mnbzqj0r29gr8115q82o1mnzhcd' name='차량_등록대수_당_사고건수.csv' table='[차량_등록대수_당_사고건수#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='국가' ordinal='1' />
+            <column datatype='date' date-parse-format='yyyy' name='연도' ordinal='2' />
+            <column datatype='real' name='차량 등록 대수 당 사고율' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[차량_등록대수_당_사고건수.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[차량_등록대수_당_사고건수.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[차량_등록대수_당_사고건수.csv_3380BCE919F1427492DBA6CBC2A46A4F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>국가</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[국가]</local-name>
+            <parent-name>[차량_등록대수_당_사고건수.csv]</parent-name>
+            <remote-alias>국가</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <object-id>[차량_등록대수_당_사고건수.csv_3380BCE919F1427492DBA6CBC2A46A4F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연도</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[연도]</local-name>
+            <parent-name>[차량_등록대수_당_사고건수.csv]</parent-name>
+            <remote-alias>연도</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[차량_등록대수_당_사고건수.csv_3380BCE919F1427492DBA6CBC2A46A4F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>차량 등록 대수 당 사고율</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[차량 등록 대수 당 사고율]</local-name>
+            <parent-name>[차량_등록대수_당_사고건수.csv]</parent-name>
+            <remote-alias>차량 등록 대수 당 사고율</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[차량_등록대수_당_사고건수.csv_3380BCE919F1427492DBA6CBC2A46A4F]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='차량_등록대수_당_사고건수.csv' datatype='table' name='[__tableau_internal_object_id__].[차량_등록대수_당_사고건수.csv_3380BCE919F1427492DBA6CBC2A46A4F]' role='measure' type='quantitative' />
+      <column datatype='string' name='[국가]' role='dimension' type='nominal' />
+      <column datatype='date' datatype-customized='true' name='[연도]' role='dimension' type='ordinal' />
+      <column-instance column='[국가]' derivation='None' name='[none:국가:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/sherm/AppData/Local/Temp/TableauTemp/#TableauTemp_1gev1nd0x5jm881b5muq601g5ydg.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/04/2025 12:48:11 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table'>
+            <columns>
+              <column datatype='date' date-parse-format='yyyy' name='연도' />
+            </columns>
+          </relation>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>차량_등록대수_당_사고건수.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>380</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[차량_등록대수_당_사고건수.csv_3380BCE919F1427492DBA6CBC2A46A4F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>국가</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[국가]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>국가</remote-alias>
+              <ordinal>1</ordinal>
+              <family>차량_등록대수_당_사고건수.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <object-id>[차량_등록대수_당_사고건수.csv_3380BCE919F1427492DBA6CBC2A46A4F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>연도</remote-name>
+              <remote-type>7</remote-type>
+              <local-name>[연도]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>연도</remote-alias>
+              <ordinal>2</ordinal>
+              <family>차량_등록대수_당_사고건수.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <contains-null>true</contains-null>
+              <object-id>[차량_등록대수_당_사고건수.csv_3380BCE919F1427492DBA6CBC2A46A4F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>차량 등록 대수 당 사고율</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[차량 등록 대수 당 사고율]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>차량 등록 대수 당 사고율</remote-alias>
+              <ordinal>3</ordinal>
+              <family>차량_등록대수_당_사고건수.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[차량_등록대수_당_사고건수.csv_3380BCE919F1427492DBA6CBC2A46A4F]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:국가:nk]' palette='cyclic_10_0' type='palette'>
+            <map to='#1ba3c6'>
+              <bucket>&quot;대한민국&quot;</bucket>
+            </map>
+            <map to='#2ea865'>
+              <bucket>&quot;독일&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;룩셈부르크&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;그리스&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;에스토니아&quot;</bucket>
+            </map>
+            <map to='#4f7cba'>
+              <bucket>&quot;캐나다&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;포르투갈&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;리투아니아&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;코스타리카&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;덴마크&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;아이슬란드&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;네덜란드&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;영국&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;슬로바키아&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;헝가리&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;체코&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;스웨덴&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;폴란드&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;스위스&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;프랑스&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;슬로베니아&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;호주&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;아일랜드&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;멕시코&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;콜롬비아&quot;</bucket>
+            </map>
+            <map to='#e33233'>
+              <bucket>&quot;이탈리아&quot;</bucket>
+            </map>
+            <map to='#e670b6'>
+              <bucket>&quot;일본&quot;</bucket>
+            </map>
+            <map to='#ecb921'>
+              <bucket>&quot;벨기에&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;라트비아&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;칠레&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;노르웨이&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;오스트리아&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;스페인&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;핀란드&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;미국&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;튀르키예&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;뉴질랜드&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;이스라엘&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='차량_등록대수_당_사고건수.csv' id='차량_등록대수_당_사고건수.csv_3380BCE919F1427492DBA6CBC2A46A4F'>
+            <properties context=''>
+              <relation connection='textscan.1mnbzqj0r29gr8115q82o1mnzhcd' name='차량_등록대수_당_사고건수.csv' table='[차량_등록대수_당_사고건수#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='국가' ordinal='1' />
+                  <column datatype='date' date-parse-format='yyyy' name='연도' ordinal='2' />
+                  <column datatype='real' name='차량 등록 대수 당 사고율' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table'>
+                <columns>
+                  <column datatype='date' date-parse-format='yyyy' name='연도' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='자동차 등록대수 당 교통사고율'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='차량_등록대수_당_사고건수' name='federated.1fj76a718je7jt1cg3w2g0lowc0t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fj76a718je7jt1cg3w2g0lowc0t'>
+            <column-instance column='[국가]' derivation='None' name='[none:국가:nk]' pivot='key' type='nominal' />
+            <column-instance column='[차량 등록 대수 당 사고율]' derivation='Sum' name='[sum:차량 등록 대수 당 사고율:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[연도]' derivation='Year' name='[yr:연도:ok]' pivot='key' type='ordinal' />
+            <column datatype='string' name='[국가]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[연도]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[차량 등록 대수 당 사고율]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1fj76a718je7jt1cg3w2g0lowc0t].[none:국가:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:국가:nk]' member='&quot;대한민국&quot;' />
+              <groupfilter function='member' level='[none:국가:nk]' member='&quot;독일&quot;' />
+              <groupfilter function='member' level='[none:국가:nk]' member='&quot;벨기에&quot;' />
+              <groupfilter function='member' level='[none:국가:nk]' member='&quot;영국&quot;' />
+              <groupfilter function='member' level='[none:국가:nk]' member='&quot;이탈리아&quot;' />
+              <groupfilter function='member' level='[none:국가:nk]' member='&quot;일본&quot;' />
+              <groupfilter function='member' level='[none:국가:nk]' member='&quot;캐나다&quot;' />
+              <groupfilter function='member' level='[none:국가:nk]' member='&quot;프랑스&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1fj76a718je7jt1cg3w2g0lowc0t].[none:국가:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1fj76a718je7jt1cg3w2g0lowc0t].[sum:차량 등록 대수 당 사고율:qk]' scope='rows' value='차량 등록 대수 당 교통사고율' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1fj76a718je7jt1cg3w2g0lowc0t].[none:국가:nk]' />
+              <lod column='[federated.1fj76a718je7jt1cg3w2g0lowc0t].[none:국가:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1fj76a718je7jt1cg3w2g0lowc0t].[sum:차량 등록 대수 당 사고율:qk]</rows>
+        <cols>[federated.1fj76a718je7jt1cg3w2g0lowc0t].[yr:연도:ok]</cols>
+      </table>
+      <simple-id uuid='{A9F277A6-7E72-4B42-A929-6403E0A9AFF3}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='자동차 등록대수 당 교통사고율'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1fj76a718je7jt1cg3w2g0lowc0t].[none:국가:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1fj76a718je7jt1cg3w2g0lowc0t].[none:국가:nk]</field>
+            <field>[federated.1fj76a718je7jt1cg3w2g0lowc0t].[tyr:연도:qk]</field>
+            <field>[federated.1fj76a718je7jt1cg3w2g0lowc0t].[yr:연도:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A88E5735-6C70-4BF4-93C1-9B68054A613B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='자동차 등록대수 당 교통사고율' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
